@@ -765,6 +765,7 @@ header {
 
 .footerBottomMiddleBlock h5 {
 	/*margin: 1rem 0rem 0.2rem 0rem;*/
+	margin: 0;
 	margin-bottom: 0.5rem;
 	font-family: "Liberation Sans", sans-serif;
     font-size: 0.6rem;
