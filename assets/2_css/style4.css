@@ -566,6 +566,8 @@ header {
 
 .locationLeft button a { font-size: 0.9rem; }
 
+.locationLeft button:hover { background-color: #0077cc; }
+
 .locationButton { background-color: #e1ecf4; }
 
 .locationButton a { color: #2c5777; }
