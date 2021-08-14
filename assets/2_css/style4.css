@@ -384,6 +384,8 @@ header {
 	background-color: #f2f9ff;
 }
 
+.productBlock:hover { background-color: #cfeafe; }
+
 /*.productBlock .flex {
 	justify-content: space-between;
 	flex-wrap: nowrap;
