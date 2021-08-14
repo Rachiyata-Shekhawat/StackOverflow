@@ -1012,7 +1012,7 @@ header {
 		width: 60%; 
 	}
 
-	
+
 	/*------------ Footer -------------*/
 	.footerTop {
 		flex-direction: row;
@@ -1049,6 +1049,13 @@ header {
 	.footerTopBlock:nth-child(2) a .footerTopButton { width: 115px; }
 
 	.footerTopBlock:nth-child(3) a .footerTopButton { width: 126px; }
+
+}
+
+@media only screen and (min-width: 733px) and (max-width: 942px) {
+
+	/*footer top */
+	.footerTopPara { height: 68px; }
 }
 
 @media only screen and (min-width: 991px) {
