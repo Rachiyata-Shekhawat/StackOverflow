@@ -1,0 +1,623 @@
+/* ======================================== Common Styling =================================================*/
+
+html { font-size: 14.3px; }
+
+a{ 
+	text-decoration: none; 
+	cursor: pointer;
+}
+
+ul {
+	padding: 0rem;
+	margin: 0rem;
+}
+
+ul li { display: inline-block; }
+
+* { 
+	box-sizing: border-box; 
+	font-family: 'Source Sans Pro',sans-serif;
+	color: #535a60;
+}
+ p { margin: 0rem; }
+
+
+/* ======================================== Header Styling =================================================*/
+
+/* ------ Header Top --------------*/
+
+header {
+	background-image: url("../3_images/0_common/bg-nav.png");
+	background-size: 51rem 7rem;
+	background-repeat: no-repeat;	
+}
+
+
+
+.headerTop {
+	padding: 1rem 2rem;
+	border-bottom: 1px solid #e4e6e8;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;	
+}
+
+.logo { width: 4rem; }
+
+.headerTopLeftNav {
+	/*width: 40%; */
+	flex-grow: 2;
+}
+
+.headerTopRightNav ul li { padding-bottom: 0.2rem; }
+
+.headerTopLeftNav ul li:nth-child(2),
+.headerTopLeftNav ul li:nth-child(3),
+.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.5rem 0.2rem 0.5rem; }
+
+.headerTopLeftNav ul li:nth-child(1) {
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #e4e6e8;
+}
+
+
+.headerTopRightNav ul li:nth-child(4) {
+	border-right: 1px solid #e4e6e8;
+	/*padding-right: 0.5rem;*/
+}
+
+.headerTopRightNav ul li:nth-child(2),
+.headerTopRightNav ul li:nth-child(3),
+.headerTopRightNav ul li:nth-child(4), 
+.headerTopRightNav ul li:nth-child(5	) { padding-left: 1rem; }
+
+.headerTopLeftNav ul li:nth-child(3),
+.headerTopLeftNav ul li:nth-child(4),
+.headerTopRightNav ul li:nth-child(1),
+.headerTopRightNav ul li:nth-child(2),
+.headerTopRightNav ul li:nth-child(3),
+.headerTopRightNav ul li:nth-child(4) { display: none; }
+
+
+/* ------ Header Bottom -----------*/
+
+.headerBottom {
+	padding: 1rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.headerBottomLeftNav {
+
+	display: flex;
+	justify-content: flex-start;
+	/*flex-shrink: 3;
+    flex-wrap: wrap;*/	
+}
+
+
+.headerBottomLeftNav ul li {	
+	padding: 0.5rem 0.5rem;
+	border-radius: 2rem;
+	margin: 0.5rem 0rem;
+}
+
+/* applied ACTIVE class here - refer below code */
+/*.headerBottomLeftNav ul li:nth-child(1) { background-color: hsl(27deg 90% 53%); }*/
+
+.active { background-color: hsl(27deg 90% 53%); } 
+
+.headerBottomLeftNav ul li:hover {
+	padding: 0.5rem 0.5rem;
+	border-radius: 2rem;
+	background-color: #e4e6e8;
+	color: black;
+}
+
+.headerBottomLeftNav ul li a { color: #535a60; }
+
+/* applied ACTIVE class here - refer below code */
+/*.headerBottomLeftNav ul li:nth-child(1) a { color: white; } */
+
+.headerBottomLeftNav ul .active a { color: white; } 
+
+.headerBottomRight {
+	border-top: 1px solid #e4e6e8;
+	padding-top: 1rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.headerBottomRight span {
+	margin-right: 1rem;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+
+.headerBottomRight button {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	background-color: #0095ff;
+}
+
+.headerBottomRight button a { color: white; }
+
+
+/* ========================================== Main Styling =================================================*/
+
+
+/* ------ Intro Section -----------*/
+
+/***  introTop ***/
+
+.introTop {
+	padding: 0rem 2rem 3rem 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.introTop1 {
+	height: 306px;
+	background-image: url("../3_images/1_about/bg-header-mobile.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+
+.introTop2Para1 {
+	font-family: 'Roboto Slab',serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #848d95; 
+	margin-bottom: 2rem;
+}
+
+.introTop2 h2 {
+	margin: 2rem 0rem;	
+	font-family: 'Roboto Slab',serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: #242729;  
+}
+
+.introTop2 h2 ~ p,
+.introTop2Para span {
+	margin: 1rem 0rem;
+    /*font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;*/
+    font-family: "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: normal;
+    
+    color: #535a60; 
+}
+
+.introTop2Para span { font-weight: 600; }
+
+
+/*** introBottom ***/
+
+.introBottom { 
+	padding: 0rem 1.5rem;
+	border: 1px solid #e4e6e8;
+	border-top: 0px;
+	border-radius: 0px 0px 9px 9px;
+	box-shadow: 0rem 4rem 3rem 1rem #e4e6e8;
+	margin: 0rem 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.introBottom li { 
+	padding: 2rem 0.5rem;
+	padding: 2rem 1.5rem;
+	padding: 2rem 0rem;
+	text-align: center;
+	/*height: 129px;*/
+	width: 100%;
+}
+
+.introBottom li:nth-child(1),
+.introBottom li:nth-child(2),
+.introBottom li:nth-child(3),
+.introBottom li:nth-child(4) { border-bottom: 1px solid #e4e6e8; }
+
+.introBottomHeading  { 
+	margin-bottom: 0.5rem;
+	font-family: "Roboto Slab Bold", serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #242729; 
+
+}
+
+.introBottomPara { 
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	font-size: 1rem;
+	color: #242729;
+}
+
+
+/* ------ History Section ---------*/
+
+.history { 
+	/*padding: 2rem; */
+	padding: 4rem 3rem;
+	display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+	font-family: "Segoe UI", "Liberation Sans", sans-serif !important;
+}
+
+
+/*** historyAward ***/
+
+.historyAward {
+	/*padding: 0rem 2rem;*/ /* this is giving horizontal scroll*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.award {
+	width: 20rem;
+	/*margin: 1.5rem;*/ /* this is giving horizontal scroll*/
+	margin: 1.5rem 0rem;
+	text-align: center;
+}
+
+.award p { 
+	padding-top: 1rem; 
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	font-size: 0.9rem;
+	color: #6a737c;
+	line-height: 1.3rem;
+}
+
+.award3 img { width: 5rem; }
+
+.history strong { /*display: block;*/ }
+
+
+/*** historyContent ***/
+
+.historyContent p,
+.historyContent strong {
+	font-family: "Segoe UI", "Liberation Sans", sans-serif !important;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+	
+}
+
+.historyContent p { margin: 1rem 0rem; }
+
+.blueText { color: #0077cc; }
+
+.blueText:hover { color: #0095ff; }
+
+
+/* ------ Product Section ---------*/
+
+
+
+/* ------ CoreValue Section -------*/
+
+
+
+/* ------ Investor Section --------*/
+
+
+
+/* ------ Location Section --------*/
+
+
+
+
+/* ======================================== Footer Styling =================================================*/
+
+
+
+
+
+/* ======================================== Media Query ====================================================*/
+
+
+/* tablet breakpoint */
+@media only screen and (min-width: 768px) {
+	/* ---------- Header ----------- 535 */	
+	/*  Header Top */
+
+	.headerTopLeftNav ul li:nth-child(3),
+	.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
+
+	.headerTopLeftNav ul li:nth-child(2), 
+	.headerTopLeftNav ul li:nth-child(3), 
+	.headerTopLeftNav ul li:nth-child(4) {
+	    padding: 0rem 0.4rem 0.2rem 0.4rem;
+	}
+
+	/*.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) {
+	    padding-left: 0.8rem;
+	}*/
+
+	.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) {
+   		padding-left: 0.4rem;
+	}
+	
+	
+	/* Header Bottom */
+	.headerBottom { 
+		padding: 1rem 2rem;
+		flex-direction: row; 
+	}
+
+	.headerBottomLeftNav { width: 60%; }
+
+
+	.headerBottomRight { 
+		padding-top: 0rem;
+		border: none;
+		align-self: center; 
+	}
+
+	.takeTour { height: 2rem; }
+
+
+	/*------------ Main -------------*/
+	/* Intro Section */
+	.introBottom {
+		padding: 0rem 0rem 2rem 0rem;
+		margin: 0rem 4rem;
+		flex-wrap: nowrap;
+	}
+
+	.introBottom li {
+		padding: 2rem 1.5rem;
+		width: auto;
+
+	}
+
+	.introBottom li:nth-child(1), 
+	.introBottom li:nth-child(2), 
+	.introBottom li:nth-child(3), 
+	.introBottom li:nth-child(4) { 
+		border-right:1px solid #e4e6e8; 
+		border-bottom: 0px;
+	}
+	
+
+	/* History Section */
+	.award { margin: 1.5rem; }
+
+	/* Product Section */
+
+	/* CoreValue Section */
+
+	/* Investor Section */
+
+	/* Location Section */
+
+	/*----------- Footer -------------*/
+
+}
+
+
+
+
+
+
+
+
+/* =============== additional media query ===================*/
+@media only screen and (min-width: 483px) and (max-width: 732px) {
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	.introTop1 { height: 543px; }
+}
+
+
+
+@media only screen and (min-width: 733px) and (max-width: 1023px) {
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	/*introTop*/
+	.introTop {
+		padding: 2rem 2rem;
+		background-image: url("../3_images/1_about/bg-header-desktop.png");
+		background-repeat: no-repeat;
+		background-size: 26rem 24rem;
+    	background-position-y: center;			
+    }
+
+	.introTop1 { 
+		width: 0%; 
+		height: 0%;
+	}
+
+	.introTop2 { 
+		margin-left: 26rem;
+    	/*width: auto;*/
+	}
+
+	h2 { 
+		font-size: 3rem;
+	   	line-height: 2.9rem; 
+	}
+
+
+	/*introBottom*/
+	.introBottom {
+		margin: 0rem 2rem;	
+		padding: 0rem 0rem 2rem 0rem;
+		flex-wrap: nowrap;
+	}
+
+	.introBottom li {
+		padding: 2rem 1.5rem;
+		width: auto;
+		height: 129px;
+	}
+
+	.introBottom li:nth-child(1), 
+	.introBottom li:nth-child(2), 
+	.introBottom li:nth-child(3), 
+	.introBottom li:nth-child(4) { 
+		border-right:1px solid #e4e6e8; 
+		border-bottom: 0px;
+	}
+
+
+    /* History Section */
+    .history {
+    	flex-direction: row;
+    	justify-content: space-between;
+    	
+    }
+
+    .historyAward { width: 51%; }
+    .historyContent {
+    	width: 46%;
+    }
+}
+
+
+
+/* Laptop breakpoint */
+@media only screen and (min-width: 1024px) {
+	/* ---------- Header ----------768- */
+	
+	header { background-size: 92rem 7rem; }
+
+	
+	/*  Header Top */
+	
+	.headerTopRightNav ul li:nth-child(1),
+	.headerTopRightNav ul li:nth-child(2),
+	.headerTopRightNav ul li:nth-child(3),
+	.headerTopRightNav ul li:nth-child(4) { display: inline-block; }
+
+	/*.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) {
+	    padding-left: -0.5rem;
+	}*/
+
+
+	/* Header Bottom */
+	
+	/*.headerBottomLeftNav { 
+	    width: auto;
+	}*/
+
+
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	/*introTop*/
+	.introTop {
+		padding: 6rem 2rem 6rem 2rem;
+		background-image: url("../3_images/1_about/bg-header-desktop.png");
+		background-repeat: no-repeat;
+		background-size: 41rem 30rem;
+    	background-position-y: center;
+	}
+
+	.introTop1 { 
+		width: 0%; 
+		height: 0%;
+	}
+
+	.introTop2 { 
+		width: 37%;
+    	margin-left: 43rem;
+	}
+
+	h2 { 
+		font-size: 3rem;
+    	line-height: 2.9rem; 
+   	}
+
+   	/*introBottom*/
+	
+
+	/* History Section */
+    .history {
+    	flex-direction: row;
+    	justify-content: space-between;
+    	
+    }
+
+    .historyAward { width: 51%; }
+    .historyContent {
+    	width: 46%;
+    }
+
+	/* Product Section */
+
+	/* CoreValue Section */
+
+	/* Investor Section */
+
+	/* Location Section */
+
+	/*----------- Footer -------------*/
+
+}
+
+
+
+
+@media only screen and (min-width: 1187px) {
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	.introTop2 { margin-left: 46rem; }
+
+	/*.introBottom { padding: 0rem 0rem 1.5rem 0rem; }
+
+	.introBottom li { height: 111px; }*/
+
+
+	/* History Section */
+	.award {
+		width: 14rem;
+	}
+
+
+	/* Product Section */
+
+
+	/* CoreValue Section */
+
+
+	/* Investor Section */
+
+
+	/* Location Section */
+
+
+
+	/*----------- Footer -------------*/
+
+
+}
+

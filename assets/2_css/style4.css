@@ -1,0 +1,1028 @@
+/* ======================================== Common Styling =================================================*/
+
+html { 
+	/*font-size: 14.3px; */
+	font-size: 15px; 
+
+}
+
+a{ 
+	text-decoration: none; 
+	cursor: pointer;
+}
+
+ul {
+	padding: 0rem;
+	margin: 0rem;
+}
+
+ul li { display: inline-block; }
+
+* { 
+	box-sizing: border-box; 
+	font-family: 'Source Sans Pro',sans-serif;
+	color: #535a60;
+}
+ p { margin: 0rem; }
+
+.flex { display: flex; }
+
+/* ======================================== Header Styling =================================================*/
+
+/* ------ Header Top --------------*/
+
+header {
+	background-image: url("../3_images/0_common/bg-nav.png");
+	background-size: 51rem 7rem;
+	background-repeat: no-repeat;	
+
+	font-size: 0.9rem;
+}
+
+
+
+.headerTop {
+	padding: 1rem 0.9rem;
+	border-bottom: 1px solid #e4e6e8;
+	/*display: flex;*/
+	justify-content: flex-start;
+	align-items: flex-end;	
+}
+
+.logo { width: 4rem; }
+
+.headerTopLeftNav {
+	/*width: 40%; */
+	flex-grow: 2;
+}
+
+.headerTopRightNav ul li { padding-bottom: 0.2rem; }
+
+.headerTopLeftNav ul li:nth-child(2),
+.headerTopLeftNav ul li:nth-child(3),
+.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.5rem 0.2rem 0.5rem; }
+
+.headerTopLeftNav ul li:nth-child(1) {
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #e4e6e8;
+}
+
+
+.headerTopRightNav ul li:nth-child(4) {
+	border-right: 1px solid #e4e6e8;
+	/*padding-right: 0.5rem;*/
+}
+
+.headerTopRightNav ul li:nth-child(2),
+.headerTopRightNav ul li:nth-child(3),
+.headerTopRightNav ul li:nth-child(4), 
+.headerTopRightNav ul li:nth-child(5	) { padding-left: 1rem; }
+
+.headerTopLeftNav ul li:nth-child(3),
+.headerTopLeftNav ul li:nth-child(4),
+.headerTopRightNav ul li:nth-child(1),
+.headerTopRightNav ul li:nth-child(2),
+.headerTopRightNav ul li:nth-child(3),
+.headerTopRightNav ul li:nth-child(4) { display: none; }
+
+
+/* ------ Header Bottom -----------*/
+
+.headerBottom {
+	padding: 1rem 1rem;
+	/*display: flex;*/
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.headerBottomLeftNav {
+	/*display: flex;*/
+	justify-content: flex-start;
+	/*flex-shrink: 3;
+    flex-wrap: wrap;*/	
+}
+
+
+.headerBottomLeftNav ul li {	
+	padding: 0.5rem 0.5rem;
+	border-radius: 2rem;
+	margin: 0.5rem 0rem;
+}
+
+/* applied ACTIVE class here - refer below code */
+/*.headerBottomLeftNav ul li:nth-child(1) { background-color: hsl(27deg 90% 53%); }*/
+
+.active { background-color: hsl(27deg 90% 53%); } 
+
+.headerBottomLeftNav ul li:hover {
+	padding: 0.5rem 0.5rem;
+	border-radius: 2rem;
+	background-color: #e4e6e8;
+	color: black;
+}
+
+.headerBottomLeftNav ul li a { color: #535a60; }
+
+/* applied ACTIVE class here - refer below code */
+/*.headerBottomLeftNav ul li:nth-child(1) a { color: white; } */
+
+.headerBottomLeftNav ul .active a { color: white; } 
+
+.headerBottomRight {
+	border-top: 1px solid #e4e6e8;
+	padding-top: 1rem;
+	/*display: flex;*/
+	justify-content: flex-end;
+}
+
+.headerBottomRight span {
+	margin-right: 1rem;
+	/*display: flex;*/
+	align-items: center;
+	color: black;
+}
+
+.headerBottomRight button,
+.button {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	background-color: #0095ff;
+}
+
+.headerBottomRight button a,
+.button a,
+.sectionButton { color: white; }
+
+
+/* ========================================== Main Styling =================================================*/
+
+
+/* ------ Intro Section -----------*/
+
+/***  introTop ***/
+
+.introTop {
+	padding: 0rem 2rem 3rem 2rem;
+	/*display: flex;*/
+	flex-direction: column;
+}
+
+
+.introTop1 {
+	height: 306px;
+	background-image: url("../3_images/1_about/bg-header-mobile.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+
+.introTop2Para1 {
+	font-family: 'Roboto Slab',serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #848d95; 
+	margin-bottom: 2rem;
+}
+
+.introTop2 h2 {
+	margin: 2rem 0rem;	
+	font-family: 'Roboto Slab',serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: #242729;  
+}
+
+.introTop2 h2 ~ p,
+.introTop2Para span {
+	margin: 1rem 0rem;
+    /*font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;*/
+    font-family: "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: normal;
+    
+    color: #535a60; 
+}
+
+.introTop2Para span { font-weight: 600; }
+
+
+/*** introBottom ***/
+
+.introBottom { 
+	padding: 0rem 1.5rem;
+	border: 1px solid #e4e6e8;
+	border-top: 0px;
+	border-radius: 0px 0px 9px 9px;
+	box-shadow: 0rem 4rem 3rem 1rem #e4e6e8;
+	box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+				0 100px 80px rgb(0 0 0 / 7%);
+
+	margin: 0rem 2rem;
+	/*display: flex;*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.introBottom li { 
+	padding: 2rem 0.5rem;
+	padding: 2rem 1.5rem;
+	padding: 2rem 0rem;
+	text-align: center;
+	/*height: 129px;*/
+	width: 100%;
+}
+
+.introBottom li:nth-child(1),
+.introBottom li:nth-child(2),
+.introBottom li:nth-child(3),
+.introBottom li:nth-child(4) { border-bottom: 1px solid #e4e6e8; }
+
+.introBottomHeading  { 
+	margin-bottom: 0.5rem;
+	font-family: "Roboto Slab Bold", serif;
+	font-size: 1.38rem;
+	font-weight: bold;
+	color: #242729; 
+
+}
+
+.introBottomPara { 
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	font-size: 1rem;
+	color: #242729;
+	line-height: 1.44rem;
+}
+
+
+/* ------ History Section ---------*/
+
+.history { 
+	/*padding: 2rem; */
+	padding: 4rem 3rem;
+	/*display: flex;*/
+    flex-direction: column-reverse;
+    align-items: center;
+	font-family: "Segoe UI", "Liberation Sans", sans-serif !important;
+}
+
+
+/*** historyAward ***/
+
+.historyAward {
+	margin: 2rem 0rem;
+	/*padding: 0rem 2rem;*/ /* this is giving horizontal scroll*/
+	/*display: flex;*/
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.award {
+	width: 20rem;
+	/*margin: 1.5rem;*/ /* this is giving horizontal scroll*/
+	margin: 1.5rem 0rem;
+	text-align: center;
+}
+
+.award p { 
+	padding-top: 1rem; 
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	font-size: 0.9rem;
+	color: #6a737c;
+	line-height: 1.3rem;
+}
+
+.award3 img { width: 5rem; }
+
+.history strong { /*display: block;*/ }
+
+
+/*** historyContent ***/
+
+.historyContent p,
+.historyContent strong,
+.blueText {
+	font-family: "Segoe UI", "Liberation Sans", sans-serif !important;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+	
+}
+
+.historyContent p { margin: 1rem 0rem; }
+
+.blueText { color: #0077cc; }
+
+.blueText:hover { color: #0095ff; }
+
+
+/* ------ Section Container (for product, coreValue and Investors) ---------*/
+
+.sectionContainer {
+	padding: 4rem 1rem;
+	border: 1px solid #eff0fac1;
+	border-top: none;
+	border-radius: 7px;
+	/*box-shadow: 0rem 4rem 3rem 1rem #e4e6e8;*/
+	box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+				0 100px 80px rgb(0 0 0 / 7%);
+}
+
+/*.sectionFlex {
+	flex-wrap: wrap;
+}*/
+
+/* ------ Product Section ---------*/
+
+.product { padding: 3.5rem 0rem; }
+
+.heading { 
+	/*display: flex;*/
+	/*justify-content: center;*/
+	justify-content: space-around;
+	align-items: center; 
+	flex-wrap: nowrap;
+}
+
+.headingLine, .headingHeading {
+	margin: 0; 
+	display: inline-block; 
+}
+
+.headingLine {
+	border-style: none;
+	width: 28%;
+	height: 0.1px;
+	background-color: #eff0f1;
+}
+
+.headingHeading {
+	/*margin: 0rem 1.3rem;*/
+	font-family: "Roboto Slab Bold", serif;
+	font-size: 1.4rem;
+	color: #2f3337;
+}
+
+.productContent { 
+	padding: 2rem 0rem;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.productBlock {
+	width: 85%;
+	/*padding: 2rem 0rem 2rem 2rem;*/
+	padding: 0.5rem 0rem;
+	margin-bottom: 2rem;
+	border-radius: 0.5rem;
+	background-color: #f2f9ff;
+}
+
+/*.productBlock .flex {
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}*/
+
+.productBlockMain {
+	width: 100%;
+	padding: 1rem 1.5rem;
+	
+} 
+
+.productBlockFull .productBlockMain { width: 100%; }
+
+.productBlockFull {
+	text-align: center;
+}
+
+.productLogoImage { margin-bottom: 0.4rem; }
+
+.productBlockHeading {
+	margin: 0rem;
+	font-family: "Roboto Slab", serif;
+	font-size: 1.4rem;
+	color: #2f3337;
+}
+
+.productBlockPara {
+	margin: 0.5rem 0rem 1.5rem 0rem;
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	font-size: 1.05rem;
+	color: #3c4146;
+	line-height: 1.5rem
+}
+
+.sectionButton,
+.locationLeft button { 
+	padding: 0.8rem 1.5rem;
+	font-size: 0.9rem; 
+}
+
+/*.productSideImage {
+	display: none;
+	width: 50%;
+}*/
+
+
+/* ------ Investor Section --------*/
+
+.investorContent {
+	width: 91%;
+	margin: 2rem auto;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.investorImg {
+	margin: 1rem 0.85rem;
+}
+
+.investorImg:nth-child(1) { 
+	width: 180px;
+	height: 2.8rem;
+}
+
+.investorImg:nth-child(2) { 
+	width: 275px;
+	height: 2.8rem;
+}
+
+.investorImg:nth-child(3) { 
+	width: 137px;
+	height: 3rem;
+}
+
+.investorImg:nth-child(4) { 
+	width: 110px;
+	height: 4rem; 
+}
+
+.investorImg:nth-child(5) { 
+	width: 181px;
+	height: 2.8rem; 
+}
+
+.investorImg:nth-child(6) { 
+	width: 76px;
+	height: 2.8rem; 
+}
+
+.investorImg:nth-child(7) { 
+	width: 113px;
+	height: 2.8rem;
+}
+
+.investor p {
+	color: #bbc0c4;
+	text-align: center;
+}
+
+
+
+/* ------ CoreValue Section -------*/
+
+.coreValue { 
+	padding: 4.5rem 0rem; 
+}
+
+.coreValue hr { width: 22%; }
+
+.coreValueContent {
+	width: 100%;
+	padding: 3rem 0.5rem;
+	padding-bottom: 0rem;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.coreValueBlock {
+	margin: 1rem 0rem;
+}
+
+.coreValueHeading {
+	margin: 1rem 0rem 0.8rem 0rem;
+	font-family: "Roboto Slab Bold", serif;
+	font-size: 1.4rem;
+	color: #3c4146;
+}
+
+.coreValuePara {
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	/*font-size: 0.9rem;*/
+	/*line-height: 1.3rem;*/
+	font-size: 0.99rem;
+	line-height: 1.45rem;
+	color: #242729;
+}
+
+/* ------ Location Section --------*/
+.location {
+	/*width: 85%;*/
+	width: 92%;
+	margin: 7rem auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.locationLeft {
+	text-align: center;
+    margin-bottom: 3rem;
+}
+
+.locationLeftHeading {
+	font-family: "Roboto Slab", serif;
+    color: #2f3337;
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+    font-weight: bold;
+}
+
+.locationLeft > p {
+	margin: 1rem 0rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+    color: #535a60;
+}
+
+.locationLeft .button {
+	padding: 0.9rem 2rem;
+	margin: 0.3rem;
+}
+
+.locationLeft button a { font-size: 0.9rem; }
+
+.locationButton { background-color: #e1ecf4; }
+
+.locationButton a { color: #2c5777; }
+
+.locationRight {}
+
+.locationRightTop {
+	margin-bottom: 3rem;
+	/*justify-content: space-around;*/
+	justify-content: center;
+}
+
+.locationImg {
+	width: 138px;
+	height: 192px;
+	border-radius: 9px;
+}
+
+.locationRightContent {
+	margin-left: 1rem;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.locationRightHeading { 
+	display: block;
+	font-family: "Roboto Slab", serif; 
+}
+
+.locationRightHeading1 {
+	color: #848d95;
+    display: block;
+    font-size: 1.1rem;
+    /* font-weight: 600; */
+    line-height: 2rem;
+}
+
+.locationRightHeading2 {
+	color: #2f3337;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.locationRight address {
+	font-style: normal;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.99rem;
+    color: #242729;
+    line-height: 1.4rem;
+}
+
+.locationRightBottom, .locationRightBottom a {
+	font-family: "Source Sans Pro", sans-serif;
+	color: #848d95;
+}
+
+.locationRightBottom a { text-decoration: underline; }
+
+
+
+
+
+
+/* ======================================== Footer Styling =================================================*/
+
+
+
+
+
+/* ======================================== Media Query ====================================================*/
+
+
+@media only screen and (min-width: 483px) and (max-width: 732px) {
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	.introTop1 { height: 543px; }
+}
+
+
+@media only screen and (min-width: 577px) {
+
+	html { font-size: 16px; }
+
+	/*product section*/
+	.productBlock a {
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: right;
+	}
+
+	.productBlock:nth-child(2) a {
+		background-image: url('../3_images/1_about/abstract-teams.png');
+	}
+
+	.productBlock:nth-child(3) a {
+		background-image: url('../3_images/1_about/abstract-talent.png');
+	}
+
+	.productBlock:nth-child(4) a {
+		background-image: url('../3_images/1_about/abstract-advertising.png');
+	}
+
+	.productBlock:nth-child(5) a {
+		background-image: url('../3_images/1_about/abstract-public-platform.png');
+		background-size: 179px 123px;
+	}
+
+	.productBlockMain { 
+		width: 64%; 
+		padding: 1.6rem 1.5rem;
+	}
+	/*.productSideImage {
+		width: 10rem;
+		display: inline-block;
+	}*/
+
+	/*coreValue section*/
+	.coreValueContent { 
+		width: 84%; 
+		justify-content: space-between;
+	}
+
+	.coreValueBlock { width: 26%; }
+
+	.coreValuePara {
+		/*font-size: 1.01rem;*/
+	}
+
+	/*location Content */
+	.location {
+		width: 59%;
+	}
+}
+
+
+@media only screen and (min-width: 733px) {
+
+	html { font-size: 16.5px; }
+
+	/* ---------- Header ----------- 535 */	
+	/*  Header Top */
+
+	.headerTop { padding: 1rem 2rem; }
+
+	.headerTopLeftNav ul li:nth-child(3),
+	.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
+
+	.headerTopLeftNav ul li:nth-child(2), 
+	.headerTopLeftNav ul li:nth-child(3), 
+	.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.4rem 0.2rem 0.4rem; }
+
+	/*.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) {
+	    padding-left: 0.8rem;
+	}*/
+
+	.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) { padding-left: 0.4rem; }
+	
+	
+	/* Header Bottom */
+	.headerBottom { 
+		padding: 1rem 2rem;
+		flex-direction: row; 
+	}
+
+	.headerBottomLeftNav { width: 60%; }
+
+
+	.headerBottomRight { 
+		padding-top: 0rem;
+		border: none;
+		align-self: center; 
+	}
+
+	.takeTour { height: 2rem; }
+
+
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	/*introTop*/
+	.introTop {
+		padding: 2rem 2rem;
+		background-image: url("../3_images/1_about/bg-header-desktop.png");
+		background-repeat: no-repeat;
+		background-size: 26rem 24rem;
+    	background-position-y: center;			
+    }
+
+	.introTop1 { 
+		width: 0%; 
+		height: 0%;
+	}
+
+	.introTop2 { 
+		margin-left: 26rem;
+    	/*width: auto;*/
+	}
+
+	/*.introTop h2 { */
+		/*font-size: 3rem;*/
+	   	/*line-height: 2.9rem; */
+	/*}*/
+
+
+	/*introBottom*/
+	.introBottom {
+		margin: 0rem 2rem;	
+		padding: 0rem 0rem 2rem 0rem;
+		flex-wrap: nowrap;
+	}
+
+	.introBottom li {
+		padding: 2rem 1.5rem;
+		width: auto;
+		/*height: 129px;*/
+	}
+
+	.introBottom li:nth-child(1), 
+	.introBottom li:nth-child(2), 
+	.introBottom li:nth-child(3), 
+	.introBottom li:nth-child(4) { 
+		border-right:1px solid #e4e6e8; 
+		border-bottom: 0px;
+	}
+
+
+    /* History Section */
+    .history {
+    	flex-direction: row;
+    	justify-content: space-between;
+    	
+    }
+
+    .historyAward { width: 51%; }
+
+    .award { margin: 1.5rem; }
+
+    .historyContent {
+    	width: 46%;
+    }
+
+    /* Product Section */
+    .productBlockMain { 
+		width: 60%; 
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	/*product section */
+	.productContent { 
+		padding: 2rem 4rem;
+		justify-content: space-between; 
+	}
+
+	.productBlock { width: 48%; }
+
+	.productBlockFull { width: 100%; }
+
+	/*location content */
+	.location {
+		width: 82%;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: row;
+	}
+
+	.locationLeft { 
+		/*width: 60%; */
+		/*width: 58%; */
+		width: 50%; 
+		text-align: left;
+	} 
+
+	.locationRight { width: ; }
+}
+
+/* Laptop breakpoint */
+@media only screen and (min-width: 1024px) {
+
+	html { font-size: 17px; }
+
+	/* ---------- Header ----------768- */
+	
+	header { background-size: 92rem 7rem; }
+
+	
+	/*  Header Top */
+	
+	.headerTopRightNav ul li:nth-child(1),
+	.headerTopRightNav ul li:nth-child(2),
+	.headerTopRightNav ul li:nth-child(3),
+	.headerTopRightNav ul li:nth-child(4) { 
+		display: inline-block; 
+		padding-left: 0rem;
+		padding-right: 1rem;
+	}
+
+	/*.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) {
+	    padding-left: -0.5rem;
+	}*/
+
+
+	/* Header Bottom */
+	
+	/*.headerBottomLeftNav { 
+	    width: auto;
+	}*/
+
+
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	/*introTop*/
+	.introTop {
+		/* background-image: url("../3_images/1_about/bg-header-desktop.png");
+		background-repeat: no-repeat; */
+    	/*background-position-y: center; */
+    	padding: 6rem 2rem 6rem 2rem;
+    	/*background-size: 41rem 30rem;*/
+    	background-size: 50%;
+	}
+
+	/*.introTop1 { 
+		width: 0%; 
+		height: 0%;
+	}*/
+
+	.introTop2 { 
+		
+    	/*margin-left: 43rem;*/
+
+    	/*width: 37%;
+    	margin-left: 63%;*/
+
+    	width: 46%;
+    	margin-left: 55%;
+
+	}
+
+	h2 { 
+		/*font-size: 3rem;
+    	line-height: 2.9rem; */
+   	}
+
+   	/*introBottom*/
+	.introBottom {
+		margin: 0rem 4rem;
+	}
+
+	/* History Section */
+    
+    /*.history {
+    	flex-direction: row;
+    	justify-content: space-between;
+    	
+    }
+
+    .historyAward { width: 51%; }
+    .historyContent {
+    	width: 46%;
+    } */
+
+	/* Product Section */
+
+	/* CoreValue Section */
+
+	/* Investor Section */
+
+	/* Location Section */
+
+	/*----------- Footer -------------*/
+
+}
+
+@media only screen and (min-width: 1095px)  {
+
+
+	.product,
+	.investor,
+	.coreValue {
+		width: 934px;
+		width: 1037px;
+		margin: 0 auto;
+	}
+
+	.heading { justify-content: space-between; }
+
+	.headingLine, .coreValue hr { width: 38%; }
+
+	.productContent { 
+		padding: 2rem 1rem; 
+	}
+
+	/*coreValue section*/
+	.coreValueContent { width: 100%; }
+
+	/*.coreValuePara {*/
+		/*font-size: 1.09rem;*/
+	/*}*/
+}
+
+@media only screen and (min-width: 1187px) {
+	/*------------ Main -------------*/
+	/* Intro Section */
+
+	/*.introTop2 { margin-left: 46rem; }*/
+
+	/*.introBottom { padding: 0rem 0rem 1.5rem 0rem; }
+
+	.introBottom li { height: 111px; }*/
+
+
+	/* History Section */
+	.award {
+		width: 14rem;
+	}
+
+
+	/* Product Section */
+	/*.sectionContainer {
+		margin: 0 1.5rem;
+	    border: 1px solid #eff0fac1;
+	    border-top: none;
+	}*/
+
+	/* CoreValue Section */
+
+
+	/* Investor Section */
+
+
+	/* Location Section */
+
+
+
+	/*----------- Footer -------------*/
+
+
+}
+
+@media only screen and (min-width: 1330px) {
+	/*product section*/
+	.sectionContainer {
+		/*width: 1315px;*/
+		width: 1297px;
+		/*width: 1446px;*/
+		margin: 0 auto;
+	}
+
+	.location { width: 1037px; }
+}
+
+@media only screen and (min-width: 1332px) {
+	.sectionContainer { width: 90%; }
+
+}
