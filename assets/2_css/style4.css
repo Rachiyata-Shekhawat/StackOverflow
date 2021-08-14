@@ -1128,36 +1128,7 @@ header {
 	/* Intro Section */
 
 	/*introTop*/
-	.introTop {
-		/* background-image: url("../3_images/1_about/bg-header-desktop.png");
-		background-repeat: no-repeat; */
-    	/*background-position-y: center; */
-    	padding: 6rem 2rem 6rem 2rem;
-    	/*background-size: 41rem 30rem;*/
-    	background-size: 50%;
-	}
-
-	/*.introTop1 { 
-		width: 0%; 
-		height: 0%;
-	}*/
-
-	.introTop2 { 
-		
-    	/*margin-left: 43rem;*/
-
-    	/*width: 37%;
-    	margin-left: 63%;*/
-
-    	width: 46%;
-    	margin-left: 55%;
-
-	}
-
-	h2 { 
-		/*font-size: 3rem;
-    	line-height: 2.9rem; */
-   	}
+	
 
    	/*introBottom*/
 	.introBottom {
