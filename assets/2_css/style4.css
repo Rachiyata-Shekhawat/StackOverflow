@@ -828,7 +828,7 @@ header {
 
 @media only screen and (min-width: 577px) {
 
-	html { font-size: 16px; }
+	html { font-size: 15.2px; }
 
 	/*product section*/
 	.productBlock a {
@@ -884,7 +884,7 @@ header {
 
 @media only screen and (min-width: 733px) {
 
-	html { font-size: 16.5px; }
+	html { font-size: 15.5px; }
 
 	/* ---------- Header ----------- 535 */	
 	/*  Header Top */
@@ -1032,7 +1032,7 @@ header {
 /* Laptop breakpoint */
 @media only screen and (min-width: 1024px) {
 
-	html { font-size: 17px; }
+	html { font-size: 16px; }
 
 	/* ---------- Header ----------768- */
 	
