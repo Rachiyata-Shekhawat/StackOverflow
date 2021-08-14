@@ -936,11 +936,12 @@ header {
 
 	/*introTop*/
 	.introTop {
-		padding: 2rem 2rem;
-		background-image: url("../3_images/1_about/bg-header-desktop.png");
-		background-repeat: no-repeat;
-		background-size: 26rem 24rem;
-    	background-position-y: center;			
+		/*padding: 6rem 0rem;*/
+		padding: 3rem 0rem;
+		flex-direction: row;
+		align-items: center;
+		/*background-size: 50%;*/
+		justify-content: flex-start;			
     }
 
 	.introTop1 { 
