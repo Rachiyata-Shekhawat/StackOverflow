@@ -570,6 +570,8 @@ header {
 
 .locationButton { background-color: #e1ecf4; }
 
+.locationLeft .locationButton:hover { background-color: #d1e5f1; }
+
 .locationButton a { color: #2c5777; }
 
 .locationRight {}
