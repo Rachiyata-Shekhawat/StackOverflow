@@ -945,8 +945,15 @@ header {
     }
 
 	.introTop1 { 
-		width: 0%; 
-		height: 0%;
+		width: 50%;
+		height: 512px;
+		background-image: url(../3_images/1_about/bg-header-desktop.png);
+    	background-repeat: no-repeat;
+    	background-position: left center;
+    	/*flex-grow: 2;*/
+    	/*background-size: 83%;*/
+    	/*background-size: 87%;*/
+    	background-size: contain;
 	}
 
 	.introTop2 { 
