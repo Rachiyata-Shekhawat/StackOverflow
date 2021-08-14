@@ -1180,6 +1180,7 @@ header {
 
 	.productContent { 
 		padding: 2rem 1rem; 
+		padding-top: 3rem;
 	}
 
 	/*coreValue section*/
