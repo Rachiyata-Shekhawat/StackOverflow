@@ -897,6 +897,32 @@ header {
 		display: block;
 		width: 4rem;
 	}
+
+	.footerBottomMiddle {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.footerBottomMiddleBlock { padding: 0rem 0.5rem 1rem 0rem; }
+
+	.footerBottomMiddleBlock:nth-child(1) { width: 170px; }
+
+	.footerBottomMiddleBlock:nth-child(2) { width: 114px; }
+
+	.footerBottomMiddleBlock:nth-child(3) { width: 120px; }
+
+	.footerBottomMiddleBlock h5 { 
+		font-size: 0.85rem; 
+		margin-bottom: 1rem;
+	}
+
+	.footerBottomMiddle ul li, .click { padding-bottom: 0.5rem; }
+
+	.footerBottomListItem a, 
+	.footerBottomMiddleList p, 
+	.nestedListSubItem a, 
+	.socialLinkItem a, 
+	.licenseDetail p { font-size: 0.85rem;	 }
 }
 
 
@@ -1065,6 +1091,8 @@ header {
 	.footerTopBlock:nth-child(2) a .footerTopButton { width: 118px; }
 
 	.footerTopBlock:nth-child(3) a .footerTopButton { width: 130px; }
+
+
 
 }
 
