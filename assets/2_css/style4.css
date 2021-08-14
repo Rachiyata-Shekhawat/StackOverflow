@@ -426,6 +426,10 @@ header {
 	font-size: 0.9rem; 
 }
 
+.product button {
+	cursor: pointer;
+}
+
 /*.productSideImage {
 	display: none;
 	width: 50%;
