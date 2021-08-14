@@ -1007,10 +1007,48 @@ header {
     .headingLine {
 	    width: 35%;
 	}
-	
+
     .productBlockMain { 
 		width: 60%; 
 	}
+
+	
+	/*------------ Footer -------------*/
+	.footerTop {
+		flex-direction: row;
+    padding: 4rem 3rem;
+    justify-content: space-around;
+	}
+
+	.footerTopBlock {
+		width: 	25%;
+		width: 278px;
+		height: 13rem;
+		height: 224px;
+		    text-align: left;
+	}
+
+	.footerTopBlock a {
+		display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+	
+	}
+
+	.footerTopImg { margin: 0; }
+
+	/*.footerTopPara { height: 68px; }*/
+
+	.footerTopButton { width: 	38%; align-self: end; }
+
+	.footerTopBlock:nth-child(2), .footerTopBlock:nth-child(3) { margin: 0; }
+
+	.footerTopBlock:nth-child(1) a .footerTopButton { width: 106px; }
+
+	.footerTopBlock:nth-child(2) a .footerTopButton { width: 115px; }
+
+	.footerTopBlock:nth-child(3) a .footerTopButton { width: 126px; }
 }
 
 @media only screen and (min-width: 991px) {
