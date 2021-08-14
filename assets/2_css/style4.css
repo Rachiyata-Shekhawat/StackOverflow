@@ -831,6 +831,8 @@ header {
 	html { font-size: 15.2px; }
 
 	/*product section*/
+	.headingLine { width: 33%; }
+
 	.productBlock a {
 		background-repeat: no-repeat;
 		background-size: contain;
