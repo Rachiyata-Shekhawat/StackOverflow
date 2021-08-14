@@ -627,6 +627,12 @@ header {
 	color: #848d95;
 }
 
+.locationRightBottom {
+	text-align: center;
+    display: block;
+    font-size: 0.9rem;
+}
+
 .locationRightBottom a { text-decoration: underline; }
 
 /* ------ Footer Top --------------*/
