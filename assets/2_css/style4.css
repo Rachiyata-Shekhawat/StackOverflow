@@ -957,8 +957,11 @@ header {
 	}
 
 	.introTop2 { 
-		margin-left: 26rem;
-    	/*width: auto;*/
+		/*width: 35%;*/
+		/*width: 41%;*/
+		width: 34%;
+		margin-right: 4rem;
+		margin-left: 2rem;
 	}
 
 	/*.introTop h2 { */
