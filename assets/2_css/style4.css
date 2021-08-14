@@ -780,6 +780,8 @@ header {
 
 .footerBottomMiddleList p:hover { color: #f2720c; }
 
+.click { padding-bottom: 0.3rem; }
+
 .footerNext, .footerBack {
 	background-color: #bbc0c4;
 }
