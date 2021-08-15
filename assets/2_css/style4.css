@@ -1270,6 +1270,8 @@ header {
 	/*.coreValuePara {*/
 		/*font-size: 1.09rem;*/
 	/*}*/
+
+
 }
 
 @media only screen and (min-width: 1187px) {
@@ -1325,5 +1327,10 @@ header {
 
 @media only screen and (min-width: 1332px) {
 	.sectionContainer { width: 90%; }
+
+	/*footer-bottom*/
+	.footerBottom { 
+		padding: 1.5rem 5rem;
+	}
 
 }
