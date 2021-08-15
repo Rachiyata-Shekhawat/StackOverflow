@@ -961,60 +961,59 @@ header {
 }
 
 @media only screen and (min-width: 733px) and (max-width: 942px) {
-
-	/*footer top */
+	/* -- footerTop section ----- */
 	.footerTopPara { height: 68px; }
 }
 
 @media only screen and (min-width: 991px) {
-	/*product section */
-	.productContent { 
-		padding: 2rem 4rem;
-		padding-top: 3rem;
-		justify-content: space-between; 
-	}
 
-	.productBlock { width: 48%; }
+	/* ------------- Main -------------- */
+		/* ---- product section ----- */
+		.productContent { 
+			padding: 2rem 4rem;
+			padding-top: 3rem;
+			justify-content: space-between; 
+		}
 
-	.productBlockFull { width: 100%; }
+		.productBlock { width: 48%; }
 
-	/*location content */
-	.location {
-		width: 82%;
-	    justify-content: space-between;
-	    align-items: center;
-	    flex-direction: row;
-	}
+		.productBlockFull { width: 100%; }
 
-	.locationLeft { 
-		/*width: 60%; */
-		/*width: 58%; */
-		width: 50%; 
-		text-align: left;
-	} 
 
-	.locationRight { width: ; }
+		/* ---- location section ---- */
+		.location {
+			width: 82%;
+			flex-direction: row;
+		    justify-content: space-between;
+		    align-items: center;
+		}
+
+		.locationLeft { 
+			width: 50%; 
+			text-align: left;
+		} 
+
 }
 
 @media only screen and (min-width: 766px) {
-	/*footer-bottom*/
-	.footerBottom { 
-		flex-direction: row; 
-		justify-content: space-between;
-	}
 
-	.footerBottom1 { flex-grow: 1; }
+	/* ------------ Footer ------------- */
+		/* -- footerBottom section -- */
+		.footerBottom { 
+			flex-direction: row; 
+			justify-content: space-between;
+		}
 
-	.footerBottom2 { width: 314px; }
+		.footerBottom1 { flex-grow: 1; }
 
-	.footerBottomMiddle {
-		    justify-content: space-between;
-    flex-grow: 1;
-	}
+		.footerBottom2 { width: 314px; }
 
-	/*.footerBottomMiddleBlock { width: ; }*/
+		.footerBottomMiddle {
+			justify-content: space-between;
+	    	flex-grow: 1;
+		}
 
-	.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
+		.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
 }
 
 /* Laptop breakpoint */
@@ -1022,79 +1021,37 @@ header {
 
 	html { font-size: 16px; }
 
-	/* ---------- Header ----------768- */
+	/* ------------ Header ------------- */
 	
 	header { background-size: 92rem 7rem; }
 
-	
-	/*  Header Top */
-	
-	.headerTopRightNav ul li:nth-child(1),
-	.headerTopRightNav ul li:nth-child(2),
-	.headerTopRightNav ul li:nth-child(3),
-	.headerTopRightNav ul li:nth-child(4) { 
-		display: inline-block; 
-		padding-left: 0rem;
-		padding-right: 1rem;
-	}
 
-	/*.headerTopRightNav ul li:nth-child(2), 
-	.headerTopRightNav ul li:nth-child(3), 
-	.headerTopRightNav ul li:nth-child(4), 
-	.headerTopRightNav ul li:nth-child(5 ) {
-	    padding-left: -0.5rem;
-	}*/
+		/* ---- headerTop section --- */
+		
+		.headerTopRightNav ul li:nth-child(1),
+		.headerTopRightNav ul li:nth-child(2),
+		.headerTopRightNav ul li:nth-child(3),
+		.headerTopRightNav ul li:nth-child(4) { 
+			display: inline-block; 
+			padding-left: 0rem;
+			padding-right: 1rem;
+		}
 
 
-	/* Header Bottom */
-	
-	/*.headerBottomLeftNav { 
-	    width: auto;
-	}*/
+	/* ------------- Main -------------- */
 
+		/* ----- intro section ------ */
+	   	/*introBottom*/
+		.introBottom { margin: 0rem 4rem; }
 
-	/*------------ Main -------------*/
-	/* Intro Section */
-
-	/*introTop*/
-	
-
-   	/*introBottom*/
-	.introBottom {
-		margin: 0rem 4rem;
-	}
-
-	/* History Section */
-    
-    /*.history {
-    	flex-direction: row;
-    	justify-content: space-between;
-    	
-    }
-
-    .historyAward { width: 51%; }
-    .historyContent {
-    	width: 46%;
-    } */
-
-	/* Product Section */
-	.headingLine {
-	    width: 40%;
-	}
-
-	/* CoreValue Section */
-
-	/* Investor Section */
-
-	/* Location Section */
-
-	/*----------- Footer -------------*/
+		/* ---- product section ----- */
+		.headingLine { width: 40%; }
 
 }
 
 @media only screen and (min-width: 1095px)  {
 
-
+	/* ------------- Main -------------- */
 	.product,
 	.investor,
 	.coreValue {
@@ -1103,86 +1060,56 @@ header {
 		margin: 0 auto;
 	}
 
-	.heading { justify-content: space-between; }
+		/* ---- product section ----- */
 
-	.headingLine, .coreValue hr { width: 38%; }
+		.heading { justify-content: space-between; }
 
-	.productContent { 
-		padding: 2rem 1rem; 
-		padding-top: 3rem;
-	}
+		.headingLine, 
+		.coreValue hr { width: 38%; }
 
-	/*coreValue section*/
-	.coreValueContent { width: 100%; }
+		.productContent { 
+			padding: 2rem 1rem; 
+			padding-top: 3rem;
+		}
 
-	/*.coreValuePara {*/
-		/*font-size: 1.09rem;*/
-	/*}*/
-
-
+		/* ---- coreValue section --- */
+		.coreValueContent { width: 100%; }
 }
 
 @media only screen and (min-width: 1187px) {
-	/*------------ Main -------------*/
-	/* Intro Section */
 
-	/*.introTop2 { margin-left: 46rem; }*/
-
-	/*.introBottom { padding: 0rem 0rem 1.5rem 0rem; }
-
-	.introBottom li { height: 111px; }*/
-
-
-	/* History Section */
-	.award {
-		width: 14rem;
-	}
-
-
-	/* Product Section */
-	/*.sectionContainer {
-		margin: 0 1.5rem;
-	    border: 1px solid #eff0fac1;
-	    border-top: none;
-	}*/
-
-	/* CoreValue Section */
-
-
-	/* Investor Section */
-
-
-	/* Location Section */
-
-
-
-	/*----------- Footer -------------*/
-
-
+	/* ------------- Main -------------- */
+	
+		/* ---- history section ----- */
+		.award {
+			width: 14rem;
+		}
 }
 
 @media only screen and (min-width: 1330px) {
-	/*product section*/
-	.sectionContainer {
-		/*width: 1315px;*/
-		width: 1297px;
-		/*width: 1446px;*/
-		margin: 0 auto;
-	}
 
-	.location { width: 1037px; }
+	/* ------------- Main -------------- */
+		/* ---- product section ----- */
+		.sectionContainer {
+			width: 1297px;
+			margin: 0 auto;
+		}
+
+		/* ---- location section ---- */
+		.location { width: 1037px; }
 }
 
 @media only screen and (min-width: 1332px) {
-	.sectionContainer { width: 90%; }
 
-	/*footer-bottom*/
-	.footerBottom { 
-		padding: 1.5rem 5rem;
-	}
-
-	/* header top */
+	/* ------------ Header ------------- */
 	.headerTop,
 	.headerBottom { padding: 1rem 7rem; }
 
+	/* ------------- Main -------------- */
+	.sectionContainer { width: 90%; }
+
+	/* ------------ Footer ------------- */
+		.footerBottom { 
+			padding: 1.5rem 5rem;
+		}
 }
