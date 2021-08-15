@@ -726,7 +726,7 @@ header {
 /* ------ Footer Bottom -----------*/
 
 .footerBottom {
-	padding: 1.5rem 0.5rem;
+	padding: 1.5rem 0.8rem;
 	background-color: #242729;
 	flex-direction: column;
 }
