@@ -818,169 +818,145 @@ header {
 
 	html { font-size: 15.5px; }
 
-	/* ---------- Header ----------- 535 */	
-	/*  Header Top */
+	/* ------------ Header ------------- */	
+		/* ---- headerTop section --- */
 
-	.headerTop { padding: 1rem 2rem; }
+		.headerTop { padding: 1rem 2rem; }
 
-	.headerTopLeftNav ul li:nth-child(3),
-	.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
+		.headerTopLeftNav ul li:nth-child(3),
+		.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
 
-	.headerTopLeftNav ul li:nth-child(2), 
-	.headerTopLeftNav ul li:nth-child(3), 
-	.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.4rem 0.2rem 0.4rem; }
+		.headerTopLeftNav ul li:nth-child(2), 
+		.headerTopLeftNav ul li:nth-child(3), 
+		.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.4rem 0.2rem 0.4rem; }
 
-	/*.headerTopRightNav ul li:nth-child(2), 
-	.headerTopRightNav ul li:nth-child(3), 
-	.headerTopRightNav ul li:nth-child(4), 
-	.headerTopRightNav ul li:nth-child(5 ) {
-	    padding-left: 0.8rem;
-	}*/
+		.headerTopRightNav ul li:nth-child(2), 
+		.headerTopRightNav ul li:nth-child(3), 
+		.headerTopRightNav ul li:nth-child(4), 
+		.headerTopRightNav ul li:nth-child(5 ) { padding-left: 0.4rem; }
+		
+		
+		/* -- headerBottom section -- */
+		.headerBottom { 
+			padding: 1rem 2rem;
+			flex-direction: row; 
+		}
 
-	.headerTopRightNav ul li:nth-child(2), 
-	.headerTopRightNav ul li:nth-child(3), 
-	.headerTopRightNav ul li:nth-child(4), 
-	.headerTopRightNav ul li:nth-child(5 ) { padding-left: 0.4rem; }
-	
-	
-	/* Header Bottom */
-	.headerBottom { 
-		padding: 1rem 2rem;
-		flex-direction: row; 
-	}
-
-	.headerBottomLeftNav { width: 60%; }
+		.headerBottomLeftNav { width: 60%; }
 
 
-	.headerBottomRight { 
-		padding-top: 0rem;
-		border: none;
-		align-self: center; 
-	}
+		.headerBottomRight { 
+			padding-top: 0rem;
+			border: none;
+			align-self: center; 
+		}
 
-	.takeTour { height: 2rem; }
-
-
-	/*------------ Main -------------*/
-	/* Intro Section */
-
-	/*introTop*/
-	.introTop {
-		/*padding: 6rem 0rem;*/
-		padding: 3rem 0rem;
-		flex-direction: row;
-		align-items: center;
-		/*background-size: 50%;*/
-		justify-content: flex-start;			
-    }
-
-	.introTop1 { 
-		width: 50%;
-		height: 512px;
-		background-image: url(../3_images/1_about/bg-header-desktop.png);
-    	background-repeat: no-repeat;
-    	background-position: left center;
-    	/*flex-grow: 2;*/
-    	/*background-size: 83%;*/
-    	/*background-size: 87%;*/
-    	background-size: contain;
-	}
-
-	.introTop2 { 
-		/*width: 35%;*/
-		/*width: 41%;*/
-		width: 34%;
-		margin-right: 4rem;
-		margin-left: 2rem;
-	}
+		.takeTour { height: 2rem; }
 
 
-	/*introBottom*/
-	.introBottom {
-		margin: 0rem 2rem;	
-		padding: 0rem 0rem 2rem 0rem;
-		flex-wrap: nowrap;
-	}
+	/* ------------- Main -------------- */
+		/* ----- intro section ------ */
+		
+		/*introTop*/
+		.introTop {
+			padding: 3rem 0rem;
+			flex-direction: row;
+			justify-content: flex-start;	
+			align-items: center;		
+	    }
 
-	.introBottom li {
-		padding: 2rem 1.5rem;
-		width: auto;
-		/*height: 129px;*/
-	}
+		.introTop1 { 
+			width: 50%;
+			height: 512px;
+			background-image: url(../3_images/1_about/bg-header-desktop.png);
+	    	background-repeat: no-repeat;
+	    	background-position: left center;
+	    	background-size: contain;
+		}
 
-	.introBottom li:nth-child(1), 
-	.introBottom li:nth-child(2), 
-	.introBottom li:nth-child(3), 
-	.introBottom li:nth-child(4) { 
-		border-right:1px solid #e4e6e8; 
-		border-bottom: 0px;
-	}
-
-
-    /* History Section */
-    .history {
-    	flex-direction: row;
-    	justify-content: space-between;
-    	
-    }
-
-    .historyAward { width: 51%; }
-
-    .award { margin: 1.5rem; }
-
-    .historyContent {
-    	width: 46%;
-    }
-
-    /* Product Section */
-
-    .headingLine {
-	    width: 35%;
-	}
-
-    .productBlockMain { 
-		width: 60%; 
-	}
+		.introTop2 { 
+			width: 34%;
+			margin-right: 4rem;
+			margin-left: 2rem;
+		}
 
 
-	/*------------ Footer -------------*/
-	.footerTop {
-		flex-direction: row;
-    padding: 4rem 3rem;
-    justify-content: space-around;
-	}
+		/*introBottom*/
+		.introBottom {
+			padding: 0rem 0rem 2rem 0rem;
+			margin: 0rem 2rem;	
+			flex-wrap: nowrap;
+		}
 
-	.footerTopBlock {
-		width: 	25%;
-		width: 287px;
-		height: 13rem;
-		height: 224px;
-		    text-align: left;
-	}
+		.introBottom li {
+			width: auto;
+			padding: 2rem 1.5rem;
+		}
 
-	.footerTopBlock a {
-		display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-	
-	}
-
-	.footerTopImg { margin: 0; }
-
-	/*.footerTopPara { height: 68px; }*/
-
-	.footerTopButton { width: 	38%; align-self: end; }
-
-	.footerTopBlock:nth-child(2), .footerTopBlock:nth-child(3) { margin: 0; }
-
-	.footerTopBlock:nth-child(1) a .footerTopButton { width: 109px; }
-
-	.footerTopBlock:nth-child(2) a .footerTopButton { width: 118px; }
-
-	.footerTopBlock:nth-child(3) a .footerTopButton { width: 130px; }
+		.introBottom li:nth-child(1), 
+		.introBottom li:nth-child(2), 
+		.introBottom li:nth-child(3), 
+		.introBottom li:nth-child(4) { 
+			border-right:1px solid #e4e6e8; 
+			border-bottom: 0px;
+		}
 
 
+	    /* ---- history section ----- */
+	    .history {
+	    	flex-direction: row;
+	    	justify-content: space-between;
+	    }
+
+	    .historyAward { width: 51%; }
+
+	    .award { margin: 1.5rem; }
+
+	    .historyContent { width: 46%; }
+
+
+	    /* ---- product section ----- */
+
+	    .headingLine { width: 35%; }
+
+	    .productBlockMain { width: 60%; }
+
+
+	/* ------------ Footer ------------- */
+		.footerTop {	
+		    padding: 4rem 3rem;
+		    flex-direction: row;
+		    justify-content: space-around;
+		}
+
+		.footerTopBlock {
+			width: 287px;
+			height: 224px;
+			text-align: left;
+		}
+
+		.footerTopBlock a {
+			height: 100%;
+			display: flex;
+	    	flex-direction: column;
+	   	 	justify-content: flex-start;
+		}
+
+		.footerTopImg { margin: 0; }
+
+		.footerTopButton { 
+			width: 38%; 
+			align-self: end; 
+		}
+
+		.footerTopBlock:nth-child(2), 
+		.footerTopBlock:nth-child(3) { margin: 0; }
+
+		.footerTopBlock:nth-child(1) a .footerTopButton { width: 109px; }
+
+		.footerTopBlock:nth-child(2) a .footerTopButton { width: 118px; }
+
+		.footerTopBlock:nth-child(3) a .footerTopButton { width: 130px; }
 
 }
 
