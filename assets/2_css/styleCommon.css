@@ -3,7 +3,6 @@
 html { 
 	font-size: 14.2px; 
 	/*font-size: 15px; */
-
 }
 
 a{ 
@@ -35,7 +34,6 @@ header {
 	background-image: url("../3_images/0_common/bg-nav.png");
 	background-size: 51rem 7rem;
 	background-repeat: no-repeat;	
-
 	font-size: 0.85rem;
 }
 
@@ -44,17 +42,13 @@ header {
 .headerTop {
 	padding: 1rem 0.9rem;
 	border-bottom: 1px solid #e4e6e8;
-	/*display: flex;*/
 	justify-content: flex-start;
 	align-items: flex-end;	
 }
 
 .logo { width: 4rem; }
 
-.headerTopLeftNav {
-	/*width: 40%; */
-	flex-grow: 2;
-}
+.headerTopLeftNav { flex-grow: 2; }
 
 .headerTopRightNav ul li { padding-bottom: 0.2rem; }
 
@@ -68,15 +62,12 @@ header {
 }
 
 
-.headerTopRightNav ul li:nth-child(4) {
-	border-right: 1px solid #e4e6e8;
-	/*padding-right: 0.5rem;*/
-}
+.headerTopRightNav ul li:nth-child(4) { border-right: 1px solid #e4e6e8; }
 
 .headerTopRightNav ul li:nth-child(2),
 .headerTopRightNav ul li:nth-child(3),
 .headerTopRightNav ul li:nth-child(4), 
-.headerTopRightNav ul li:nth-child(5	) { padding-left: 1rem; }
+.headerTopRightNav ul li:nth-child(5) { padding-left: 1rem; }
 
 .headerTopLeftNav ul li:nth-child(3),
 .headerTopLeftNav ul li:nth-child(4),
@@ -90,17 +81,11 @@ header {
 
 .headerBottom {
 	padding: 1rem 1rem;
-	/*display: flex;*/
-	justify-content: space-between;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
-.headerBottomLeftNav {
-	/*display: flex;*/
-	justify-content: flex-start;
-	/*flex-shrink: 3;
-    flex-wrap: wrap;*/	
-}
+.headerBottomLeftNav { justify-content: flex-start; }
 
 
 .headerBottomLeftNav ul li {	
@@ -108,9 +93,6 @@ header {
 	border-radius: 2rem;
 	margin: 0.5rem 0rem;
 }
-
-/* applied ACTIVE class here - refer below code */
-/*.headerBottomLeftNav ul li:nth-child(1) { background-color: hsl(27deg 90% 53%); }*/
 
 .active { background-color: hsl(27deg 90% 53%); } 
 
@@ -123,21 +105,16 @@ header {
 
 .headerBottomLeftNav ul li a { color: #535a60; }
 
-/* applied ACTIVE class here - refer below code */
-/*.headerBottomLeftNav ul li:nth-child(1) a { color: white; } */
-
 .headerBottomLeftNav ul .active a { color: white; } 
 
 .headerBottomRight {
-	border-top: 1px solid #e4e6e8;
 	padding-top: 1rem;
-	/*display: flex;*/
+	border-top: 1px solid #e4e6e8;
 	justify-content: flex-end;
 }
 
 .headerBottomRight span {
 	margin-right: 1rem;
-	/*display: flex;*/
 	align-items: center;
 	color: black;
 }
@@ -177,8 +154,6 @@ header {
 .footerTopBlock:nth-child(3) { margin-top: 5.5rem; }
 
 .footerTopImg {
-	width: 33%;
-	height: 5.5rem;
 	width: 78px;
 	height: 78px;
 	margin: 0 auto;
@@ -242,6 +217,7 @@ header {
 	font-size: 0.7rem;
 }
 
+
 /* left */
 .footerBottomLeft {display: none;}
 
@@ -259,8 +235,8 @@ header {
 }
 
 .footerBottomMiddle ul li { 
-	display: block; 
 	padding-bottom: 0.3rem;
+	display: block; 
 }
 
 .footerBottomMiddleList p { display: inline-block; }
@@ -317,7 +293,8 @@ header {
 
 	html { font-size: 14.4px; }
 
-	/*footer-bottom*/
+	/* ---------- Footer ----------- */	
+	/* footer-bottom */
 	.footerBottom { padding: 1.5rem 1rem; }
 
 	.footerBottom1 { display: flex; }
@@ -341,11 +318,12 @@ header {
 	.footerBottomMiddleBlock:nth-child(3) { width: 120px; }
 
 	.footerBottomMiddleBlock h5 { 
-		font-size: 0.85rem; 
 		margin-bottom: 1rem;
+		font-size: 0.85rem; 
 	}
 
-	.footerBottomMiddle ul li, .click { padding-bottom: 0.5rem; }
+	.click,
+	.footerBottomMiddle ul li { padding-bottom: 0.5rem; }
 
 	.footerBottomListItem a, 
 	.footerBottomMiddleList p, 
@@ -357,7 +335,7 @@ header {
 
 	html { font-size: 14.7px; }
 
-	/* ---------- Header ----------- 535 */	
+	/* ---------- Header ----------- */	
 	/*  Header Top */
 
 	.headerTop { padding: 1rem 2rem; }
@@ -395,32 +373,33 @@ header {
 
 	/*------------ Footer -------------*/
 	.footerTop {
+		padding: 4rem 3rem;
 		flex-direction: row;
-    padding: 4rem 3rem;
-    justify-content: space-around;
+    	justify-content: space-around;
 	}
 
 	.footerTopBlock {
-		width: 	25%;
 		width: 287px;
-		height: 13rem;
 		height: 224px;
-		    text-align: left;
+		text-align: left;
 	}
 
 	.footerTopBlock a {
+		height: 100%;
 		display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-	
+    	flex-direction: column;
+    	justify-content: flex-start;
 	}
 
 	.footerTopImg { margin: 0; }
 
-	.footerTopButton { width: 	38%; align-self: end; }
+	.footerTopButton { 
+		width: 38%; 
+		align-self: end; 
+	}
 
-	.footerTopBlock:nth-child(2), .footerTopBlock:nth-child(3) { margin: 0; }
+	.footerTopBlock:nth-child(2), 
+	.footerTopBlock:nth-child(3) { margin: 0; }
 
 	.footerTopBlock:nth-child(1) a .footerTopButton { width: 109px; }
 
@@ -432,18 +411,24 @@ header {
 
 }
 
+
 @media only screen and (min-width: 733px) and (max-width: 942px) {
 
-	/*footer top */
+	/* footer top */
 	.footerTopPara { height: 68px; }
 }
+
+
 
 @media only screen and (min-width: 991px) {
 	
 }
 
+
+
 @media only screen and (min-width: 766px) {
-	/*footer-bottom*/
+	
+	/* footer-bottom */
 	.footerBottom { 
 		flex-direction: row; 
 		justify-content: space-between;
@@ -454,11 +439,9 @@ header {
 	.footerBottom2 { width: 314px; }
 
 	.footerBottomMiddle {
-		    justify-content: space-between;
-    flex-grow: 1;
+		justify-content: space-between;
+    	flex-grow: 1;
 	}
-
-	/*.footerBottomMiddleBlock { width: ; }*/
 
 	.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
 }
@@ -468,7 +451,7 @@ header {
 
 	html { font-size:15.2px; }
 
-	/* ---------- Header ----------768- */
+	/* ---------- Header ---------- */
 	
 	header { background-size: 92rem 7rem; }
 
@@ -479,11 +462,10 @@ header {
 	.headerTopRightNav ul li:nth-child(2),
 	.headerTopRightNav ul li:nth-child(3),
 	.headerTopRightNav ul li:nth-child(4) { 
-		display: inline-block; 
 		padding-left: 0rem;
 		padding-right: 1rem;
+		display: inline-block; 
 	}
-
 
 }
 
@@ -492,19 +474,24 @@ header {
 
 }
 
+
+
 @media only screen and (min-width: 1187px) {
 
 
 }
 
+
+
 @media only screen and (min-width: 1330px) {
 	
 }
 
+
+
 @media only screen and (min-width: 1332px) {
 	
-
-	/*footer-bottom*/
+	/* footer-bottom */
 	.footerBottom { 
 		padding: 1.5rem 5rem;
 	}
