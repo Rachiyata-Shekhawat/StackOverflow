@@ -384,14 +384,12 @@ header {
 .investorContent {
 	width: 91%;
 	margin: 2rem auto;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 }
 
-.investorImg {
-	margin: 1rem 0.85rem;
-}
+.investorImg { margin: 1rem 0.85rem; }
 
 .investorImg:nth-child(1) { 
 	width: 180px;
@@ -441,8 +439,6 @@ header {
 	padding: 4.5rem 0rem; 
 }
 
-/*.coreValue hr { width: 22%; }*/
-
 .coreValueContent {
 	width: 100%;
 	padding: 3rem 0.5rem;
@@ -451,9 +447,7 @@ header {
 	flex-wrap: wrap;
 }
 
-.coreValueBlock {
-	margin: 1rem 0rem;
-}
+.coreValueBlock { margin: 1rem 0rem; }
 
 .coreValueHeading {
 	margin: 1rem 0rem 0.8rem 0rem;
@@ -464,8 +458,6 @@ header {
 
 .coreValuePara {
 	font-family: "Segoe UI", "Liberation Sans", sans-serif;
-	/*font-size: 0.9rem;*/
-	/*line-height: 1.3rem;*/
 	font-size: 0.99rem;
 	line-height: 1.45rem;
 	color: #242729;
@@ -473,7 +465,6 @@ header {
 
 /* ------ Location Section --------*/
 .location {
-	/*width: 85%;*/
 	width: 92%;
 	margin: 7rem auto;
 	flex-direction: column;
@@ -482,16 +473,16 @@ header {
 }
 
 .locationLeft {
+	margin-bottom: 3rem;
 	text-align: center;
-    margin-bottom: 3rem;
 }
 
 .locationLeftHeading {
+	margin: 0.5rem 0rem;
 	font-family: "Roboto Slab", serif;
+	font-size: 1.5rem;
+	font-weight: bold;
     color: #2f3337;
-    font-size: 1.5rem;
-    margin: 0.5rem 0rem;
-    font-weight: bold;
 }
 
 .locationLeft > p {
@@ -517,11 +508,8 @@ header {
 
 .locationButton a { color: #2c5777; }
 
-.locationRight {}
-
 .locationRightTop {
 	margin-bottom: 3rem;
-	/*justify-content: space-around;*/
 	justify-content: center;
 }
 
@@ -544,36 +532,36 @@ header {
 }
 
 .locationRightHeading1 {
-	color: #848d95;
-    display: block;
-    font-size: 1.1rem;
-    /* font-weight: 600; */
+	display: block;
+	font-size: 1.1rem;
     line-height: 2rem;
+	color: #848d95;
 }
 
 .locationRightHeading2 {
-	color: #2f3337;
     font-size: 1.2rem;
     font-weight: 500;
+    color: #2f3337;
 }
 
 .locationRight address {
 	font-style: normal;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 0.99rem;
-    color: #242729;
     line-height: 1.4rem;
+    color: #242729;  
 }
 
-.locationRightBottom, .locationRightBottom a {
+.locationRightBottom, 
+.locationRightBottom a {
 	font-family: "Source Sans Pro", sans-serif;
 	color: #848d95;
 }
 
 .locationRightBottom {
-	text-align: center;
     display: block;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .locationRightBottom a { text-decoration: underline; }
