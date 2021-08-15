@@ -155,6 +155,156 @@ header {
 .sectionButton { color: white; }
 
 
+/* ======================================== Footer Styling =================================================*/
+
+
+/* ------ Footer Top --------------*/
+
+.footerTop {
+	padding: 4rem 1rem;
+	flex-direction: column;
+	align-items: center;
+	background-color: #2f3337; 
+}
+
+.footerTopBlock { 
+	width: 271px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.footerTopBlock:nth-child(2),
+.footerTopBlock:nth-child(3) { margin-top: 5.5rem; }
+
+.footerTopImg {
+	width: 33%;
+	height: 5.5rem;
+	width: 78px;
+	height: 78px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.footerTopBlock:nth-child(1) a .footerTopImg { background-image: url('../3_images/1_about/svgexport-29.png'); }
+
+.footerTopBlock:nth-child(2) a .footerTopImg { background-image: url('../3_images/1_about/svgexport-30.png'); }
+
+.footerTopBlock:nth-child(3) a .footerTopImg { background-image: url('../3_images/1_about/svgexport-31.png'); }
+
+.footerTopBlock:nth-child(1):hover a .footerTopImg { background-image: url('../3_images/0_common/svgexport-26.png'); }
+
+.footerTopBlock:nth-child(2):hover a .footerTopImg { background-image: url('../3_images/0_common/svgexport-24.png'); }
+
+.footerTopBlock:nth-child(3):hover a .footerTopImg { background-image: url('../3_images/0_common/svgexport-25.png'); }
+
+
+.footerTopPara, .footerTopPara strong, .footerTopButton { color: #fff; }
+
+.footerTopPara { margin: 1.25rem 0rem; }
+
+.footerTopPara, .footerTopPara strong {
+	font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.footerTopPara strong { font-weight: 600; }
+
+.footerTopButton {
+	padding: 0.7rem 1.5rem;
+	border-radius: 0.2rem;
+	background-color: #f2720c;
+	border-style: none;
+}
+
+
+/* ------ Footer Bottom -----------*/
+
+.footerBottom {
+	padding: 1.5rem 0.8rem;
+	background-color: #242729;
+	flex-direction: column;
+}
+
+.footerBottomMiddleBlock h5 a,
+.footerBottomListItem:hover a,
+.nestedListSubItem:hover a ,
+.socialLinkItem a:hover { color: #bbc0c4; }
+
+.footerBottomListItem a,
+.footerBottomMiddleList p,
+.nestedListSubItem a,
+.socialLinkItem a,
+.licenseDetail p { 
+	color: #848d95; 
+	font-family: "Segoe UI", "Liberation Sans", sans-serif;
+	font-size: 0.7rem;
+}
+
+/* left */
+.footerBottomLeft {display: none;}
+
+
+/* Middle */
+.footerBottomMiddle { flex-wrap: wrap; }
+
+.footerBottomMiddleBlock { padding: 0rem 1.2rem 1rem 0rem; }
+
+.footerBottomMiddleBlock h5 {
+	margin: 0;
+	margin-bottom: 0.5rem;
+	font-family: "Liberation Sans", sans-serif;
+    font-size: 0.75rem;
+}
+
+.footerBottomMiddle ul li { 
+	display: block; 
+	padding-bottom: 0.3rem;
+}
+
+.footerBottomMiddleList p { display: inline-block; }
+
+.footerBottomMiddleList p:hover { color: #f2720c; }
+
+.click { padding-bottom: 0.3rem; }
+
+.footerNext, 
+.footerBack { background-color: #bbc0c4; }
+
+.footerBack { display: none; }
+
+.nestedList { display: none; }
+
+.footerNext {
+	width: 0.7rem;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+    transform: rotate(180deg);
+}
+
+
+/* right */
+
+.footerBottomRight { 
+	height: 100%;
+	flex-direction: column; 
+	justify-content: space-between;
+}
+
+.socialLinks { margin-bottom: 0.5rem; }
+
+.socialLinkItem { margin-right: 0.5rem; }
+
+.socialLinkItem a { font-size: 0.72rem }
+
+.licenseDetail p { 
+	font-size: 0.69rem; 
+	line-height: 1rem;
+    word-spacing: 0.13rem;
+}
+
+
 /* ======================================== Media Query ====================================================*/
 
 
