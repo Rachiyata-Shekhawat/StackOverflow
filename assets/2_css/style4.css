@@ -810,7 +810,10 @@ header {
 
 /* right */
 
-.footerBottomRight { flex-direction: column; }
+.footerBottomRight { 
+	flex-direction: column; 
+	justify-content: space-between;
+}
 
 .socialLinkItem a {
 	font-size: 0.72rem
