@@ -22,6 +22,7 @@ ul li { display: inline-block; }
 	font-family: 'Source Sans Pro',sans-serif;
 	color: #535a60;
 }
+
  p { margin: 0rem; }
 
 .flex { display: flex; }
@@ -62,7 +63,6 @@ header {
 	padding-bottom: 0.2rem;
 	border-bottom: 1px solid #e4e6e8;
 }
-
 
 .headerTopRightNav ul li:nth-child(4) { border-right: 1px solid #e4e6e8; }
 
@@ -123,17 +123,17 @@ header {
 	color: black;
 }
 
-.headerBottomRight button,
-.button {
+.button,
+.headerBottomRight button {
 	padding: 0.5rem 1rem;
 	border: none;
 	border-radius: 0.5rem;
 	background-color: #0095ff;
 }
 
-.headerBottomRight button a,
 .button a,
-.sectionButton { color: white; }
+.sectionButton,
+.headerBottomRight button a { color: white; }
 
 
 /* ======================================== Footer Styling =================================================*/
@@ -178,11 +178,14 @@ header {
 .footerTopBlock:nth-child(3):hover a .footerTopImg { background-image: url('../3_images/0_common/svgexport-25.png'); }
 
 
-.footerTopPara, .footerTopPara strong, .footerTopButton { color: #fff; }
+.footerTopPara, 
+.footerTopButton,
+.footerTopPara strong { color: #fff; }
 
 .footerTopPara { margin: 1.25rem 0rem; }
 
-.footerTopPara, .footerTopPara strong {
+.footerTopPara, 
+.footerTopPara strong {
 	font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -192,9 +195,9 @@ header {
 
 .footerTopButton {
 	padding: 0.7rem 1.5rem;
-	border-radius: 0.2rem;
-	background-color: #f2720c;
 	border-style: none;
+	border-radius: 0.2rem;
+	background-color: #f2720c;	
 }
 
 
@@ -297,41 +300,41 @@ header {
 
 	html { font-size: 14.4px; }
 
-	/* ---------- Footer ----------- */	
-	/* footer-bottom */
-	.footerBottom { padding: 1.5rem 1rem; }
+	/* ------------ Footer ------------- */	
+		/* -- footerBottom section -- */
+		.footerBottom { padding: 1.5rem 1rem; }
 
-	.footerBottom1 { display: flex; }
+		.footerBottom1 { display: flex; }
 
-	.footerBottomLeft {
-		display: block;
-		width: 4rem;
-	}
+		.footerBottomLeft {
+			width: 4rem;
+			display: block;
+		}
 
-	.footerBottomMiddle {
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
+		.footerBottomMiddle {
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
 
-	.footerBottomMiddleBlock { padding: 0rem 0.5rem 1rem 0rem; }
+		.footerBottomMiddleBlock { padding: 0rem 0.5rem 1rem 0rem; }
 
-	.footerBottomMiddleBlock:nth-child(1) { width: 170px; }
+		.footerBottomMiddleBlock:nth-child(1) { width: 170px; }
 
-	.footerBottomMiddleBlock:nth-child(2) { width: 114px; }
+		.footerBottomMiddleBlock:nth-child(2) { width: 114px; }
 
-	.footerBottomMiddleBlock:nth-child(3) { width: 120px; }
+		.footerBottomMiddleBlock:nth-child(3) { width: 120px; }
 
-	.footerBottomMiddleBlock h5 { 
-		margin-bottom: 1rem;
-		font-size: 0.8rem; 
-	}
+		.footerBottomMiddleBlock h5 { 
+			margin-bottom: 1rem;
+			font-size: 0.8rem; 
+		}
 
-	.click,
-	.footerBottomMiddle ul li { padding-bottom: 0.5rem; }
+		.click,
+		.footerBottomMiddle ul li { padding-bottom: 0.5rem; }
 
-	.footerBottomListItem a, 
-	.footerBottomMiddleList p, 
-	.nestedListSubItem a { font-size: 0.79rem; }
+		.footerBottomListItem a, 
+		.footerBottomMiddleList p, 
+		.nestedListSubItem a { font-size: 0.79rem; }
 }
 
 
@@ -339,87 +342,87 @@ header {
 
 	html { font-size: 14.7px; }
 
-	/* ---------- Header ----------- */	
-	/*  Header Top */
+	/* ------------ Header ------------- */	
+		/* ---- headerTop section --- */
 
-	.headerTop { padding: 1rem 2rem; }
+		.headerTop { padding: 1rem 2rem; }
 
-	.headerTopLeftNav ul li:nth-child(3),
-	.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
+		.headerTopLeftNav ul li:nth-child(3),
+		.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
 
-	.headerTopLeftNav ul li:nth-child(2), 
-	.headerTopLeftNav ul li:nth-child(3), 
-	.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.4rem 0.2rem 0.4rem; }
+		.headerTopLeftNav ul li:nth-child(2), 
+		.headerTopLeftNav ul li:nth-child(3), 
+		.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.4rem 0.2rem 0.4rem; }
 
-	.headerTopRightNav ul li:nth-child(2), 
-	.headerTopRightNav ul li:nth-child(3), 
-	.headerTopRightNav ul li:nth-child(4), 
-	.headerTopRightNav ul li:nth-child(5 ) { padding-left: 0.4rem; }
-	
-	
-	/* Header Bottom */
-	.headerBottom { 
-		padding: 1rem 2rem;
-		flex-direction: row; 
-	}
+		.headerTopRightNav ul li:nth-child(2), 
+		.headerTopRightNav ul li:nth-child(3), 
+		.headerTopRightNav ul li:nth-child(4), 
+		.headerTopRightNav ul li:nth-child(5 ) { padding-left: 0.4rem; }
+		
+		
+		/* -- headerBottom section -- */
+		.headerBottom { 
+			padding: 1rem 2rem;
+			flex-direction: row; 
+		}
 
-	.headerBottomLeftNav { width: 60%; }
-
-
-	.headerBottomRight { 
-		padding-top: 0rem;
-		border: none;
-		align-self: center; 
-	}
-
-	.takeTour { height: 2rem; }
+		.headerBottomLeftNav { width: 60%; }
 
 
-	/*------------ Footer -------------*/
-	.footerTop {
-		padding: 4rem 3rem;
-		flex-direction: row;
-    	justify-content: space-around;
-	}
+		.headerBottomRight { 
+			padding-top: 0rem;
+			border: none;
+			align-self: center; 
+		}
 
-	.footerTopBlock {
-		width: 287px;
-		height: 224px;
-		text-align: left;
-	}
-
-	.footerTopBlock a {
-		height: 100%;
-		display: flex;
-    	flex-direction: column;
-    	justify-content: flex-start;
-	}
-
-	.footerTopImg { margin: 0; }
-
-	.footerTopButton { 
-		width: 38%; 
-		align-self: end; 
-	}
-
-	.footerTopBlock:nth-child(2), 
-	.footerTopBlock:nth-child(3) { margin: 0; }
-
-	.footerTopBlock:nth-child(1) a .footerTopButton { width: 109px; }
-
-	.footerTopBlock:nth-child(2) a .footerTopButton { width: 118px; }
-
-	.footerTopBlock:nth-child(3) a .footerTopButton { width: 130px; }
+		.takeTour { height: 2rem; }
 
 
+	/* ------------ Footer ------------- */
+		/* -- footerTop section ----- */
+		.footerTop {
+			padding: 4rem 3rem;
+			flex-direction: row;
+	    	justify-content: space-around;
+		}
+
+		.footerTopBlock {
+			width: 287px;
+			height: 224px;
+			text-align: left;
+		}
+
+		.footerTopBlock a {
+			height: 100%;
+			display: flex;
+	    	flex-direction: column;
+	    	justify-content: flex-start;
+		}
+
+		.footerTopImg { margin: 0; }
+
+		.footerTopButton { 
+			width: 38%; 
+			align-self: end; 
+		}
+
+		.footerTopBlock:nth-child(2), 
+		.footerTopBlock:nth-child(3) { margin: 0; }
+
+		.footerTopBlock:nth-child(1) a .footerTopButton { width: 109px; }
+
+		.footerTopBlock:nth-child(2) a .footerTopButton { width: 118px; }
+
+		.footerTopBlock:nth-child(3) a .footerTopButton { width: 130px; }
 
 }
 
 
 @media only screen and (min-width: 733px) and (max-width: 942px) {
 
-	/* footer top */
-	.footerTopPara { height: 68px; }
+	/* ------------ Footer ------------- */
+		/* -- footerTop section ----- */
+		.footerTopPara { height: 68px; }
 }
 
 
@@ -432,22 +435,23 @@ header {
 
 @media only screen and (min-width: 766px) {
 	
-	/* footer-bottom */
-	.footerBottom { 
-		flex-direction: row; 
-		justify-content: space-between;
-	}
+	/* ------------ Footer ------------- */
+		/* -- footerBottom section -- */
+		.footerBottom { 
+			flex-direction: row; 
+			justify-content: space-between;
+		}
 
-	.footerBottom1 { flex-grow: 1; }
+		.footerBottom1 { flex-grow: 1; }
 
-	.footerBottom2 { width: 314px; }
+		.footerBottom2 { width: 314px; }
 
-	.footerBottomMiddle {
-		justify-content: space-between;
-    	flex-grow: 1;
-	}
+		.footerBottomMiddle {
+			justify-content: space-between;
+	    	flex-grow: 1;
+		}
 
-	.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
+		.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
 }
 
 /* Laptop breakpoint */
@@ -455,21 +459,21 @@ header {
 
 	html { font-size:15.2px; }
 
-	/* ---------- Header ---------- */
+	/* ------------- Main -------------- */
 	
 	header { background-size: 92rem 7rem; }
 
 	
-	/*  Header Top */
-	
-	.headerTopRightNav ul li:nth-child(1),
-	.headerTopRightNav ul li:nth-child(2),
-	.headerTopRightNav ul li:nth-child(3),
-	.headerTopRightNav ul li:nth-child(4) { 
-		padding-left: 0rem;
-		padding-right: 1rem;
-		display: inline-block; 
-	}
+		/* ---- headerTop section --- */
+		
+		.headerTopRightNav ul li:nth-child(1),
+		.headerTopRightNav ul li:nth-child(2),
+		.headerTopRightNav ul li:nth-child(3),
+		.headerTopRightNav ul li:nth-child(4) { 
+			padding-left: 0rem;
+			padding-right: 1rem;
+			display: inline-block; 
+		}
 
 }
 
@@ -494,13 +498,15 @@ header {
 
 
 @media only screen and (min-width: 1332px) {
-	
-	/* footer-bottom */
+
+	/* ------------ Header ------------- */
+	.headerTop,
+	.headerBottom { padding: 1rem 7rem; }
+
+
+	/* ------------ Footer ------------- */
 	.footerBottom { 
 		padding: 1.5rem 5rem;
 	}
-
-	.headerTop,
-	.headerBottom { padding: 1rem 7rem; }
 
 }
