@@ -321,7 +321,7 @@ header {
 
 	.footerBottomMiddleBlock h5 { 
 		margin-bottom: 1rem;
-		font-size: 0.85rem; 
+		font-size: 0.8rem; 
 	}
 
 	.click,
@@ -329,7 +329,7 @@ header {
 
 	.footerBottomListItem a, 
 	.footerBottomMiddleList p, 
-	.nestedListSubItem a { font-size: 0.85rem; }
+	.nestedListSubItem a { font-size: 0.79rem; }
 }
 
 
