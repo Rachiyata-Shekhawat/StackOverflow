@@ -1,0 +1,28 @@
+/* ======================================== Common Styling =================================================*/
+
+html { 
+	/*font-size: 14.3px; */
+	font-size: 15px; 
+
+}
+
+a{ 
+	text-decoration: none; 
+	cursor: pointer;
+}
+
+ul {
+	padding: 0rem;
+	margin: 0rem;
+}
+
+ul li { display: inline-block; }
+
+* { 
+	box-sizing: border-box; 
+	font-family: 'Source Sans Pro',sans-serif;
+	color: #535a60;
+}
+ p { margin: 0rem; }
+
+.flex { display: flex; }
