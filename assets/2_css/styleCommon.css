@@ -498,4 +498,7 @@ header {
 		padding: 1.5rem 5rem;
 	}
 
+	.headerTop,
+	.headerBottom { padding: 1rem 7rem; }
+
 }
