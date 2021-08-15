@@ -304,27 +304,25 @@ header {
 .product { padding: 3.5rem 0rem; }
 
 .heading { 
-	/*display: flex;*/
-	/*justify-content: center;*/
+	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center; 
-	flex-wrap: nowrap;
 }
 
-.headingLine, .headingHeading {
+.headingLine, 
+.headingHeading {
 	margin: 0; 
 	display: inline-block; 
 }
 
 .headingLine {
-	border-style: none;
 	width: 22%;
 	height: 0.1px;
+	border-style: none;
 	background-color: #eff0f1;
 }
 
 .headingHeading {
-	/*margin: 0rem 1.3rem;*/
 	font-family: "Roboto Slab Bold", serif;
 	font-size: 1.3rem;
 	color: #2f3337;
@@ -332,37 +330,28 @@ header {
 
 .productContent { 
 	padding: 2rem 0rem;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .productBlock {
 	width: 85%;
-	/*padding: 2rem 0rem 2rem 2rem;*/
 	padding: 0.5rem 0rem;
-	margin-bottom: 2rem;
 	border-radius: 0.5rem;
+	margin-bottom: 2rem;
 	background-color: #f2f9ff;
 }
 
 .productBlock:hover { background-color: #cfeafe; }
 
-/*.productBlock .flex {
-	justify-content: space-between;
-	flex-wrap: nowrap;
-}*/
-
 .productBlockMain {
 	width: 100%;
-	padding: 1rem 1.5rem;
-	
+	padding: 1rem 1.5rem;	
 } 
 
 .productBlockFull .productBlockMain { width: 100%; }
 
-.productBlockFull {
-	text-align: center;
-}
+.productBlockFull { text-align: center; }
 
 .productLogoImage { margin-bottom: 0.4rem; }
 
@@ -377,8 +366,8 @@ header {
 	margin: 0.5rem 0rem 1.5rem 0rem;
 	font-family: "Segoe UI", "Liberation Sans", sans-serif;
 	font-size: 1.05rem;
+	line-height: 1.5rem;
 	color: #3c4146;
-	line-height: 1.5rem
 }
 
 .sectionButton,
@@ -387,14 +376,7 @@ header {
 	font-size: 0.9rem; 
 }
 
-.product button {
-	cursor: pointer;
-}
-
-/*.productSideImage {
-	display: none;
-	width: 50%;
-}*/
+.product button { cursor: pointer; }
 
 
 /* ------ Investor Section --------*/
