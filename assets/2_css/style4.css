@@ -812,7 +812,11 @@ header {
 
 .footerBottomRight { flex-direction: column; }
 
+.socialLinkItem a {
+	font-size: 0.72rem
+}
 
+.licenseDetail p { font-size: 0.69rem; }
 
 
 /* ======================================== Footer Styling =================================================*/
