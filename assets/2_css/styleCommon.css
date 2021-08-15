@@ -1,8 +1,8 @@
 /* ======================================== Common Styling =================================================*/
 
 html { 
-	/*font-size: 14.3px; */
-	font-size: 15px; 
+	font-size: 14.2px; 
+	/*font-size: 15px; */
 
 }
 
@@ -26,3 +26,130 @@ ul li { display: inline-block; }
  p { margin: 0rem; }
 
 .flex { display: flex; }
+
+/* ======================================== Header Styling =================================================*/
+
+/* ------ Header Top --------------*/
+
+header {
+	background-image: url("../3_images/0_common/bg-nav.png");
+	background-size: 51rem 7rem;
+	background-repeat: no-repeat;	
+
+	font-size: 0.9rem;
+}
+
+
+
+.headerTop {
+	padding: 1rem 0.9rem;
+	border-bottom: 1px solid #e4e6e8;
+	/*display: flex;*/
+	justify-content: flex-start;
+	align-items: flex-end;	
+}
+
+.logo { width: 4rem; }
+
+.headerTopLeftNav {
+	/*width: 40%; */
+	flex-grow: 2;
+}
+
+.headerTopRightNav ul li { padding-bottom: 0.2rem; }
+
+.headerTopLeftNav ul li:nth-child(2),
+.headerTopLeftNav ul li:nth-child(3),
+.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.5rem 0.2rem 0.5rem; }
+
+.headerTopLeftNav ul li:nth-child(1) {
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #e4e6e8;
+}
+
+
+.headerTopRightNav ul li:nth-child(4) {
+	border-right: 1px solid #e4e6e8;
+	/*padding-right: 0.5rem;*/
+}
+
+.headerTopRightNav ul li:nth-child(2),
+.headerTopRightNav ul li:nth-child(3),
+.headerTopRightNav ul li:nth-child(4), 
+.headerTopRightNav ul li:nth-child(5	) { padding-left: 1rem; }
+
+.headerTopLeftNav ul li:nth-child(3),
+.headerTopLeftNav ul li:nth-child(4),
+.headerTopRightNav ul li:nth-child(1),
+.headerTopRightNav ul li:nth-child(2),
+.headerTopRightNav ul li:nth-child(3),
+.headerTopRightNav ul li:nth-child(4) { display: none; }
+
+
+/* ------ Header Bottom -----------*/
+
+.headerBottom {
+	padding: 1rem 1rem;
+	/*display: flex;*/
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.headerBottomLeftNav {
+	/*display: flex;*/
+	justify-content: flex-start;
+	/*flex-shrink: 3;
+    flex-wrap: wrap;*/	
+}
+
+
+.headerBottomLeftNav ul li {	
+	padding: 0.5rem 0.5rem;
+	border-radius: 2rem;
+	margin: 0.5rem 0rem;
+}
+
+/* applied ACTIVE class here - refer below code */
+/*.headerBottomLeftNav ul li:nth-child(1) { background-color: hsl(27deg 90% 53%); }*/
+
+.active { background-color: hsl(27deg 90% 53%); } 
+
+.headerBottomLeftNav ul li:hover {
+	padding: 0.5rem 0.5rem;
+	border-radius: 2rem;
+	background-color: #e4e6e8;
+	color: black;
+}
+
+.headerBottomLeftNav ul li a { color: #535a60; }
+
+/* applied ACTIVE class here - refer below code */
+/*.headerBottomLeftNav ul li:nth-child(1) a { color: white; } */
+
+.headerBottomLeftNav ul .active a { color: white; } 
+
+.headerBottomRight {
+	border-top: 1px solid #e4e6e8;
+	padding-top: 1rem;
+	/*display: flex;*/
+	justify-content: flex-end;
+}
+
+.headerBottomRight span {
+	margin-right: 1rem;
+	/*display: flex;*/
+	align-items: center;
+	color: black;
+}
+
+.headerBottomRight button,
+.button {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	background-color: #0095ff;
+}
+
+.headerBottomRight button a,
+.button a,
+.sectionButton { color: white; }
