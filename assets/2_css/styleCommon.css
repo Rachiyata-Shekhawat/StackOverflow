@@ -48,6 +48,8 @@ header {
 
 .logo { width: 4rem; }
 
+.logo a img { width: 1.55rem; }
+
 .headerTopLeftNav { flex-grow: 2; }
 
 .headerTopRightNav ul li { padding-bottom: 0.2rem; }
