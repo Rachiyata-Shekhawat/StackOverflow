@@ -1,3 +1,19 @@
+/* ======================================= Common Styling =================================================*/
+.mainTopHeading,
+.mainBottomHeading { 
+	font-family: "Roboto Slab", serif; 
+	color: #242729;
+}
+
+
+.mainTopPara,
+.mainTopPara a,
+.mainBottomPara,
+.checkList li span { 
+	font-family: "Source Sans Pro", sans-serif; 
+	color: #242729;
+}
+
 /* ======================================== Main Styling =================================================*/
 
 main {}
