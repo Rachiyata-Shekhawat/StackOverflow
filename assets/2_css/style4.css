@@ -815,11 +815,19 @@ header {
 	justify-content: space-between;
 }
 
+.socialLinks { margin-bottom: 0.5rem; }
+
+.socialLinkItem { margin-right: 0.5rem; }
+
 .socialLinkItem a {
 	font-size: 0.72rem
 }
 
-.licenseDetail p { font-size: 0.69rem; }
+.licenseDetail p { 
+	font-size: 0.69rem; 
+	line-height: 1rem;
+    word-spacing: 0.13rem;
+}
 
 
 /* ======================================== Footer Styling =================================================*/
