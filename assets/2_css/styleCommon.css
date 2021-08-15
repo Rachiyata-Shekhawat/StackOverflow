@@ -105,6 +105,8 @@ header {
 	color: black;
 }
 
+.headerBottomLeftNav ul li:nth-child(7):hover { background-color: hsl(27deg 90% 53%); }
+
 .headerBottomLeftNav ul li a { color: #535a60; }
 
 .headerBottomLeftNav ul .active a { color: white; } 
