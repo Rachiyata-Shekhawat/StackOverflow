@@ -1150,7 +1150,23 @@ header {
 
 @media only screen and (min-width: 766px) {
 	/*footer-bottom*/
-	.footerBottom { flex-direction: row; }
+	.footerBottom { 
+		flex-direction: row; 
+		justify-content: space-between;
+	}
+
+	.footerBottom1 { flex-grow: 1; }
+
+	.footerBottom2 { width: 314px; }
+
+	.footerBottomMiddle {
+		    justify-content: space-between;
+    flex-grow: 1;
+	}
+
+	/*.footerBottomMiddleBlock { width: ; }*/
+
+	.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
 }
 
 /* Laptop breakpoint */
