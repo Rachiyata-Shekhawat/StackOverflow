@@ -153,3 +153,210 @@ header {
 .headerBottomRight button a,
 .button a,
 .sectionButton { color: white; }
+
+
+/* ======================================== Media Query ====================================================*/
+
+
+@media only screen and (min-width: 483px) and (max-width: 732px) {
+
+}
+
+
+@media only screen and (min-width: 577px) {
+
+	html { font-size: 14.4px; }
+
+	/*footer-bottom*/
+	.footerBottom { padding: 1.5rem 1rem; }
+
+	.footerBottom1 { display: flex; }
+
+	.footerBottomLeft {
+		display: block;
+		width: 4rem;
+	}
+
+	.footerBottomMiddle {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.footerBottomMiddleBlock { padding: 0rem 0.5rem 1rem 0rem; }
+
+	.footerBottomMiddleBlock:nth-child(1) { width: 170px; }
+
+	.footerBottomMiddleBlock:nth-child(2) { width: 114px; }
+
+	.footerBottomMiddleBlock:nth-child(3) { width: 120px; }
+
+	.footerBottomMiddleBlock h5 { 
+		font-size: 0.85rem; 
+		margin-bottom: 1rem;
+	}
+
+	.footerBottomMiddle ul li, .click { padding-bottom: 0.5rem; }
+
+	.footerBottomListItem a, 
+	.footerBottomMiddleList p, 
+	.nestedListSubItem a { font-size: 0.85rem; }
+}
+
+
+@media only screen and (min-width: 733px) {
+
+	html { font-size: 14.7px; }
+
+	/* ---------- Header ----------- 535 */	
+	/*  Header Top */
+
+	.headerTop { padding: 1rem 2rem; }
+
+	.headerTopLeftNav ul li:nth-child(3),
+	.headerTopLeftNav ul li:nth-child(4) { display: inline-block; }
+
+	.headerTopLeftNav ul li:nth-child(2), 
+	.headerTopLeftNav ul li:nth-child(3), 
+	.headerTopLeftNav ul li:nth-child(4) { padding: 0rem 0.4rem 0.2rem 0.4rem; }
+
+	.headerTopRightNav ul li:nth-child(2), 
+	.headerTopRightNav ul li:nth-child(3), 
+	.headerTopRightNav ul li:nth-child(4), 
+	.headerTopRightNav ul li:nth-child(5 ) { padding-left: 0.4rem; }
+	
+	
+	/* Header Bottom */
+	.headerBottom { 
+		padding: 1rem 2rem;
+		flex-direction: row; 
+	}
+
+	.headerBottomLeftNav { width: 60%; }
+
+
+	.headerBottomRight { 
+		padding-top: 0rem;
+		border: none;
+		align-self: center; 
+	}
+
+	.takeTour { height: 2rem; }
+
+
+	/*------------ Footer -------------*/
+	.footerTop {
+		flex-direction: row;
+    padding: 4rem 3rem;
+    justify-content: space-around;
+	}
+
+	.footerTopBlock {
+		width: 	25%;
+		width: 287px;
+		height: 13rem;
+		height: 224px;
+		    text-align: left;
+	}
+
+	.footerTopBlock a {
+		display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+	
+	}
+
+	.footerTopImg { margin: 0; }
+
+	.footerTopButton { width: 	38%; align-self: end; }
+
+	.footerTopBlock:nth-child(2), .footerTopBlock:nth-child(3) { margin: 0; }
+
+	.footerTopBlock:nth-child(1) a .footerTopButton { width: 109px; }
+
+	.footerTopBlock:nth-child(2) a .footerTopButton { width: 118px; }
+
+	.footerTopBlock:nth-child(3) a .footerTopButton { width: 130px; }
+
+
+
+}
+
+@media only screen and (min-width: 733px) and (max-width: 942px) {
+
+	/*footer top */
+	.footerTopPara { height: 68px; }
+}
+
+@media only screen and (min-width: 991px) {
+	
+}
+
+@media only screen and (min-width: 766px) {
+	/*footer-bottom*/
+	.footerBottom { 
+		flex-direction: row; 
+		justify-content: space-between;
+	}
+
+	.footerBottom1 { flex-grow: 1; }
+
+	.footerBottom2 { width: 314px; }
+
+	.footerBottomMiddle {
+		    justify-content: space-between;
+    flex-grow: 1;
+	}
+
+	/*.footerBottomMiddleBlock { width: ; }*/
+
+	.footerBottomMiddleBlock:nth-child(4) { padding-right: 4rem; }
+}
+
+/* Laptop breakpoint */
+@media only screen and (min-width: 1024px) {
+
+	html { font-size:15.2px; }
+
+	/* ---------- Header ----------768- */
+	
+	header { background-size: 92rem 7rem; }
+
+	
+	/*  Header Top */
+	
+	.headerTopRightNav ul li:nth-child(1),
+	.headerTopRightNav ul li:nth-child(2),
+	.headerTopRightNav ul li:nth-child(3),
+	.headerTopRightNav ul li:nth-child(4) { 
+		display: inline-block; 
+		padding-left: 0rem;
+		padding-right: 1rem;
+	}
+
+
+}
+
+@media only screen and (min-width: 1095px)  {
+
+
+}
+
+@media only screen and (min-width: 1187px) {
+
+
+}
+
+@media only screen and (min-width: 1330px) {
+	
+}
+
+@media only screen and (min-width: 1332px) {
+	
+
+	/*footer-bottom*/
+	.footerBottom { 
+		padding: 1.5rem 5rem;
+	}
+
+}
