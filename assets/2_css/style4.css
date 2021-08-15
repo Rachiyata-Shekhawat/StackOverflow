@@ -236,10 +236,8 @@ header {
 /* ------ History Section ---------*/
 
 .history { 
-	/*padding: 2rem; */
 	padding: 4rem 3rem;
 	padding-bottom: 0rem;
-	/*display: flex;*/
     flex-direction: column-reverse;
     align-items: center;
 	font-family: "Segoe UI", "Liberation Sans", sans-serif !important;
@@ -250,8 +248,6 @@ header {
 
 .historyAward {
 	margin: 2rem 0rem;
-	/*padding: 0rem 2rem;*/ /* this is giving horizontal scroll*/
-	/*display: flex;*/
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -259,7 +255,6 @@ header {
 
 .award {
 	width: 20rem;
-	/*margin: 1.5rem;*/ /* this is giving horizontal scroll*/
 	margin: 1.5rem 0rem;
 	text-align: center;
 }
@@ -268,24 +263,21 @@ header {
 	padding-top: 1rem; 
 	font-family: "Segoe UI", "Liberation Sans", sans-serif;
 	font-size: 0.9rem;
-	color: #6a737c;
 	line-height: 1.3rem;
+	color: #6a737c;
 }
 
 .award3 img { width: 5rem; }
 
-.history strong { /*display: block;*/ }
-
 
 /*** historyContent ***/
 
+.blueText ,
 .historyContent p,
-.historyContent strong,
-.blueText {
+.historyContent strong {
 	font-family: "Segoe UI", "Liberation Sans", sans-serif !important;
     font-size: 1.1rem;
-    line-height: 1.7rem;
-	
+    line-height: 1.7rem;	
 }
 
 .historyContent p { margin: 1rem 0rem; }
@@ -302,14 +294,10 @@ header {
 	border: 1px solid #eff0fac1;
 	border-top: none;
 	border-radius: 7px;
-	/*box-shadow: 0rem 4rem 3rem 1rem #e4e6e8;*/
 	box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
 				0 100px 80px rgb(0 0 0 / 7%);
 }
 
-/*.sectionFlex {
-	flex-wrap: wrap;
-}*/
 
 /* ------ Product Section ---------*/
 
