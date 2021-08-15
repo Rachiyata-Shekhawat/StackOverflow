@@ -936,9 +936,9 @@ header {
 
 	.footerBottomListItem a, 
 	.footerBottomMiddleList p, 
-	.nestedListSubItem a, 
-	.socialLinkItem a, 
-	.licenseDetail p { font-size: 0.85rem;	 }
+	.nestedListSubItem a
+	/*.socialLinkItem a, 
+	.licenseDetail p*/ { font-size: 0.85rem; }
 }
 
 
