@@ -47,12 +47,12 @@ main {
 	padding: 0rem 0.1rem;
     font-size: 1rem;
 }
-}
+
 
 /* ------ Main Bottom -----------*/
 
 .mainBottom {
-	padding-top: 4rem;
+	padding: 2.5rem 0.3rem 0rem 0.3rem;
 }
 
 .mainBottom1,
@@ -60,9 +60,15 @@ main {
 .mainBottom3,
 .mainBottom4 {}
 
-.mainBottomHeading {}
+.mainBottomHeading {
+	font-size: 1.4rem;
+    font-weight: 400;
+}
 
-.mainBottomPara {}
+.mainBottomPara { 
+	font-size: 1rem; 
+	line-height: 1.3rem;
+}
 
 .checkList {}
 
