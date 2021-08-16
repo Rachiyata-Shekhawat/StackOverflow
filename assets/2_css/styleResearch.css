@@ -73,9 +73,16 @@ main {
 	line-height: 1.3rem;
 }
 
-.checkList {}
+.checkList {
+	padding: 1rem 2rem;
+	margin-bottom: 2rem;
+    background-color: #fafafb;
+}
 
-.checkList li {}
+.checkList li {
+	padding: 1rem 0rem;
+    border-bottom: 1px solid #e4e6e8;
+}
 
 .checkList li img {}
 
