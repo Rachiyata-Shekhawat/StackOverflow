@@ -21,6 +21,7 @@ main {
 	border: 1px solid #eff0fac1;
 	border-top: 0px;
 	border-radius: 7px;
+	margin: 0 auto;
     margin-bottom: 3.5rem;
     box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 0 100px 80px rgb(0 0 0 / 7%);
 }
@@ -179,5 +180,27 @@ main {
 	/* ------ Main Bottom -----------*/
 		
 		.mainBottom { width: 665px 	; }
+
+}
+
+@media only screen and (min-width: 1360px) {
+
+	/* ------ body --------------*/
+		body {
+			background-image: url(../3_images/0_common/bg-nav.png);
+			background-repeat: no-repeat;
+			background-size: 100% 15rem;	
+		}
+
+	/* ------ header --------------*/
+		header { background: none; }
+
+	/* ------ main --------------*/
+		
+		main {
+			width: 1337px;
+			border-top: 1px solid #eff0fac1;
+			background-color: white;
+		}
 
 }
