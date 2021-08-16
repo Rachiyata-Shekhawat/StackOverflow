@@ -21,7 +21,11 @@ main {
 }
 /* ------ Main Top --------------*/
 
-.mainTop { text-align: center; }
+.mainTop { 
+	padding-bottom: 4rem;
+    border-bottom: 1px solid #eff0f1;
+	text-align: center; 
+}
 
 .heartImg { margin: 0 auto; }
 
@@ -47,7 +51,9 @@ main {
 
 /* ------ Main Bottom -----------*/
 
-.mainBottom {}
+.mainBottom {
+	padding-top: 4rem;
+}
 
 .mainBottom1,
 .mainBottom2,
