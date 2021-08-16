@@ -265,7 +265,11 @@ header {
 
 .footerNext:hover { background-color: #bbc0c4; }
 
-.footerBack { display: none; }
+.footerBack { 
+    height: 20px;
+    margin-right: 2rem;
+	display: none; 
+}
 
 .nestedList { display: none; }
 
