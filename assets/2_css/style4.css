@@ -679,14 +679,24 @@ header {
 	display: block; 
 }
 
-.footerBottomMiddleList p { display: inline-block; }
+.footerBottomMiddleList p { 
+	padding-right: 0.3rem;
+	display: inline-block; 
+}
 
-.footerBottomMiddleList p:hover { color: #f2720c; }
+.footerBottomMiddleList .click:hover p { color: #bbc0c4; }
 
-.click { padding-bottom: 0.3rem; }
+.footerBottomMiddleList .click:hover .footerNext { background-color: #bbc0c4; }
+
+.click { 
+	padding-bottom: 0.3rem; 
+	cursor: pointer;
+}
 
 .footerNext, 
-.footerBack { background-color: #bbc0c4; }
+.footerBack { background-color: #848d95; }
+
+.footerNext:hover { background-color: #bbc0c4; }
 
 .footerBack { display: none; }
 
