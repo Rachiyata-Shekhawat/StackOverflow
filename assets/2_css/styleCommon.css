@@ -263,8 +263,7 @@ header {
 .footerNext, 
 .footerBack { background-color: #848d95; }
 
-.footerNext:hover, 
-.footerBack:hover { background-color: #bbc0c4; }
+.footerNext:hover { background-color: #bbc0c4; }
 
 .footerBack { display: none; }
 
