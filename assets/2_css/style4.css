@@ -33,7 +33,7 @@ ul li { display: inline-block; }
 
 header {
 	background-image: url("../3_images/0_common/bg-nav.png");
-	background-size: 51rem 7rem;
+	background-size: 100% 7rem;
 	background-repeat: no-repeat;	
 	font-size: 0.9rem;
 }
@@ -1038,7 +1038,7 @@ header {
 
 	/* ------------ Header ------------- */
 	
-	header { background-size: 92rem 7rem; }
+	header { background-size: 100% 7rem; }
 
 
 		/* ---- headerTop section --- */
