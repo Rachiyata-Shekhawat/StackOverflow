@@ -335,7 +335,7 @@
 
 					<!-- STACK EXCHANGE NETWORK starts here -->
 					<div class="footerBottomMiddleBlock  footerBottomShow">
-						<img src="../3_images/0_common/svgexport-20.png" alt="Back" class="footerBack" onclick="clickBack()">
+						<img src="../3_images/0_common/svgexport-20.png" alt="Back" class="footerBack" id="back" onclick="clickBack()">
 						<h5>
 							<a href="https://stackexchange.com/">STACK EXCHANGE<br>NETWORK</a>
 						</h5>
@@ -511,6 +511,10 @@
 
 			m.style.color = "#f2720c";
 
+			var back = document.getElementById("back");
+
+			back.style.display = "block";
+			console.log(back.style.display);
 
 			if (a.style.display === "block") {
 				a.style.display = "none";
@@ -557,14 +561,14 @@
 			g.style.display = "none";
 
 			var r = document.getElementById("nestedList1").textContent;
-			console.log(r);
+			//console.log(r);
 
 			if (f.style.display === "none") {
 				f.style.display = "block";
-				console.log(f.style.display);
+				//console.log(f.style.display);
 			} else {
 				f.style.display = "none";
-				console.log(f.style.display);
+				//console.log(f.style.display);
 			}
 		}
 
