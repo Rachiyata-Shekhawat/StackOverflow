@@ -128,41 +128,6 @@
 
 	<!-- footer of the page STARTS here-->
 	<footer>
-		
-		<!-- footer top STARTS here -->
-		<div class="footerTop flex">
-			<div class="question footerTopBlock">
-				<a href="https://stackoverflow.com/help">
-					<div class="footerTopImg"></div>
-					<p class="footerTopPara">
-						Check out our
-						<strong> FAQ about how Stack Overflow works.</strong>
-					</p>
-					<button class="footerTopButton">Get help</button>
-				</a>
-			</div>
-			<div class="feedback footerTopBlock">
-				<a href="https://meta.stackoverflow.com/">
-					<div class="footerTopImg"></div>
-					<p class="footerTopPara">
-						To share
-						<strong> feedback about our platform, please visit our meta community.</strong>
-					</p>
-					<button class="footerTopButton">Visit Meta</button>
-				</a>
-			</div>
-			<div class="team footerTopBlock">
-				<a href="https://stackoverflow.help/en/">
-					<div class="footerTopImg"></div>
-					<p class="footerTopPara">
-						Looking for help with 
-						<strong> Stack Overflow for Teams?</strong>
-					</p>
-					<button class="footerTopButton">Teams help</button>
-				</a>
-			</div>
-		</div>
-		<!-- footer top ENDS here -->
 
 		<!-- footer bottom STARTS here -->
 		<div class="footerBottom flex">
@@ -271,130 +236,134 @@
 					<!-- COMPANY ends here -->
 
 					<!-- STACK EXCHANGE NETWORK starts here -->
-					<div class="footerBottomMiddleBlock  footerBottomShow">
-						<img src="../3_images/0_common/svgexport-20.png" alt="Back" class="footerBack" onclick="clickBack()">
-						<h5>
-							<a href="https://stackexchange.com/">STACK EXCHANGE<br>NETWORK</a>
-						</h5>
-						<div class="footerBottomMiddleList">
-							<div class="technology">
-								<div class="click" onclick="clickListItem1()">
-									<p class="technologyList" id="textColor1">Technology</p>
-									<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+					<div class="footerBottomMiddleBlock  footerBottomShow flex">
+						<img src="../3_images/0_common/svgexport-20.png" alt="Back" class="footerBack" id="back" onclick="clickBack()">
+
+						<div class="footerBottomMiddleBlockMain">
+							<h5>
+								<a href="https://stackexchange.com/">STACK EXCHANGE<br>NETWORK</a>
+							</h5>
+							<div class="footerBottomMiddleList">
+								<div class="technology">
+									<div class="click" onclick="clickListItem1()">
+										<p class="technologyList" id="textColor1">Technology</p>
+										<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+									</div>
+									
+									<div class="nestedList flex" id="nestedList1">
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://stackoverflow.com/">Stack Overflow</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://serverfault.com/">Server Fault</a>
+											</li>
+										</ul>
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://tex.stackexchange.com/">TeX - LaTeX</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://softwareengineering.stackexchange.com/">Software Engineering</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-								
-								<div class="nestedList flex" id="nestedList1">
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://stackoverflow.com/">Stack Overflow</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://serverfault.com/">Server Fault</a>
-										</li>
-									</ul>
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://tex.stackexchange.com/">TeX - LaTeX</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://softwareengineering.stackexchange.com/">Software Engineering</a>
-										</li>
-									</ul>
+								<div class="lifeArts">
+									<div class="click" onclick="clickListItem1()">
+										<p class="lifeArtsList">Life / Arts</p>
+										<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+									</div>
+									
+									<div class="nestedList" id="nestedList2">
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://photo.stackexchange.com/">Photography</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://scifi.stackexchange.com/">Science Fiction & Fantasy</a>
+											</li>
+										</ul>
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://cooking.stackexchange.com/">Seasoned Advice (cooking)</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://diy.stackexchange.com/">Home Improvement</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-							</div>
-							<div class="lifeArts">
-								<div class="click" onclick="clickListItem1()">
-									<p class="lifeArtsList">Life / Arts</p>
-									<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+								<div class="cultureRecreation">
+									<div class="click" onclick="clickListItem()">
+										<p class="cultureRecreationList">Culture / Recreation</p>
+										<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+									</div>
+									
+									<div class="nestedList">
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://english.stackexchange.com/">English Language & Usage</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://skeptics.stackexchange.com/">Skeptics</a>
+											</li>
+										</ul>
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://chinese.stackexchange.com/">Chinese Language</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://french.stackexchange.com/">Frenh Language</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-								
-								<div class="nestedList" id="nestedList2">
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://photo.stackexchange.com/">Photography</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://scifi.stackexchange.com/">Science Fiction & Fantasy</a>
-										</li>
-									</ul>
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://cooking.stackexchange.com/">Seasoned Advice (cooking)</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://diy.stackexchange.com/">Home Improvement</a>
-										</li>
-									</ul>
+								<div class="science">
+									<div class="click" onclick="clickListItem()">
+										<p class="scienceList">Science</p>
+										<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+									</div>
+									
+									<div class="nestedList">
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://mathoverflow.net/">MathOverflow</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://math.stackexchange.com/">Mathematics</a>
+											</li>
+										</ul>
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://cs.stackexchange.com/">Computer Science</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://philosophy.stackexchange.com/">Philosophy</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-							</div>
-							<div class="cultureRecreation">
-								<div class="click" onclick="clickListItem()">
-									<p class="cultureRecreationList">Culture / Recreation</p>
-									<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
-								</div>
-								
-								<div class="nestedList">
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://english.stackexchange.com/">English Language & Usage</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://skeptics.stackexchange.com/">Skeptics</a>
-										</li>
-									</ul>
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://chinese.stackexchange.com/">Chinese Language</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://french.stackexchange.com/">Frenh Language</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="science">
-								<div class="click" onclick="clickListItem()">
-									<p class="scienceList">Science</p>
-									<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
-								</div>
-								
-								<div class="nestedList">
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://mathoverflow.net/">MathOverflow</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://math.stackexchange.com/">Mathematics</a>
-										</li>
-									</ul>
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://cs.stackexchange.com/">Computer Science</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://philosophy.stackexchange.com/">Philosophy</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="others">
-								<div class="click" onclick="clickListItem()">
-									<p class="othersList" id="textColor">Other</p>
-									<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
-								</div>
-								
-								<div class="nestedList">
-									<ul class="nestedListSub">
-										<li class="nestedListSubItem">
-											<a href="https://meta.stackexchange.com/">Meta Stack Exchange</a>
-										</li>
-										<li class="nestedListSubItem">
-											<a href="https://stackapps.com/">Stack Apps</a>
-										</li>
-									</ul>
+								<div class="others">
+									<div class="click" onclick="clickListItem()">
+										<p class="othersList" id="textColor">Other</p>
+										<img src="../3_images/0_common/svgexport-20.png" alt="Next" class="footerNext">
+									</div>
+									
+									<div class="nestedList">
+										<ul class="nestedListSub">
+											<li class="nestedListSubItem">
+												<a href="https://meta.stackexchange.com/">Meta Stack Exchange</a>
+											</li>
+											<li class="nestedListSubItem">
+												<a href="https://stackapps.com/">Stack Apps</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
+						
 					</div>
 					<!-- STACK EXCHANGE NETWORK ends here -->
 				</div>
@@ -448,6 +417,10 @@
 
 			m.style.color = "#f2720c";
 
+			var back = document.getElementById("back");
+
+			back.style.display = "block";
+			console.log(back.style.display);
 
 			if (a.style.display === "block") {
 				a.style.display = "none";
@@ -494,14 +467,14 @@
 			g.style.display = "none";
 
 			var r = document.getElementById("nestedList1").textContent;
-			console.log(r);
+			//console.log(r);
 
 			if (f.style.display === "none") {
 				f.style.display = "block";
-				console.log(f.style.display);
+				//console.log(f.style.display);
 			} else {
 				f.style.display = "none";
-				console.log(f.style.display);
+				//console.log(f.style.display);
 			}
 		}
 
@@ -512,7 +485,10 @@
 			var d = document.getElementById("hideFooter4");
 			var e = document.getElementById("hideFooter5");
 
+			var back = document.getElementById("back");
 
+			back.style.display = "none";
+			console.log(back.style.display);
 
 			if (a.style.display === "none") {
 				a.style.display = "block";
