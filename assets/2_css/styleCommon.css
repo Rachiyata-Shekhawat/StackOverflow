@@ -269,6 +269,7 @@ header {
     height: 20px;
     margin-right: 2rem;
 	display: none; 
+	cursor: pointer;
 }
 
 .nestedList { display: none; }
