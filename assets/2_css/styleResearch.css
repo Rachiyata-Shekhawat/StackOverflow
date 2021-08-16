@@ -18,7 +18,12 @@
 
 main {
 	padding: 5rem 0.8rem;
+	border: 1px solid #eff0fac1;
+	border-radius: 7px;
+    margin-bottom: 3.5rem;
+    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 0 100px 80px rgb(0 0 0 / 7%);
 }
+
 /* ------ Main Top --------------*/
 
 .mainTop { 
