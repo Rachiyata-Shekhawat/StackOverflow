@@ -79,6 +79,8 @@ main {
 	line-height: 1.3rem;
 }
 
+.mainBottomPara a { color: #0077cc; }
+
 .checkList {
 	padding: 1rem 2rem;
 	margin-bottom: 2rem;
