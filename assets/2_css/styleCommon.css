@@ -232,7 +232,7 @@ header {
 /* Middle */
 .footerBottomMiddle { flex-wrap: wrap; }
 
-.footerBottomMiddleBlock { padding: 0rem 1.2rem 1rem 0rem; }
+.footerBottomMiddleBlock { padding: 0rem 1rem 1rem 0rem; }
 
 .footerBottomMiddleBlock h5 {
 	margin: 0;
