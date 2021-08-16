@@ -17,16 +17,15 @@
 /* ======================================== Main Styling =================================================*/
 
 main {}
-
 /* ------ Main Top --------------*/
 
 .mainTop { text-align: center; }
 
-.heartImg {}
+.heartImg { margin: 0 auto; }
 
-.mainTopHeading {}
+.mainTopHeading { font-size: 2rem; }
 
-.mainTopPara1 {}
+.mainTopPara1 { font-size: 1.23rem; }
 
 .mainTopPara1 a {}
 
