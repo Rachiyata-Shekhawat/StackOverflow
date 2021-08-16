@@ -230,7 +230,10 @@ header {
 
 
 /* Middle */
-.footerBottomMiddle { flex-wrap: wrap; }
+.footerBottomMiddle { 
+	flex-wrap: wrap; 
+	justify-content: space-between;
+}
 
 .footerBottomMiddleBlock { padding: 0rem 1rem 1rem 0rem; }
 
