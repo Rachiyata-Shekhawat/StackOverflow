@@ -1,0 +1,91 @@
+/* ======================================== Main Common Styling =================================================*/
+
+.flex { flex-wrap: wrap; }
+
+.mainTop h2,
+.personImg h3 { font-family: "Roboto Slab", serif; }
+
+.personImg p,
+.readBio span { font-family: "Source Sans Pro", sans-serif; }
+
+/* ======================================== Main Styling =================================================*/
+
+/* ---- mainTop section --- */
+.mainTop {
+	width: ;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainTopImg {
+	width: ;
+	margin: 0 auto;
+}
+
+.mainTopImg img { width: ; }
+
+.mainTop h2 {
+	margin: 
+	font-size: ;
+	font-weight: ;
+	color: ;
+}
+
+
+/* ---- mainBottom section --- */
+.mainBottom { justify-content: space-between; }
+
+.person {
+	width: ;
+	padding: ;
+	border: ;
+	border-radius: ;
+	box-shadow: ;
+	text-align: center;
+}
+
+.person:hover { box-shadow: ; }
+
+.person a {}
+
+.nameTop {
+	border-bottom: ;
+}
+
+.personImg {
+	width: ;
+	margin: 0 auto;
+	border-radius: ;
+}
+
+.personImg img { width: ; }
+
+.personName {
+	margin-top: ;
+	font-size: ;
+	font-weight: ;
+	color: ;
+}
+
+.personDepartment {
+	margin-bottom: ;
+	font-size: ;
+	color: ;
+}
+
+.readBio {
+	padding: ;
+}
+
+.readBioImg {
+	width: ;
+	margin-right: ;
+}
+
+.readBioImg img { width: ; }
+
+.readBio span {
+	font-size: ;
+	font-weight: ;
+	color: ;
+}
