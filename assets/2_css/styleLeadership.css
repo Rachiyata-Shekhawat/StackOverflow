@@ -3,89 +3,115 @@
 .flex { flex-wrap: wrap; }
 
 .mainTop h2,
-.personImg h3 { font-family: "Roboto Slab", serif; }
+.personName { font-family: "Roboto Slab", serif; }
 
 .personImg p,
 .readBio span { font-family: "Source Sans Pro", sans-serif; }
 
 /* ======================================== Main Styling =================================================*/
 
+main {
+	padding: 0rem 2rem;
+	border: 1px solid #eff0fac1;
+    border-top: 0px;
+    border-radius: 7px;
+    margin: 0 auto 3.5rem auto;
+    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+    			0 100px 80px rgb(0 0 0 / 7%);
+}
+
+
 /* ---- mainTop section --- */
 .mainTop {
 	width: ;
-	margin: 0 auto;
+    margin: 5rem auto 4rem auto;
 	text-align: center;
 }
 
 .mainTopImg {
-	width: ;
+	width: 83px;
 	margin: 0 auto;
 }
 
-.mainTopImg img { width: ; }
+.mainTopImg img { width: 100%; }
 
 .mainTop h2 {
-	margin: 
-	font-size: ;
-	font-weight: ;
-	color: ;
+	margin-top: 0.5rem;
+	font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3rem;
+	color: #242729;
 }
 
 
 /* ---- mainBottom section --- */
-.mainBottom { justify-content: space-between; }
+
+.mainBottom { 
+	margin-bottom: 2rem;
+	justify-content: space-between; 
+}
 
 .person {
-	width: ;
-	padding: ;
-	border: ;
-	border-radius: ;
-	box-shadow: ;
+	width: 100%;
+	padding: 2rem;
+	border: 1px solid #eff0f1;
+    border-radius: 2%;
+	margin: 1.5rem 0rem;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, 
+				rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, 
+				rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
 	text-align: center;
 }
 
-.person:hover { box-shadow: ; }
+.person:hover { 
+	box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 2px 0px, 
+				rgba(0, 0, 0, 0.10) 0px 1px 4px 0px, 
+				rgba(0, 0, 0, 0.10) 0px 2px 8px 0px;
+
+}
 
 .person a {}
 
-.nameTop {
-	border-bottom: ;
-}
+.nameTop { border-bottom: 1px solid #eff0f1; }
 
 .personImg {
-	width: ;
+	width: 107px;
 	margin: 0 auto;
-	border-radius: ;
 }
 
-.personImg img { width: ; }
+.personImg img {
+	width: 100%;
+    border-radius: 5%;
+}
 
 .personName {
-	margin-top: ;
-	font-size: ;
-	font-weight: ;
-	color: ;
+    margin: 1.25rem 0rem 0.3rem 0rem;
+	font-size: 1.24rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+	color: #2f3337;
 }
 
-.personDepartment {
-	margin-bottom: ;
-	font-size: ;
-	color: ;
+.personDepartment {    
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+	color: #535a60;
 }
 
 .readBio {
-	padding: ;
+	padding-top: 1rem;
+	justify-content: center;
 }
 
 .readBioImg {
-	width: ;
-	margin-right: ;
+	width: 1.2rem;
+	margin-right: 0.5rem;
 }
 
-.readBioImg img { width: ; }
+.readBioImg img { width: 100%; }
 
 .readBio span {
-	font-size: ;
-	font-weight: ;
-	color: ;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #0095ff;
 }
