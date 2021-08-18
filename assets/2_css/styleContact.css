@@ -1,92 +1,285 @@
 /* ======================================== Main Common Styling =================================================*/
 
-img { width: 100%; }
+main img { width: 100%; }
 
-a { color: #0077cc; }
+main a { color: #0077cc; }
+
+
+.sectionHeading,
+.addressHeading,
+.contactMainHeading,
+.productServiceHeading a { font-family: "Roboto Slab", serif; }
+
+.state,
+.number,
+.officeName,
+.officeLocation,
+.sectionHeading,
+.contactMainHeading { color: #242729; }
+
+
+.officeName,
+.section2 p,
+.link a span, 
+.contactMain p,
+.officeLocation, 
+.productServiceContent { font-family: "Source Sans Pro", sans-serif; }
+
+.section2 p,
+.contactMain p,
+.productServiceContent { color: #535a60; }
+
+.productServiceBlock { padding: 0rem 1.1rem; }
+
+.section2,
+.section3 { margin: 0rem 1.1rem; }
+
+main address { font-style: normal; }
 
 /* ======================================== Main Styling =================================================*/
 
-main {}
+main {
+	border: 1px solid #eff0fac1;
+    border-top: 0px;
+    border-radius: 7px;
+    margin: 0 auto 3.5rem auto;
+    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 0 100px 80px rgb(0 0 0 / 7%);
+}
 
 
 /* ---- contactMain section --- */
 
-.contactMain {}
+.contactMain {
+	margin: 6rem 1.1rem;
+	text-align: center;
+}
 
-.contactMainImg {}
+.contactMainImg {
+	width: 89px;
+	margin: 0 auto;
+}
 
-.contactMainImg img {}
+.contactMainHeading {
+	font-size: 1.8rem;
+    font-weight: 500;
+}
 
-.contactMainHeading {}
-
-.contactMain p {}
-
-.contactMain p a {}
+.contactMain p {
+	font-size: 1.13rem;
+    line-height: 1.7rem;
+}
 
 
 /* ---- section --- */
 
-section {}
+section {
+	padding-top: 2rem;
+	margin: 0 auto;
+}
 
-.sectionHeading {}
+section:nth-child(3),
+section:nth-child(4) { border-top: 1px solid #eff0f1; }
 
-.sectionMain {}
+.sectionHeading {
+	margin: 1.6rem 0rem;
+	font-size: 1.6rem;
+    font-weight: 500;
+}
 
-.link {}
+.sectionMain {
+	margin-top: 2.2rem;
+	flex-direction: column;
+}
 
-.link a {}
+.link { margin: 2rem 0rem 3.5rem 0rem; }
 
-.link a span {}
+.link a span {
+	font-size: 1rem;
+	color: #848d95;
+}
 
 
 /* ---- section 1 --- */
 
-.productServiceBlock {}
+.section1 { padding-top: 0rem; }
 
-.blockBackground {}
+.section1 .sectionHeading { 
+	padding-top: 3.5rem;
+	border-top: 1px solid #eff0f1; 
+	margin-right: 1.1rem;
+	margin-left: 1.1rem;
+}
 
-.productServiceHeading {}
+.blockBackground { background-color: #fafafb; }
 
-.productServiceContent {}
+.section1 .productServiceHeading { margin: 2rem 0rem 1rem 0rem; }
 
-.productServiceLink {}
+.productServiceHeading a { font-size: 1.22rem; }
 
-.productServiceLink a {}
+.productServiceHeading a:hover { color: #0095ff; }
 
-.productServiceLink a span {}
+.section2 p, 
+.productServiceContent {
+	font-size: 1.13rem;
+	line-height: 1.65rem;
+}
 
-.productServiceLinkImg {}
+.productServiceLinkImg {
+	width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
 
-.productServiceLinkImg img {}
+.phoneNoDetails {
+	padding: 1.5rem 0rem;
+	border-top: 1px solid #eff0f1;
+	margin-bottom: 1.5rem;
+}
 
-.phoneNoDetails {}
+.phoneNo:nth-child(1) { margin-bottom: 0.3rem; }
 
-.phoneNo {}
+.phoneNo img { vertical-align: bottom; }
 
-.phoneNo img {}
+.phoneNo span { margin-right: 0.1rem; }
 
-.state {}
+.state { font-size: 0.8rem; }
 
-.number {}
+.number { font-size: 0.9rem; }
 
-.timezone {}
+.timezone { 
+	font-size: 0.81rem;
+	color: #6a737c; 
+}
 
 
 /* ---- section 2 --- */
 
-.section2 p {}
 
 
 /* ---- section 3 --- */
 
-.section3 address {}
+.section3 { margin-bottom: 5rem; }
 
-.addressHeading {}
+.section3 address { margin-bottom: 2rem; }
 
-.officeName {}
+.addressHeading {
+	margin: 0;
+	margin-bottom: 1.5rem;
+	font-size: 1.22rem;
+	color: #f48024;
+}
 
-.officeLocation {}
+.officeName { 
+	font-size: 1.13rem; 
+	font-weight: 600;
+}
+
+.officeLocation { 
+	font-size: 1.13rem; 
+	line-height: 1.65rem;
+}
 
 
 /* ======================================== Media Styling =================================================*/
 
+@media only screen and (min-width: 577px) {
+	/* ------------- Main -------------- */
+
+		/* ---- contactMain section --- */
+			.contactMain { 
+				width: 474px; 
+				margin: 6rem auto;
+			}
+
+			.contactMainHeading { font-size: 2.9rem; }
+
+			.contactMain p { font-size: 1.215rem; }
+
+		/* ---- section --- */
+			.section2, 
+			.section3 { margin: 0rem 4rem 5rem 4rem; }
+
+			.sectionHeading { font-size: 1.9rem; }
+
+			.link a span { font-size: 1.05rem; }
+
+			.section2 .productServiceHeading,
+			.section3 .productServiceHeading { margin: 2.3rem 0rem 1.2rem 0rem; }
+
+			.section2 p, 
+			.productServiceContent { 
+				font-size: 1.19rem; 
+				line-height: 1.7rem;
+			}
+
+
+		/* ---- section 1 --- */
+
+			.section1 .sectionHeading { margin: 1.6rem 4rem; }
+
+			.section1 .sectionMain {
+				margin: 0rem 2rem;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+
+			.productServiceHeading a { font-size: 1.25rem; }
+
+			.productServiceBlock { 
+				width: 50%; 
+				padding: 0rem 2rem;
+			}
+
+			.productServiceBlock:nth-child(1) {
+				border-top-left-radius: 2%;
+				border-bottom-left-radius: 2%;
+			}
+
+			.productServiceBlock:nth-child(2) {
+				border-top-right-radius: 2%;
+				border-bottom-right-radius: 2%;
+			}
+
+			.phoneNoDetails { margin-bottom: 3.5rem; }
+
+			.phoneNo img { width: 1.09rem; }
+
+			.state { font-size: 0.86rem; }
+
+			.number { font-size: 1rem; }
+
+			.timezone {font-size: 0.81rem;}
+
+			.productServiceLink { margin-bottom: 1.6rem; }
+
+		/* ---- section 3 --- */
+
+			.section3 .sectionMain { flex-direction: row; }
+
+			.officeAddress:nth-child(1) { margin-right: 6rem; }
+
+}
+
+
+@media only screen and (min-width: 1360px) {
+
+	body {
+	    background-image: url(../3_images/0_common/bg-nav.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 15rem;
+	}
+
+	/* ------------ Header ------------- */
+
+		header { background: none; }
+
+	/* ------------- Main -------------- */
+
+		main {
+			width: 1310px;
+		    border-top: 1px solid #eff0fac1;
+		    background-color: white;
+		}
+		
+}
