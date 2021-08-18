@@ -37,7 +37,7 @@ main {
 
 .mainTop h2 {
 	margin-top: 0.5rem;
-	font-size: 1.8rem;
+	font-size: 1.7rem;
     font-weight: 500;
     line-height: 3rem;
 	color: #242729;
@@ -53,10 +53,11 @@ main {
 
 .person {
 	width: 100%;
+	width: 243px;
 	padding: 2rem;
 	border: 1px solid #eff0f1;
     border-radius: 2%;
-	margin: 1.5rem 0rem;
+	margin: 1.5rem auto;
 	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, 
 				rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, 
 				rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
@@ -109,7 +110,7 @@ main {
 }
 
 .readBioImg img { width: 100%; }
-
+0
 .readBio span {
 	font-size: 1rem;
 	font-weight: 500;
