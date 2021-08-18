@@ -27,6 +27,8 @@ ul li { display: inline-block; }
 
 .flex { display: flex; }
 
+button { cursor: pointer; }
+
 /* ======================================== Header Styling =================================================*/
 
 /* ------ Header Top --------------*/
