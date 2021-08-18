@@ -1,0 +1,90 @@
+/* ======================================== Main Common Styling =================================================*/
+img { width: 100%; }
+
+
+/* ======================================== Main Styling =================================================*/
+
+main {}
+
+
+/* ---- contactMain section --- */
+
+.contactMain {}
+
+.contactMainImg {}
+
+.contactMainImg img {}
+
+.contactMainHeading {}
+
+.contactMain p {}
+
+.contactMain p a {}
+
+
+/* ---- section --- */
+
+section {}
+
+.sectionHeading {}
+
+.sectionMain {}
+
+.link {}
+
+.link a {}
+
+.link a span {}
+
+
+/* ---- section 1 --- */
+
+.productServiceBlock {}
+
+.blockBackground {}
+
+.productServiceHeading {}
+
+.productServiceContent {}
+
+.productServiceLink {}
+
+.productServiceLink a {}
+
+.productServiceLink a span {}
+
+.productServiceLinkImg {}
+
+.productServiceLinkImg img {}
+
+.phoneNoDetails {}
+
+.phoneNo {}
+
+.phoneNo img {}
+
+.state {}
+
+.number {}
+
+.timezone {}
+
+
+/* ---- section 2 --- */
+
+.section2 p {}
+
+
+/* ---- section 3 --- */
+
+.section3 address {}
+
+.addressHeading {}
+
+.officeName {}
+
+.officeLocation {}
+
+
+/* ======================================== Media Styling =================================================*/
+
