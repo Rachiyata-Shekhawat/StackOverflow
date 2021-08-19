@@ -4,6 +4,11 @@ main img { width: 100%; }
 
 main a { color: #0077cc; }
 
+
+/* ---- color --- */
+
+.notFound { color: #6a737c; }
+
 .pageHeaderSubHeading,
 .jobOptionLocation span,
 .jobNote p,
@@ -14,15 +19,40 @@ main a { color: #0077cc; }
 
 .pageHeaderPara { color: #535a60; }
 
+/*orange*/
 .jobDescription h4 { color: #f2720c; }
 
-.jobMatchOptionHeading { color: #0095ff; }
+/*blue*/
+.jobMatchOptionHeading a { color: #0095ff; }
 
-.jobMatchOptionHeading:hover { color: #0077cc; }
+.jobMatchOptionHeading a:hover { color: #0077cc; }
 
 .lifeAtStackHeading { color: #3c4146; }
 
 .lifeAtStackPara { color: #2f3337; }
+
+.searchJob select option { color: #0c0d0e; }
+
+.searchJob select option:disabled { color: rgb(170, 170, 170); }
+
+.searchJob { background-color: #fafafb; }
+
+
+.jobSearchFind,
+.searchJob select { 
+	border: 1px solid #d6d9dc; 
+	border-radius: 4px;
+}
+
+.jobSearchFind input:focus,
+.searchJob select:focus {
+	border: 1px solid rgb(89, 167, 222);
+	box-shadow: rgba(0, 119, 204, 0.15) 0px 0px 0px 4px;
+}
+
+
+
+/* ---- Border --- */
 
 .jobOpeningSeacrh { border-bottom: 1px solid #eff0f1; }
 
@@ -31,13 +61,15 @@ main a { color: #0077cc; }
     background-color: #f9fbfd;
 }
 
-.searchJob { background-color: #fafafb; }
+
+/* ---- Font --- */
 
 .pageHeaderSubHeading,
 .pageHeaderHeading,
 .jobMatchOptionHeading,
 .lifeAtStackHeading { font-family: "Roboto Slab", serif; }
 
+.notFound,
 .pageHeaderPara,
 .jobDescription h4,
 .jobDescription p,
@@ -47,9 +79,85 @@ main a { color: #0077cc; }
 .socialWithUsHeading,
 .partnershipRecongnitionHeading { font-family: "Source Sans Pro", sans-serif; }
 
+.pageHeaderHeading,
+.socialWithUsHeading,
+.jobDescription h4,
+.partnershipRecongnitionHeading { font-weight: 500; }
+
+.jobMatchOptionHeading { font-weight: 600; }
+
+/* 28.6px */
+
+.pageHeaderHeading { 
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+}
+
+
+/* 19.8px */
+
+.jobMatchOptionHeading,
+.lifeAtStackHeading { 
+	font-size: 1.22rem; 
+	line-height: 1.8rem;
+}
+
+
+/* 17.6px */
+
+.pageHeaderSubHeading,
+.pageHeaderPara,
+.jobDescription p,
+.lifeAtStackPara,
+.socialWithUsHeading,
+.partnershipRecongnitionHeading { 
+	font-size: 1.13rem; 
+	line-height: 1.45rem;
+}
+
+
+/* 15.4px */
+
+.notFound,
+.jobDescription h4,
+.jobMatchOptionLocation span { 
+	font-size: 1rem; 
+	line-height: 1.3rem;
+}
+
+
+/* 14.3 */
+
+.jobNote p,
+.lifeAtStackButton {
+	font-size: 0.93rem;
+    line-height: 1.15rem;
+}
+
+/* ---- Alignment --- */
+
+.pageHeader,
+.searchJob,
+.socialWithUs,
+.lifeAtStackHeading,
+.lifeAtStackPara,
+.partnershipRecongnition { margin: 0 auto; }
+
+.pageHeader,
+.socialWithUs,
+.lifeAtStack,
+.partnershipRecongnition { text-align: center; }
+
+.jobNote,
+.searchJob,
+.jobOpeningSeacrh,
+.partnershipRecongnitionLinks { flex-direction: column; }
+
+
 /* ======================================== Main Styling =================================================*/
 
 main {
+	padding: 0rem 4.5%;
 	border: 1px solid #eff0fac1;
     border-top: 0px;
     border-radius: 7px;
@@ -60,7 +168,9 @@ main {
 
 /* -- pageHeader section ----- */
 
-.pageHeader {}
+.pageHeader {
+	padding: 6rem 0rem;
+}
 
 .pageHeaderSubHeading {}
 
@@ -71,13 +181,22 @@ main {
 
 /* -- jobSearch section ----- */
 
-.jobSearch {}
+.jobSearch {
+
+}
 
 
 /*searchJob*/
-.searchJob {}
+.searchJob { padding: 1.5rem 1.5rem; }
 
-.searchJob select {}
+.searchJob select { 
+
+	height: 34px; 
+	padding-left: 6px;
+}
+
+.searchJob select:focus,
+.jobSearchFind input:focus { outline: none; }
 
 .searchJob select option {}
 
@@ -85,49 +204,89 @@ main {
 
 .jobSearchDepartment option {}
 
-.jobSearchLocation {}
+.jobSearchLocation { margin: 1rem 0rem; }
 
-.jobSearchLocation option {}
+.jobSearchLocation option {
 
-.jobSearchFind {}
+}
 
-.jobSearchFind input {}
+.jobSearchFind {
+	height: 34px;
+	position: relative;
+	background-color: white;
+}
 
-.jobSearchFind img {}
+.jobSearchFind input { 
+	width: 100%;
+	height: 100%; 
+	padding: 5px 5px 5px 34px;
+	border: none;
+	background-color: inherit;
+}
+
+.jobSearchFind input::placeholder { color: #d6d9dc; }
+
+.jobSearchFind img {
+	width: 17px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
 
 
 /*jobOpening*/
 
 .jobOpening {}
 
-.jobOpeningSearch {}
-
-.notFound {}
+.jobOpeningSeacrh {
+	padding: 2.5rem 0rem;
+}
 
 .jobDescription {}
 
-.jobDescription h4 {}
+.jobDescription h4 {
+	margin: 0rem 0rem 0.7rem 0rem;
+	
+}
 
 .jobDescription p {}
 
 .jobMatch {}
 
-.jobMatchOption {}
+.jobMatchOption { margin: 1rem 0rem; }
 
 .jobMatchOptionHeading {}
 
-.jobMatchOptionLocation {}
+.jobMatchOptionLocation { margin: 0.3rem 0rem; }
 
-.jobMatchOptionLocation img {}
+.jobMatchOptionLocation img {
+	width: 1rem;
+}
 
 .jobMatchOptionLocation span {}
+
+.notFound { 
+    padding: 0rem;
+    border: none;
+    margin: 4rem 0rem;
+    display: none; 
+	text-align: center;
+}
+
+.notFound img {
+	width: 89px;
+    margin-bottom: 1rem;
+}
 
 
 /*jonNote*/
 
-.jobNote {}
+.jobNote { margin: 2rem 0rem; }
 
-.jobNote div {}
+.jobNote div { 
+	width: 43px; 
+	margin-bottom: 1rem;
+}
 
 .jobNote div img {}
 
@@ -136,31 +295,40 @@ main {
 
 /* -- lifeATStack section ----- */
 
-.lifeAtStack {}
+.lifeAtStack { padding: 4rem 0rem; }
 
-.lifeAtStackHeading {}
+.lifeAtStackHeading { margin: 0rem auto; }
 
-.lifeAtStackPara {}
+.lifeAtStackPara { margin: 1rem auto; }
 
-.lifeAtStackButton {}
+.lifeAtStackButton { padding: 0.7rem 2rem; }
 
 .lifeAtStackButton a {}
 
 
 /* -- SocialPatnership section ----- */
 
-.socialPatnership {}
+.socialPatnership { padding: 3rem 0rem; }
 
 
 /*socialWithUs*/
 
-.socialWithUs {}
+.socialWithUs {
+	margin-bottom: 3rem;
+}
 
-.socialWithUsHeading {}
+.socialWithUsHeading,
+.partnershipRecongnitionHeading { 
+	margin: 0rem; 
+	margin-bottom: 1.5rem
+}
 
 .socialWithUsLinks {}
 
-.socialWithUsLinks li {}
+.socialWithUsLinks li {
+	margin: 0rem 0.5rem 1rem 0rem;
+	height: 18px;
+}
 
 .socialWithUsLinks li a {}
 
@@ -169,17 +337,62 @@ main {
 
 .partnershipRecongnition {}
 
-.partnershipRecongnitionHeading {}
+.partnershipRecongnitionLinks {
+	align-items: center;
+}
 
-.partnershipRecongnitionLinks {}
-
-.partnershipRecongnitionLinks li {}
+.partnershipRecongnitionLinks li { 
+	/*width: 96px;*/
+	height: 96px; 
+	margin-bottom: 1rem;
+}
 
 .partnershipRecongnitionLinks li a {}
 
+.partnershipRecongnitionLinks li a img { height: 100%; }
 
 /* ======================================== Media Styling =================================================*/
 
+@media only screen and (min-width: 377px) {
+	/* ------------- Main -------------- */
+
+		.pageHeader,
+		.lifeAtStackHeading,
+		.lifeAtStackPara { width: 319px; }
+
+
+		.lifeAtStack {
+			margin: 0 -5%;
+		}
+
+}
+
+
+@media only screen and (min-width: 577px) {
+
+	/* ------------- Main -------------- */
+		.jobNote,
+		.searchJob,
+		.jobOpeningSeacrh,
+		.partnershipRecongnitionLinks { 
+			flex-direction: row; 
+			justify-content: space-between;
+		}
+
+		/* -- jobSearch section ----- */
+
+			.searchJob select,
+			.jobSearchFind { width: 30%; }
+
+			.jobSearchLocation {
+				margin: 0;
+				width:30%;
+			}
+
+			.jobDescription { width: 29%; }
+
+
+}
 
 
 
