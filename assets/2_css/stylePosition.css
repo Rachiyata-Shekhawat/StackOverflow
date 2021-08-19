@@ -33,6 +33,20 @@ main a { color: #0077cc; }
 
 .searchJob { background-color: #fafafb; }
 
+.pageHeaderSubHeading,
+.pageHeaderHeading,
+.jobMatchOptionHeading,
+.lifeAtStackHeading { font-family: "Roboto Slab", serif; }
+
+.pageHeaderPara,
+.jobDescription h4,
+.jobDescription p,
+.jobMatchOptionLocation span,
+.lifeAtStackPara,
+.lifeAtStackButton a,
+.socialWithUsHeading,
+.partnershipRecongnitionHeading { font-family: "Source Sans Pro", sans-serif; }
+
 /* ======================================== Main Styling =================================================*/
 
 main {
