@@ -4,6 +4,34 @@ main img { width: 100%; }
 
 main a { color: #0077cc; }
 
+.pageHeaderSubHeading,
+.jobOptionLocation span,
+.jobNote p,
+.socialPatnership h5 { color: #848d95; }
+
+.pageHeaderHeading,
+.jobDescription p { color: #242729; }
+
+.pageHeaderPara { color: #535a60; }
+
+.jobDescription h4 { color: #f2720c; }
+
+.jobMatchOptionHeading { color: #0095ff; }
+
+.jobMatchOptionHeading:hover { color: #0077cc; }
+
+.lifeAtStackHeading { color: #3c4146; }
+
+.lifeAtStackPara { color: #2f3337; }
+
+.jobOpeningSeacrh { border-bottom: 1px solid #eff0f1; }
+
+.lifeAtStack {
+    box-shadow: 0px -37px 30px rgb(0 0 0 / 2%) inset;
+    background-color: #f9fbfd;
+}
+
+.searchJob { background-color: #fafafb; }
 
 /* ======================================== Main Styling =================================================*/
 
@@ -15,6 +43,125 @@ main {
     box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 0 100px 80px rgb(0 0 0 / 7%);
 }
 
+
+/* -- pageHeader section ----- */
+
+.pageHeader {}
+
+.pageHeaderSubHeading {}
+
+.pageHeaderHeading {}
+
+.pageHeaderPara {}
+
+
+/* -- jobSearch section ----- */
+
+.jobSearch {}
+
+
+/*searchJob*/
+.searchJob {}
+
+.searchJob select {}
+
+.searchJob select option {}
+
+.jobSearchDepartment {}
+
+.jobSearchDepartment option {}
+
+.jobSearchLocation {}
+
+.jobSearchLocation option {}
+
+.jobSearchFind {}
+
+.jobSearchFind input {}
+
+.jobSearchFind img {}
+
+
+/*jobOpening*/
+
+.jobOpening {}
+
+.jobOpeningSearch {}
+
+.notFound {}
+
+.jobDescription {}
+
+.jobDescription h4 {}
+
+.jobDescription p {}
+
+.jobMatch {}
+
+.jobMatchOption {}
+
+.jobMatchOptionHeading {}
+
+.jobMatchOptionLocation {}
+
+.jobMatchOptionLocation img {}
+
+.jobMatchOptionLocation span {}
+
+
+/*jonNote*/
+
+.jobNote {}
+
+.jobNote div {}
+
+.jobNote div img {}
+
+.jobNote p {}
+
+
+/* -- lifeATStack section ----- */
+
+.lifeAtStack {}
+
+.lifeAtStackHeading {}
+
+.lifeAtStackPara {}
+
+.lifeAtStackButton {}
+
+.lifeAtStackButton a {}
+
+
+/* -- SocialPatnership section ----- */
+
+.socialPatnership {}
+
+
+/*socialWithUs*/
+
+.socialWithUs {}
+
+.socialWithUsHeading {}
+
+.socialWithUsLinks {}
+
+.socialWithUsLinks li {}
+
+.socialWithUsLinks li a {}
+
+
+/*partnershipRecongnition*/
+
+.partnershipRecongnition {}
+
+.partnershipRecongnitionHeading {}
+
+.partnershipRecongnitionLinks {}
+
+.partnershipRecongnitionLinks li {}
+
+.partnershipRecongnitionLinks li a {}
 
 
 /* ======================================== Media Styling =================================================*/
