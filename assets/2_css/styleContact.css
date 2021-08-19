@@ -91,13 +91,30 @@ section:nth-child(4) { border-top: 1px solid #eff0f1; }
 	flex-direction: column;
 }
 
-.link { margin: 2rem 0rem 3.5rem 0rem; }
+.link { 
+	margin: 2rem 0rem 3.5rem 0rem; 
+	display: inline-block;
+}
 
 .link a span {
 	font-size: 1rem;
 	color: #848d95;
 }
 
+.link a:hover span { color: #535a60; }
+
+
+.productServiceLinkImg {
+	width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.productHoverLinkImg { display: none; }
+
+.link a:hover .productActiveLinkImg { display: none; }
+
+.link a:hover .productHoverLinkImg { display: inline; }
 
 /* ---- section 1 --- */
 
@@ -124,11 +141,7 @@ section:nth-child(4) { border-top: 1px solid #eff0f1; }
 	line-height: 1.65rem;
 }
 
-.productServiceLinkImg {
-	width: 1.2rem;
-    height: 1.2rem;
-    margin-right: 0.5rem;
-}
+
 
 .phoneNoDetails {
 	padding: 1.5rem 0rem;
