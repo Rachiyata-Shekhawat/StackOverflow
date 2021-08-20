@@ -13,6 +13,11 @@ main {
     border-radius: 7px;
     margin: 0 auto 3.5rem auto;
     box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 0 100px 80px rgb(0 0 0 / 7%);
+    background-image: url('../3_images/5_press/press-header.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 900px;
 }
 
 
