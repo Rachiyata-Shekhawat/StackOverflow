@@ -66,7 +66,7 @@ main a { color: #0077cc; }
 
 .pageHeaderSubHeading,
 .pageHeaderHeading,
-.jobMatchOptionHeading,
+.jobMatchOptionHeading a,
 .lifeAtStackHeading { font-family: "Roboto Slab", serif; }
 
 .notFound,
@@ -84,7 +84,7 @@ main a { color: #0077cc; }
 .jobDescription h4,
 .partnershipRecongnitionHeading { font-weight: 500; }
 
-.jobMatchOptionHeading { font-weight: 600; }
+.jobMatchOptionHeading a { font-weight: 600; }
 
 /* 28.6px */
 
@@ -96,7 +96,7 @@ main a { color: #0077cc; }
 
 /* 19.8px */
 
-.jobMatchOptionHeading,
+.jobMatchOptionHeading a,
 .lifeAtStackHeading { 
 	font-size: 1.22rem; 
 	line-height: 1.8rem;
@@ -129,7 +129,7 @@ main a { color: #0077cc; }
 /* 14.3 */
 
 .jobNote p,
-.lifeAtStackButton {
+.lifeAtStackButton a{
 	font-size: 0.93rem;
     line-height: 1.15rem;
 }
@@ -358,7 +358,7 @@ main {
 
 		.pageHeader,
 		.lifeAtStackHeading,
-		.lifeAtStackPara { width: 319px; }
+		.lifeAtStackPara { width: 340px; }
 
 
 		.lifeAtStack {
@@ -371,13 +371,68 @@ main {
 @media only screen and (min-width: 577px) {
 
 	/* ------------- Main -------------- */
-		.jobNote,
-		.searchJob,
-		.jobOpeningSeacrh,
-		.partnershipRecongnitionLinks { 
-			flex-direction: row; 
-			justify-content: space-between;
-		}
+
+		main { padding: 0rem 4rem; }
+
+		/*--font Size--*/
+
+			/* 28.6px to 43px*/
+			.pageHeaderHeading { 
+				font-size: 2.9rem;
+			    line-height: 3.4rem;
+			    margin: 1rem 0rem;
+			}
+
+
+			/* 19.8px to 21px*/
+			.jobMatchOptionHeading a,
+			.lifeAtStackHeading { 
+				font-size: 1.25rem; 
+				line-height: 1.8rem;
+			}
+
+
+			/* 17.6px to 19px*/
+			.pageHeaderSubHeading,
+			.pageHeaderPara,
+			.jobDescription p,
+			.lifeAtStackPara,
+			.socialWithUsHeading,
+			.partnershipRecongnitionHeading { 
+				font-size: 1.19rem; 
+				line-height: 1.6rem;
+			}
+
+
+			/* 15.4px to 17px*/
+			.notFound,
+			.jobDescription h4,
+			.jobMatchOptionLocation span { 
+				font-size: 1.05rem; 
+				line-height: 1.3rem;
+			}
+
+
+			/* 14.3 */
+			.jobNote p,
+			.lifeAtStackButton a {
+				font-size: 0.95rem;
+			    line-height: 1.15rem;
+			}
+
+		/*-- Alignment --*/
+			
+			.searchJob,
+			.jobOpeningSeacrh,
+			.partnershipRecongnitionLinks { 
+				flex-direction: row; 
+				justify-content: center;
+			}
+
+			.pageHeader,
+			.lifeAtStackHeading,
+			.lifeAtStackPara { width: 423px; }
+
 
 		/* -- jobSearch section ----- */
 
@@ -385,15 +440,57 @@ main {
 			.jobSearchFind { width: 30%; }
 
 			.jobSearchLocation {
-				margin: 0;
+				margin: 0rem 1rem;
 				width:30%;
 			}
 
-			.jobDescription { width: 29%; }
+			.jobDescription { 
+				width: 34%; 
+				margin-right: 4rem;
+			}
 
+			.jobMatch { width: 54%; }
+
+			.jobMatchOption { margin: 0rem 0rem 2rem 0rem; }
+
+			.jobMatchOptionHeading { margin-bottom: 0.5rem; }
+
+			.jobNote {
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			.jobNote div {
+				flex-shrink: 0;
+    			margin: 0rem 2rem 0rem 0rem;
+			}
+
+		/* -- SocialPatnership section ----- */
+
+			.partnershipRecongnitionLinks li:nth-child(2),
+			.partnershipRecongnitionLinks li:nth-child(3) {
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}
 
 }
 
+
+@media only screen and (min-width: 733px) {
+
+	/* ------ Main --------------*/
+
+		/* -- jobSearch section ----- */
+			.searchJob { width: 600px; }
+}
+
+
+@media only screen and (min-width: 979px) {
+	.jobOpening {
+		width: 842px;
+		margin: 0 auto;
+	}
+}
 
 
 @media only screen and (min-width: 1360px) {
