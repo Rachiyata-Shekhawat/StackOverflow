@@ -155,7 +155,7 @@ main h5 { margin: 0; }
 .fastFactListSpan,
 .pressHeaderPara1 { 
 	font-size: 1.28rem; 
-	line-height: 1.8rem;
+	line-height: 1.7rem;
 }
 
 
@@ -230,6 +230,7 @@ main h5 { margin: 0; }
 
 main {
 	padding: 6.4rem 0.9rem;
+	padding: 6.4rem 4%;
 	border: 1px solid #eff0fac1;
     border-top: 0px;
     border-radius: 7px;
@@ -293,7 +294,8 @@ main {
 
 .fastFacts {
 	padding: 4rem 1.5rem;
-	border-radius: 3%;
+	border-radius: 10px;
+	margin: 0rem 1%;
 	background-color: #f2f9ff;
 }
 
@@ -315,6 +317,8 @@ main {
 /* -- news section ----- */
 
 .news { margin-top: 6rem; }
+
+.news .sectionContent { margin: 0rem 1%; }
 
 .newsBlock {  
 	padding: 1.5rem;
@@ -405,9 +409,13 @@ main {
 
 /*productImages*/
 
-.productImageGallery { margin-top: 3rem; }
+.productImageGallery { 
+	margin-top: 3rem; 
+	align-items: center;
+}
 
 .productPhoto {
+	width: 274px;
 	margin-bottom: 2rem;
 	border-radius: 7px;
 }
@@ -424,6 +432,292 @@ main {
 
 
 /* ======================================== Media Styling =================================================*/
+
+@media only screen and (min-width: 577px) {
+
+	/* ------------- Main -------------- */
+
+		main { padding: 6.4rem 0rem; }
+
+		/*--font Size--*/
+
+			/* 28.6px to 43px*/
+			.pressHeaderHeading { 
+				font-size: 2.7rem;
+			    line-height: 3.4rem;
+			}
+
+
+			/* 25.3px */
+			.sectionHeading { font-size: 1.9rem; }
+
+
+			/* 22px */
+			.pressFooterHeading { font-size: 1.7rem; }
+
+
+			/* 19.8px to 21px*/
+			.fastFactListSpan,
+			.pressHeaderPara1 { 
+				font-size: 1.28rem; 
+				line-height: 1.8rem;
+			}
+
+			.fastFactListSpan { line-height: 1.5rem; }
+
+
+			/* 17.6px to 19px*/
+			.newsBlockPara,
+			.companyNewsBlockPara { 
+				font-size: 1.35rem;
+				line-height: 1.8rem;
+			}
+
+			.sectionPara,
+			.pressHeaderPara2,
+			.abovePressHeading,
+			.belowPressHeading,
+			.whatWeDoBlock1Para,
+			.whatWeDoBlockHeading,
+			.whatWeDoBlock1Heading a {
+				font-size: 1.19rem; 
+				line-height: 1.6rem;
+			}
+
+
+			/* 15.4px to 17px*/
+			.date,
+			.productImagePara,
+			.resourceBlock a span,
+			.pressFooter1Link span  {
+				font-size: 1.05rem; 
+				line-height: 1.3rem;
+			}
+
+			.productImagePara,
+			.resourceBlock a span,
+			.pressFooter1Link span { line-height: 1.5rem; }
+
+
+			/* 14.3px */
+			.button a,
+			.newsBlockFooter {
+				font-size: 0.95rem;
+			    line-height: 1.15rem;
+			}
+
+
+			/* 11px */
+			.fastFactsListLi {
+			    font-size: 0.99rem;
+			    line-height: 1.5rem;
+			}
+
+
+		/*-- Alignment --*/
+
+			/*.pressHeader,*/
+			.news,
+			.whatWeDo,
+			.resource,
+			.pressFooter { padding: 0px 66px; }
+
+			.pressHeader {
+				width: 573px;
+				padding: 0px;
+			}
+
+			.companyNews {
+				padding: 4.5rem 66px 2.5rem 66px;
+				margin: 0px;
+			}
+
+			.fastFacts { margin: 0px 66px; }
+
+			.resource .sectionContent { padding: 0rem; }
+
+			.resourceBlock,
+			.sectionContentBlock { width: 200px; }
+
+			.sectionContent {
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+
+			.resourceBlock:nth-child(odd),
+			.sectionContentBlock:nth-child(odd) { margin-right: 17px; }
+
+			.newsBlock a {
+				height: 100%;
+				display: flex;
+	    		flex-direction: row;
+	    		flex-wrap: wrap;    
+	    		align-content: flex-start;
+			}
+
+			.newsBlock a p,
+			.companyNewsBlockPara { 
+				height: 126px;
+				overflow: hidden;
+			}	
+
+			.sectionPara,
+			.sectionHeading { 
+				width: 476px; 
+				margin-left: auto;
+				margin-right: auto;	
+			}
+
+			.fastFacts .sectionPara,
+			.fastFacts .sectionHeading { width: auto; } 
+}
+
+
+@media only screen and (min-width: 673px) {
+
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+
+			.fastFacts .sectionPara,
+			.fastFacts .sectionHeading { width: 476px; } 
+}
+
+
+@media only screen and (min-width: 702px) {
+
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+
+			.fastFactsList {
+				width: 582px;
+				margin: 0 auto;
+			}
+
+			.newsBlock a p, 
+			.companyNewsBlockPara { height: 152px; }
+
+			.productImageGallery {
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+
+			.productImageBlock {
+				width: 	618px;
+				margin: 0 auto;
+			}
+
+			.productPhoto { width: 262px; }
+
+			.productPhoto:nth-child(odd) { margin-right: 13px; }
+
+			.productImageBlock4 .productPhoto:last-child { margin-bottom: 2rem; }
+}
+
+
+@media only screen and (min-width: 759px) {
+	
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+			
+			.sectionContentBlock { width: 191px; }
+
+			.resourceBlock { width: 48%; }
+
+			.sectionContent { justify-content: space-between; }
+
+			.resource .sectionContent { justify-content: center; }
+		
+			.sectionContentBlock:nth-child(odd) { margin-right: 0; }
+
+			.news .sectionContent,
+			.companyNews .sectionContent {
+				width: 	609px;
+				margin: 0 auto;
+			}
+
+			.whatWeDoBlock:nth-child(1) {
+				width: 48%;
+				margin-bottom: 2rem;
+			}
+
+			.whatWeDoBlock:nth-child(2) {
+				width: 48%;
+				margin-top: 0rem;
+			}
+			
+}
+
+
+@media only screen and (min-width: 882px) {
+	
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+
+			.resource {
+				padding: 0px;
+				width: 700px;
+			}
+}
+
+
+@media only screen and (min-width: 922px) {
+
+		/* ------------- Main -------------- */
+		/*-- Alignment --*/
+			
+			.whatWeDo {
+				width: 771px;
+				padding: 0rem;
+			}
+}
+
+
+@media only screen and (min-width: 977px) {
+
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+
+			.news .sectionContent,
+			.companyNews .sectionContent { width: auto; }
+
+			.news .sectionContentBlock,
+			.companyNews .sectionContentBlock { width: 23%; } 
+
+			.newsBlock a p, 
+			.companyNewsBlockPara { height: 133px; }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+
+			.productImageBlock { width: 915px; }
+
+			.productPhoto:nth-child(odd) { margin-right: 0px; }
+
+			.productImageBlock1 .productImageGallery .productPhoto:nth-child(2),
+			.productImageBlock4 .productImageGallery .productPhoto:nth-child(2) { margin: 0rem 1rem 2rem 1rem; }
+
+}
+
+
+@media only screen and (min-width: 1299px) {
+
+	/* ------------- Main -------------- */
+		/*-- Alignment --*/
+
+			.productImageBlock { width: auto; }
+
+			.productImageGallery { justify-content: space-between; }
+
+			.productImageBlock1 .productImageGallery .productPhoto:nth-child(2), 
+			.productImageBlock4 .productImageGallery .productPhoto:nth-child(2) { margin: 0rem 0rem 2rem 0rem; }
+}
 
 
 @media only screen and (min-width: 1360px) {
