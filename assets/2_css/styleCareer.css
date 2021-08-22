@@ -14,17 +14,32 @@ main h5 { margin: 0; }
 
 /* ---- color --- */
 
- { color: #6a737c; }
+.newsPara,
+.newsDateWrapper span { color: #6a737c; }
 
- { color: #848d95; }
+.mainHeaderContentAboveHeading { color: #848d95; }
 
- { color: #242729; }
+.newsHeading,
+.whoWeAreLeft h3,
+.ourCoreValue h3,
+.ourBenefitsBlock p,
+.ourCoreValueBlock p,
+.ourCommitmentLeft h3,
+.ourCommitmentRight li p,
+.whoWeAreRight figcaption,
+.mainHeaderContentHeading { color: #242729; }
 
- { color: #535a60; }
+.whoWeAreLeft p,
+.ourCommitmentLeft p,
+.mainHeaderContentBelowHeading { color: #535a60; }
 
-/*{ color: #3c4146; }*/
+.whoWeAreRight span { color: #9fa6ad; }
 
- { color: #2f3337; }
+.ourBenefitsBlock h5,
+.ourCoreValueBlock h5,
+.ourCommitmentRight li h4 { color: #3c4146; }
+
+.headingWithLineHeading { color: #2f3337; }
 
 /*{ color: #0c0d0e; }*/
 
@@ -38,10 +53,13 @@ main h5 { margin: 0; }
 
 
 /*blue*/
- { color: #0095ff; }
+.newsHeading:hover,
+.whoWeAreLeft p a:hover,
+.ourCommitmentRight li p a:hover { color: #0095ff; }
 
 
- { color: #0077cc; }
+.whoWeAreLeft p a,
+.ourCommitmentRight li p a { color: #0077cc; }
 
  { color: #379fef; }
 
@@ -85,9 +103,29 @@ main h5 { margin: 0; }
 
 /* ---- Font --- */
 
- { font-family: "Roboto Slab", serif; }
+.newsHeading,
+.ourCoreValue h3,
+.whoWeAreLeft h3,
+.ourBenefitsBlock h5,
+.ourCoreValueBlock h5,
+.ourCommitmentLeft h3,
+.headingWithLineHeading,
+.mainHeaderContentHeading,
+.whoWeAreRight figcaption,
+.ourCommitmentRight li h4,
+.mainHeaderContentAboveHeading { font-family: "Roboto Slab", serif; }
 
- { font-family: "Source Sans Pro", sans-serif; }
+.newsPara,
+.whoWeAreLeft p,
+.whoWeAreLeft p a,
+.ourBenefitsBlock p,
+.whoWeAreRight span,
+.ourCoreValueBlock p,
+.ourCommitmentLeft p,
+.newsDateWrapper span,
+.ourCommitmentRight li p,
+.mainHeaderContent .button a,
+.mainHeaderContentBelowHeading { font-family: "Source Sans Pro", sans-serif; }
 
  { font-weight: 500; }
 
@@ -96,7 +134,7 @@ main h5 { margin: 0; }
 
 /* 28.6px */
 
- { 
+.mainHeaderContentHeading { 
 	font-size: 1.8rem;
 	line-height: 2.2rem;
 }
@@ -104,17 +142,22 @@ main h5 { margin: 0; }
 
 /* 25.3px */
 
- { font-size: 1.6rem; }
+.ourCommitmentLeft h3 { font-size: 1.6rem; }
 
 
 /* 22px */
 
- { font-size: 1.4rem; }
+.newsHeading,
+.whoWeAreLeft h3,
+.ourCoreValue h3,
+.headingWithLineHeading,
+.whoWeAreRight figcaption { font-size: 1.4rem; }
 
 
 /* 19.8px */
 
- { 
+.ourCoreValueBlock h5,
+.ourCommitmentRight li h4 { 
 	font-size: 1.28rem; 
 	line-height: 1.7rem;
 }
@@ -122,7 +165,11 @@ main h5 { margin: 0; }
 
 /* 17.6px */
 
- { 
+.whoWeAreLeft p,
+.ourCommitmentLeft p,
+.ourBenefitsBlock h5,
+.mainHeaderContentAboveHeading,
+.mainHeaderContentBelowHeading { 
 	font-size: 1.13rem; 
 	line-height: 1.45rem;
 	line-height: 1.55rem;
@@ -131,7 +178,11 @@ main h5 { margin: 0; }
 
 /* 15.4px */
 
- { 
+.newsPara,
+.whoWeAreRight span,
+.ourBenefitsBlock p,
+.ourCoreValueBlock p,
+.ourCommitmentRight li p { 
 	font-size: 1rem; 
 	line-height: 1.3rem;
 }
@@ -139,7 +190,8 @@ main h5 { margin: 0; }
 
 /* 14.3px */
 
- {
+.newsDateWrapper span,
+.mainHeaderContent .button a {
 	font-size: 0.93rem;
     line-height: 1.15rem;
 }
@@ -405,19 +457,19 @@ video {}
 	z-index: -1;
 }
 
-.design1 { top: 33%; }
+.mainHeaderVideo .design1 { top: 33%; }
 
-.design2 {
+ .mainHeaderVideo.design2 {
 	top: 27%;
 	right: 29%;
 }
 
-.design3 {
+.mainHeaderVideo .design3 {
 	top: 2.5%;
-	    right: 12%;
+	right: 12%;
 }
 
-.design4 {
+.mainHeaderVideo .design4 {
 	top: 55%;
 	right: 0.2%;
 }
@@ -426,7 +478,97 @@ video {}
 
 
 /*---------- mainHeaderContent --------- */
-.mainHeaderContent {}
+.mainHeaderContent { text-align: center; }
+
+.mainHeaderContentAboveHeading {}
+.mainHeaderContentHeading {}
+.mainHeaderContentBelowHeading {}
+.mainHeaderContent .button {}
+.mainHeaderContent .button a {}
+
+
+/* ------------------ whoWeAre section ----------------- */
+.whoWeAreWrapper {}
+
+.whoWeAre {}
+
+.whoWeAreLeft {}
+
+.whoWeAreLeft h3 {}
+
+.whoWeAreLeft p {}
+.whoWeAreLeft p a {}
+
+.whoWeAreRight {}
+.whoWeAreRight img {}
+.whoWeAreRight span {}
+.whoWeAreRight figcaption {}
+
+.whoWeAre .design1 {}
+
+/* ---------------- ourCommitment section ------------ */
+
+.ourCommitment {}
+
+.ourCommitmentLeft {}
+.ourCommitmentLeft h3 {}
+.ourCommitmentLeft p {}
+.ourCommitmentLeftImg {}
+.ourCommitmentLeftImg img {}
+
+.ourCommitmentRight {}
+.ourCommitmentRight li {}
+.ourCommitmentRight li h4 {}
+.ourCommitmentRight li p {}
+.ourCommitmentRight li p a {}
+
+
+/* --------------- ourCoreValue section -------------- */
+.ourCoreValueWrapper {}
+.ourCoreValue {}
+.ourCoreValue h3 {}
+
+.ourCoreValueBlockWrapper {}
+.ourCoreValueBlock {}
+.ourCoreValueBlockImg {}
+.ourCoreValueBlockImg img {}
+.ourCoreValueBlock h5 {}
+.ourCoreValueBlock p {}
+
+.ourCoreValueWrapper .design1 {}
+.ourCoreValueWrapper .design2 {}
+.ourCoreValueWrapper .design3 {}
+
+/* --------------- ourBenefits section --------------- */
+.ourBenefitsWrapper {}
+.ourBenefits {}
+
+.headingWithLine {}
+.headingLine {}
+.headingWithLineHeading {}
+
+.ourBenefitsBlockWrapper {}
+.ourBenefitsBlock {}
+.ourBenefitsBlockImg {}
+.ourBenefitsBlockImg img {}
+.ourBenefitsBlock h5 {}
+.ourBenefitsBlock p {}
+
+.benifitDesign {}
+
+/* ------------- recentCompanyNews section ----------- */
+.recentCompanyNews {}
+.newsMain {}
+.newsBlock {}
+.newsBlock a {}
+.newsImg {}
+.newsDateWrapper {}
+.newsDateWrapper img {}
+.newsDateWrapper span {}
+.newsHeading {}
+.newsPara
+
+
 
 
 /* ======================================== Media Styling =================================================*/
