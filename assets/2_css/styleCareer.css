@@ -151,7 +151,10 @@ main h5 { margin: 0; }
 .whoWeAreLeft h3,
 .ourCoreValue h3,
 .headingWithLineHeading,
-.whoWeAreRight figcaption { font-size: 1.4rem; }
+.whoWeAreRight figcaption { 
+	font-size: 1.4rem; 
+	line-height: 1.8rem
+}
 
 
 /* 19.8px */
@@ -173,6 +176,7 @@ main h5 { margin: 0; }
 	font-size: 1.13rem; 
 	line-height: 1.45rem;
 	line-height: 1.55rem;
+	line-height: 1.57rem;
 }
 
 
@@ -184,7 +188,9 @@ main h5 { margin: 0; }
 .ourCoreValueBlock p,
 .ourCommitmentRight li p { 
 	font-size: 1rem; 
+	font-size: 1.07rem; 
 	line-height: 1.3rem;
+	line-height: 1.4rem;
 }
 
 
@@ -482,7 +488,11 @@ video {}
 
 
 /*---------- mainHeaderContent --------- */
-.mainHeaderContent { text-align: center; }
+.mainHeaderContent { 
+	text-align: center; 
+	position: relative;
+	top: 60%;
+}
 
 .mainHeaderContentAboveHeading { margin-bottom: 1rem; }
 
@@ -495,63 +505,119 @@ video {}
 
 .mainHeaderContent .button { padding: 0.7rem 2rem; }
 
-.mainHeaderContent .button a {}
+.mainHeaderContent .button:hover { background-color: #0077cc; }
 
 
 /* ------------------ whoWeAre section ----------------- */
-.whoWeAreWrapper {}
+.whoWeAreWrapper { 
+	padding: 3rem 1.5rem; 
+	border-bottom: 1px solid #eff0f1;
+}
 
 .whoWeAre {}
 
 .whoWeAreLeft {}
 
-.whoWeAreLeft h3 {}
+.whoWeAreLeft h3 { margin-bottom: 2rem; }
 
-.whoWeAreLeft p {}
+.whoWeAreLeft p {
+	margin-bottom: 1.5rem;
+}
+
 .whoWeAreLeft p a {}
 
-.whoWeAreRight {}
-.whoWeAreRight img {}
+.whoWeAreRight {
+	margin: 0;
+	text-align: center;
+}
+
+.whoWeAreRight img {
+	display: block;
+	width: 100%;
+	margin: 0 auto 2rem auto;
+}
+
 .whoWeAreRight span {}
-.whoWeAreRight figcaption {}
+
+.whoWeAreRight figcaption {
+	margin-top: 1rem;
+}
 
 .whoWeAre .design1 {}
 
 /* ---------------- ourCommitment section ------------ */
 
-.ourCommitment {}
+.ourCommitment {     padding: 3rem 0rem; }
 
-.ourCommitmentLeft {}
-.ourCommitmentLeft h3 {}
-.ourCommitmentLeft p {}
-.ourCommitmentLeftImg {}
-.ourCommitmentLeftImg img {}
+.ourCommitmentLeft {    padding: 0rem 1.5rem;}
+.ourCommitmentLeft h3 {margin-bottom: 2rem;}
+.ourCommitmentLeft p {margin-bottom: 3rem;}
+.ourCommitmentLeftImg {    margin: 0 auto;}
+.ourCommitmentLeftImg img {    width: 100%;}
 
-.ourCommitmentRight {}
+.ourCommitmentRight {
+	margin: 0rem 1rem;
+    padding: 2rem 1rem;
+    border-radius: 7px;
+    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+    			0 100px 80px rgb(0 0 0 / 7%);
+}
+
 .ourCommitmentRight li {}
-.ourCommitmentRight li h4 {}
-.ourCommitmentRight li p {}
+.ourCommitmentRight li h4 {     margin-bottom: 1rem; }
+.ourCommitmentRight li p {    margin-bottom: 2rem;}
 .ourCommitmentRight li p a {}
 
 
 /* --------------- ourCoreValue section -------------- */
-.ourCoreValueWrapper {}
-.ourCoreValue {}
-.ourCoreValue h3 {}
+.ourCoreValueWrapper { margin: 2rem 0rem; }
+.ourCoreValue {
+	background: white;
+    padding-bottom: 5rem;
+    position: relative;
+}
+.ourCoreValue h3 { 
+	padding-top: 2rem;
+	text-align: center; 
+	position: relative;
+    z-index: 1;
+}
 
-.ourCoreValueBlockWrapper {}
+.ourCoreValueBlockWrapper { 
+	position: relative;
+    z-index: 1;
+	margin: 5rem 1rem; 
+	border-radius: 7px;
+	padding: 2rem 1rem;
+    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+    			0 100px 80px rgb(0 0 0 / 7%);
+   	background: white;
+}
+
 .ourCoreValueBlock {}
-.ourCoreValueBlockImg {}
-.ourCoreValueBlockImg img {}
-.ourCoreValueBlock h5 {}
-.ourCoreValueBlock p {}
+.ourCoreValueBlockImg { margin-bottom: 1rem; }
+.ourCoreValueBlockImg img { width: auto; }
+.ourCoreValueBlock h5 { margin-bottom: 0.8rem }
+.ourCoreValueBlock p { margin-bottom: 2rem }
+
+.ourCoreValueWrapper .design3 {
+	    height: 1644px;
+    width: 41%;
+    background: #f9fbfd;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+}
 
 .ourCoreValueWrapper .design1 {}
 .ourCoreValueWrapper .design2 {}
-.ourCoreValueWrapper .design3 {}
 
 /* --------------- ourBenefits section --------------- */
-.ourBenefitsWrapper {}
+.ourBenefitsWrapper {
+	position: relative;
+    background: white;
+}
+
 .ourBenefits {}
 
 .headingWithLine {}
