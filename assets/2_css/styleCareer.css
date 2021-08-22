@@ -212,7 +212,11 @@ main h5 { margin: 0; }
  { text-align: center; }
 
 
- { flex-direction: column; }
+.newsMain,
+.whoWeAre,
+.ourCommitment,
+.ourBenefitsBlockWrapper,
+.ourCoreValueBlockWrapper { flex-direction: column; }
 
 
 /* ======================================== Main Styling =================================================*/
@@ -480,10 +484,17 @@ video {}
 /*---------- mainHeaderContent --------- */
 .mainHeaderContent { text-align: center; }
 
-.mainHeaderContentAboveHeading {}
-.mainHeaderContentHeading {}
-.mainHeaderContentBelowHeading {}
-.mainHeaderContent .button {}
+.mainHeaderContentAboveHeading { margin-bottom: 1rem; }
+
+.mainHeaderContentHeading {
+	font-weight: 500;
+	margin: 0.5rem auto 1.2rem auto;
+}
+
+.mainHeaderContentBelowHeading { margin-bottom: 2rem; }
+
+.mainHeaderContent .button { padding: 0.7rem 2rem; }
+
 .mainHeaderContent .button a {}
 
 
