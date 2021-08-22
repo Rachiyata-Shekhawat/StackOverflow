@@ -1,0 +1,478 @@
+/* ======================================== Main Common Styling =================================================*/
+
+main img { width: 100%; }
+
+main div img { width: 20px; }
+
+main a { color: #0077cc; }
+
+main h2,
+main h3,
+main h4,
+main h4,
+main h5 { margin: 0; }
+
+/* ---- color --- */
+
+ { color: #6a737c; }
+
+ { color: #848d95; }
+
+ { color: #242729; }
+
+ { color: #535a60; }
+
+/*{ color: #3c4146; }*/
+
+ { color: #2f3337; }
+
+/*{ color: #0c0d0e; }*/
+
+ { color: white; }
+
+/*{ color: rgb(170, 170, 170); }
+
+
+/*orange*/
+/*{ color: #f2720c; }*/
+
+
+/*blue*/
+ { color: #0095ff; }
+
+
+ { color: #0077cc; }
+
+ { color: #379fef; }
+
+
+/*{ background-color: #fafafb; }
+
+{ 
+	border: 1px solid #d6d9dc; 
+	border-radius: 4px;
+}
+
+{
+	border: 1px solid rgb(89, 167, 222);
+	box-shadow: rgba(0, 119, 204, 0.15) 0px 0px 0px 4px;
+}*/
+
+ {	
+	border: 1px solid #eff0f1;
+    border-radius: 2%;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, 
+				rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, 
+				rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
+}
+
+/*hover*/ {
+	box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 2px 0px, 
+				rgba(0, 0, 0, 0.10) 0px 1px 4px 0px, 
+				rgba(0, 0, 0, 0.10) 0px 2px 8px 0px;
+}
+
+
+/* ---- Border --- */
+
+/*{ border-bottom: 1px solid #eff0f1; }
+
+{
+    box-shadow: 0px -37px 30px rgb(0 0 0 / 2%) inset;
+    background-color: #f9fbfd;
+}
+*/
+
+/* ---- Font --- */
+
+ { font-family: "Roboto Slab", serif; }
+
+ { font-family: "Source Sans Pro", sans-serif; }
+
+ { font-weight: 500; }
+
+ { font-weight: 600; }
+
+
+/* 28.6px */
+
+ { 
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+}
+
+
+/* 25.3px */
+
+ { font-size: 1.6rem; }
+
+
+/* 22px */
+
+ { font-size: 1.4rem; }
+
+
+/* 19.8px */
+
+ { 
+	font-size: 1.28rem; 
+	line-height: 1.7rem;
+}
+
+
+/* 17.6px */
+
+ { 
+	font-size: 1.13rem; 
+	line-height: 1.45rem;
+	line-height: 1.55rem;
+}
+
+
+/* 15.4px */
+
+ { 
+	font-size: 1rem; 
+	line-height: 1.3rem;
+}
+
+
+/* 14.3px */
+
+ {
+	font-size: 0.93rem;
+    line-height: 1.15rem;
+}
+
+
+/* 11px */
+
+ {
+	font-size: 0.98rem;
+    line-height: 1.3rem;
+}
+
+
+/* ---- Alignment --- */
+
+ { margin: 0 auto; }
+
+ { text-align: center; }
+
+
+ { flex-direction: column; }
+
+
+/* ======================================== Main Styling =================================================*/
+
+main {
+	/*height: 900px;*/
+}
+
+
+/* ------------------ mainHeader section ----------------- */
+.mainHeader {}
+
+
+/*---------- mainHeaderVideo ------------*/
+.mainHeaderVideo { 
+	height: 374px;
+	height: 577px;
+	border: 1px solid blue; 
+	position: relative;
+}
+
+/* videoBox */
+.videoBox { 
+	/*margin: 1rem; */
+	border-radius: 7px;
+	position: absolute;
+}
+
+.videoBox1 { 
+	top: 7%;
+    left: 5%;
+	background-color: #0077cc; 
+}
+
+.videoBox2 { 
+	top: 19%;
+    left: 30%;
+	background-color: #2f3337; 
+}
+
+.videoBox3 { 
+	top: 12%;
+	right: 37%;
+    
+	background-color: #6cbbf7; 
+}
+
+.videoBox4 { 
+	top: 6%;
+    right: 7%;
+	background-color: #ffcc01; 
+}
+
+.videoBox5 { 
+	top: 32%;
+    left: 9%;
+    z-index: 5;
+	background-color: #ffcc01; 
+}
+
+.videoBox6 { 
+	
+    top: 24%;
+    right: 15%;
+    z-index: 5;
+	background-color: #f2720c; 
+}
+
+.videoBox7 { 
+	top: 9%;
+    left: 12%;
+	background-color: ; 
+}
+
+.videoBox8 { 
+	 top: 9%;
+	left: 39%;
+   
+	background-color: ; 
+}
+
+.videoBox9 { 
+	right: 19%;
+    top: 2%;
+	background-color: ; 
+}
+
+.videoBox10 {
+	top: 33%; 
+	    right: 2%;
+    
+	background-color: ; 
+}
+
+
+/* video */
+video {}
+.video1,
+.video2,
+.video3,
+.video4 {
+    width: 79%;
+    border-radius: 50%;
+    margin: 11px;
+    margin: 10px;
+}
+
+.video5,
+.video6 {
+	width: 83%;
+	border-radius: 50%;
+    margin: 10px;
+}
+
+.video7,
+.video8,
+.video9,
+.video10 {
+	width: 95%;
+    margin: 6px;
+    border-radius: 7px;
+}
+
+.video8 { width: 93%; }
+.video9 {}
+.video10 {}
+
+/* video backgrounds*/
+.smallCircleBackground {
+	width: 94px;
+	height: 94px;
+	width: 89px;
+	height: 89px;
+}
+
+.largeCircleBackground {
+	width: 112px;
+	height: 112px;
+}
+
+.tabBackground { 
+	width: 236px;
+	height: 149px;
+	background-color: white;
+	border: 1px solid #d6d9dc;
+	box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
+	display: none;
+}
+
+.videoBox8 {
+	width: 146px;
+    height: 114px;
+}
+
+.tabBar {
+	width: 226px;
+	height: 14px;
+	padding: 4px 0px 0px 5px;
+	margin: 0 auto;
+	background-color: #e4e6e8;
+}
+
+.videoBox8 .tabBar { width: 136px; }
+
+.tabBar li { 
+	width: 5px;
+    height: 6px;
+    border-radius: 50%;
+    vertical-align: text-top;
+    margin-right: 2px;
+}
+
+.redButton { background-color: #de535e; }
+
+.yellowButton { background-color: #ffcc01; }
+
+.greenButton { background-color: #5eba7d; }
+
+/* designBox */
+
+.big2Box,
+.small2Box {
+	background-color: white;
+	flex-direction: column;
+}
+
+.big2Box div,
+.small2Box div {
+	width: 50%;
+	height: 50%;
+}
+
+.big2Box2,
+.small2Box2 { align-self: flex-end; }
+
+.big2Box {
+	/*background-color: white;*/
+	width: 90px;
+	height: 90px;
+	/*flex-direction: column;*/
+}
+
+/*.big2Box div {
+	width: 50%;
+	height: 50%;
+}*/
+
+.mainHeaderVideo .big2Box1 { background-color: #5eba7d; }
+
+.mainHeaderVideo .big2Box2 { 
+	/*align-self: flex-end;*/
+	background-color: #dff1e5; 
+}
+
+.small2Box {
+	width: 25px;
+	height: 25px;
+}
+
+.mainHeaderVideo .design2 .small2Box1 { background-color: #eee2cf; }
+.mainHeaderVideo .design2 .small2Box2 { background-color: #f5bb52; }
+
+.mainHeaderVideo .design3 .small2Box1 { 
+	align-self: flex-end;
+	background-color: #e37831; 
+}
+.mainHeaderVideo .design3 .small2Box2 { 
+	align-self: flex-start;
+	background-color: #f9e3d4; 
+}
+
+
+.small1Box {
+	border-radius: 7px;
+	width: 55px;
+	height: 55px;
+	background-color: #f16720;
+}
+
+.design { 
+	position: absolute; 
+	z-index: -1;
+}
+
+.design1 { top: 33%; }
+
+.design2 {
+	top: 27%;
+	right: 29%;
+}
+
+.design3 {
+	top: 2.5%;
+	    right: 12%;
+}
+
+.design4 {
+	top: 55%;
+	right: 0.2%;
+}
+
+
+
+
+/*---------- mainHeaderContent --------- */
+.mainHeaderContent {}
+
+
+/* ======================================== Media Styling =================================================*/
+
+@media only screen and (min-width: ) {
+
+	/* ------------- Main -------------- */
+
+		/*-- Font Size --*/
+
+		/*-- Alignment --*/	
+}
+
+
+@media only screen and (min-width: 577px) {
+
+	/* ------------- Main -------------- */
+
+		/*-- Font Size --*/
+
+		/*-- Alignment --*/
+
+		/*---------- mainHeaderVideo ------------*/
+
+			.tabBackground { display: block; }
+
+			
+}
+
+
+
+@media only screen and (min-width: 1360px) {
+
+	body {
+	    background-image: url(../3_images/0_common/bg-nav.png);
+	    background-repeat: no-repeat;
+	    background-size: 100% 15rem;
+	    background-size: 110% 38rem;
+	}
+
+	/* ------------ Header ------------- */
+
+		header { background: none; }
+
+	/* ------------- Main -------------- */
+
+		
+		
+}
