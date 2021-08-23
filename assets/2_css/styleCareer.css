@@ -1,8 +1,8 @@
 /* ======================================== Main Common Styling =================================================*/
 
-main img { width: 100%; }
+/*main img { width: 100%; }*/
 
-main div img { width: 20px; }
+/*main div img { width: 20px; }*/
 
 main a { color: #0077cc; }
 
@@ -12,7 +12,8 @@ main h4,
 main h4,
 main h5 { margin: 0; }
 
-/* ---- color --- */
+
+/* ---- Color --- */
 
 .newsPara,
 .newsDateWrapper span { color: #6a737c; }
@@ -41,16 +42,6 @@ main h5 { margin: 0; }
 
 .headingWithLineHeading { color: #2f3337; }
 
-/*{ color: #0c0d0e; }*/
-
- { color: white; }
-
-/*{ color: rgb(170, 170, 170); }
-
-
-/*orange*/
-/*{ color: #f2720c; }*/
-
 
 /*blue*/
 .newsHeading:hover,
@@ -61,45 +52,6 @@ main h5 { margin: 0; }
 .whoWeAreLeft p a,
 .ourCommitmentRight li p a { color: #0077cc; }
 
- { color: #379fef; }
-
-
-/*{ background-color: #fafafb; }
-
-{ 
-	border: 1px solid #d6d9dc; 
-	border-radius: 4px;
-}
-
-{
-	border: 1px solid rgb(89, 167, 222);
-	box-shadow: rgba(0, 119, 204, 0.15) 0px 0px 0px 4px;
-}*/
-
- {	
-	border: 1px solid #eff0f1;
-    border-radius: 2%;
-	box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px, 
-				rgba(0, 0, 0, 0.05) 0px 1px 4px 0px, 
-				rgba(0, 0, 0, 0.05) 0px 2px 8px 0px;
-}
-
-/*hover*/ {
-	box-shadow: rgba(0, 0, 0, 0.10) 0px 1px 2px 0px, 
-				rgba(0, 0, 0, 0.10) 0px 1px 4px 0px, 
-				rgba(0, 0, 0, 0.10) 0px 2px 8px 0px;
-}
-
-
-/* ---- Border --- */
-
-/*{ border-bottom: 1px solid #eff0f1; }
-
-{
-    box-shadow: 0px -37px 30px rgb(0 0 0 / 2%) inset;
-    background-color: #f9fbfd;
-}
-*/
 
 /* ---- Font --- */
 
@@ -127,13 +79,10 @@ main h5 { margin: 0; }
 .mainHeaderContent .button a,
 .mainHeaderContentBelowHeading { font-family: "Source Sans Pro", sans-serif; }
 
- { font-weight: 500; }
+.mainHeaderContentHeading { font-weight: 500; }
 
- { font-weight: 600; }
-
-
+ 
 /* 28.6px */
-
 .mainHeaderContentHeading { 
 	font-size: 1.8rem;
 	line-height: 2.2rem;
@@ -141,15 +90,14 @@ main h5 { margin: 0; }
 
 
 /* 25.3px */
-
 .ourCommitmentLeft h3 { 
 	font-size: 1.6rem; 
+	font-size: 1.8rem;
 	line-height: 2.3rem;
 }
 
 
 /* 22px */
-
 .newsHeading,
 .whoWeAreLeft h3,
 .ourCoreValue h3,
@@ -157,12 +105,13 @@ main h5 { margin: 0; }
 .whoWeAreRight figcaption { 
 	font-size: 1.4rem; 
 	font-size: 1.45rem; 
-	line-height: 1.8rem
+	line-height: 1.8rem;
+	font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 
 /* 19.8px */
-
 .ourCoreValueBlock h5,
 .ourCommitmentRight li h4 { 
 	font-size: 1.28rem; 
@@ -171,7 +120,6 @@ main h5 { margin: 0; }
 
 
 /* 17.6px */
-
 .whoWeAreLeft p,
 .ourCommitmentLeft p,
 .ourBenefitsBlock h5,
@@ -183,11 +131,11 @@ main h5 { margin: 0; }
 	line-height: 1.57rem;
 	font-size: 1.25rem;
     line-height: 1.65rem;
+    line-height: 1.7rem;
 }
 
 
 /* 15.4px */
-
 .newsPara,
 .whoWeAreRight span,
 .ourBenefitsBlock p,
@@ -197,11 +145,11 @@ main h5 { margin: 0; }
 	font-size: 1.07rem; 
 	line-height: 1.3rem;
 	line-height: 1.4rem;
+	    line-height: 1.5rem;
 }
 
 
 /* 14.3px */
-
 .newsDateWrapper span,
 .mainHeaderContent .button a {
 	font-size: 0.93rem;
@@ -209,33 +157,113 @@ main h5 { margin: 0; }
 }
 
 
-/* 11px */
+/* ---- Background --- */
 
- {
-	font-size: 0.98rem;
-    line-height: 1.3rem;
+.big2Box,
+.small2Box,
+.ourBenefits,
+.ourCoreValue,
+.tabBackground,
+.recentCompanyNews,
+.ourBenefitsWrapper,
+.headingWithLineHeading,
+.ourCoreValueBlockWrapper,
+.ourBenefitsBlock:nth-child(8) { background-color: white; }
+
+
+/* ---- Border --- */
+
+.video7,
+.video8,
+.video9,
+.newsImg,
+.video10,
+.videoBox,
+.small1Box,
+.ourBenefits,
+.benifitDesign,
+.ourBenefitsBlock,
+.ourCommitmentRight,
+.ourCoreValueBlockWrapper,
+.ourCoreValueWrapper .design3 { border-radius: 7px; }
+
+
+/* ---- Box Shadow --- */
+
+.ourBenefits,
+.ourCommitmentRight,
+.ourCoreValueBlockWrapper {
+	box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+    			0 100px 80px rgb(0 0 0 / 7%);
 }
 
 
 /* ---- Alignment --- */
 
- { margin: 0 auto; }
+.tabBar,
+.headingWithLine,
+.ourCommitmentLeftImg, 
+.headingWithLineHeading { margin: 0 auto; }
 
- { text-align: center; }
+.whoWeAreRight,
+.ourCoreValue h3,
+.headingWithLine,
+.mainHeaderContent,
+.ourBenefitsBlock:nth-child(8) { text-align: center; }
 
-
+.big2Box,
 .newsMain,
 .whoWeAre,
+.small2Box,
 .ourCommitment,
 .ourBenefitsBlockWrapper,
 .ourCoreValueBlockWrapper { flex-direction: column; }
 
 
+/* ---- Position --- */
+
+.ourBenefits,
+.ourCoreValue,
+.headingWithLine,
+.ourCoreValue h3,
+.mainHeaderVideo ,
+.recentCompanyNews,
+.mainHeaderContent,
+.ourBenefitsWrapper,
+.ourCoreValueWrapper,
+.headingWithLineHeading,
+.ourCoreValueBlockWrapper { position: relative; }
+
+.design,
+.videoBox,
+.headingLine,
+.benifitDesign,
+.ourCoreValueWrapper .design3  { position: absolute; }
+
+
+/* ---- Margin --- */
+
+.newsHeading,
+.newsDateWrapper,
+.ourBenefitsBlock h5,
+.ourBenefitsBlockImg,
+.ourCoreValueBlockImg,
+.ourCommitmentRight li h4,
+.mainHeaderContentAboveHeading { margin: 0rem 0rem 1rem 0rem; }
+
+.newsImg,
+.newsBlock,
+.ourBenefitsBlock,
+.whoWeAreLeft h3,
+.ourCoreValueBlock p,
+.ourCommitmentLeft h3,
+.ourCommitmentRight li p,
+.mainHeaderContentBelowHeading { margin: 0rem 0rem 2rem 0rem; }
+
+
 /* ======================================== Main Styling =================================================*/
 
-main {
-	/*height: 900px;*/
-}
+main {}
 
 
 /* ------------------ mainHeader section ----------------- */
@@ -244,18 +272,12 @@ main {
 
 /*---------- mainHeaderVideo ------------*/
 .mainHeaderVideo { 
-	height: 374px;
 	height: 577px;
 	border: 1px solid blue; 
-	position: relative;
 }
 
+
 /* videoBox */
-.videoBox { 
-	/*margin: 1rem; */
-	border-radius: 7px;
-	position: absolute;
-}
 
 .videoBox1 { 
 	top: 7%;
@@ -272,7 +294,6 @@ main {
 .videoBox3 { 
 	top: 12%;
 	right: 37%;
-    
 	background-color: #6cbbf7; 
 }
 
@@ -290,7 +311,6 @@ main {
 }
 
 .videoBox6 { 
-	
     top: 24%;
     right: 15%;
     z-index: 5;
@@ -300,39 +320,32 @@ main {
 .videoBox7 { 
 	top: 9%;
     left: 12%;
-	background-color: ; 
 }
 
 .videoBox8 { 
 	 top: 9%;
 	left: 39%;
-   
-	background-color: ; 
 }
 
 .videoBox9 { 
+	top: 2%;
 	right: 19%;
-    top: 2%;
-	background-color: ; 
 }
 
 .videoBox10 {
 	top: 33%; 
-	    right: 2%;
-    
-	background-color: ; 
+	right: 2%; 
 }
 
 
 /* video */
-video {}
+
 .video1,
 .video2,
 .video3,
 .video4 {
     width: 79%;
     border-radius: 50%;
-    margin: 11px;
     margin: 10px;
 }
 
@@ -349,17 +362,14 @@ video {}
 .video10 {
 	width: 95%;
     margin: 6px;
-    border-radius: 7px;
 }
 
 .video8 { width: 93%; }
-.video9 {}
-.video10 {}
+
 
 /* video backgrounds*/
+
 .smallCircleBackground {
-	width: 94px;
-	height: 94px;
 	width: 89px;
 	height: 89px;
 }
@@ -372,7 +382,6 @@ video {}
 .tabBackground { 
 	width: 236px;
 	height: 149px;
-	background-color: white;
 	border: 1px solid #d6d9dc;
 	box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
 	display: none;
@@ -387,7 +396,6 @@ video {}
 	width: 226px;
 	height: 14px;
 	padding: 4px 0px 0px 5px;
-	margin: 0 auto;
 	background-color: #e4e6e8;
 }
 
@@ -397,8 +405,8 @@ video {}
 	width: 5px;
     height: 6px;
     border-radius: 50%;
-    vertical-align: text-top;
     margin-right: 2px;
+    vertical-align: text-top;
 }
 
 .redButton { background-color: #de535e; }
@@ -407,13 +415,8 @@ video {}
 
 .greenButton { background-color: #5eba7d; }
 
-/* designBox */
 
-.big2Box,
-.small2Box {
-	background-color: white;
-	flex-direction: column;
-}
+/* designBox */
 
 .big2Box div,
 .small2Box div {
@@ -425,23 +428,13 @@ video {}
 .small2Box2 { align-self: flex-end; }
 
 .big2Box {
-	/*background-color: white;*/
 	width: 90px;
 	height: 90px;
-	/*flex-direction: column;*/
 }
-
-/*.big2Box div {
-	width: 50%;
-	height: 50%;
-}*/
 
 .mainHeaderVideo .big2Box1 { background-color: #5eba7d; }
 
-.mainHeaderVideo .big2Box2 { 
-	/*align-self: flex-end;*/
-	background-color: #dff1e5; 
-}
+.mainHeaderVideo .big2Box2 { background-color: #dff1e5; }
 
 .small2Box {
 	width: 25px;
@@ -449,35 +442,32 @@ video {}
 }
 
 .mainHeaderVideo .design2 .small2Box1 { background-color: #eee2cf; }
+
 .mainHeaderVideo .design2 .small2Box2 { background-color: #f5bb52; }
 
 .mainHeaderVideo .design3 .small2Box1 { 
 	align-self: flex-end;
 	background-color: #e37831; 
 }
+
 .mainHeaderVideo .design3 .small2Box2 { 
 	align-self: flex-start;
 	background-color: #f9e3d4; 
 }
 
-
 .small1Box {
-	border-radius: 7px;
 	width: 55px;
 	height: 55px;
 	background-color: #f16720;
 }
 
-.design { 
-	position: absolute; 
-	z-index: -1;
-}
+.design { z-index: -1; }
 
 .mainHeaderVideo .design1 { top: 33%; }
 
- .mainHeaderVideo.design2 {
+.mainHeaderVideo .design2 {
 	top: 27%;
-	right: 29%;
+    right: 28%;
 }
 
 .mainHeaderVideo .design3 {
@@ -491,23 +481,11 @@ video {}
 }
 
 
-
-
 /*---------- mainHeaderContent --------- */
-.mainHeaderContent { 
-	text-align: center; 
-	position: relative;
-	top: 60%;
-}
 
-.mainHeaderContentAboveHeading { margin-bottom: 1rem; }
+.mainHeaderContent { top: 60%;}
 
-.mainHeaderContentHeading {
-	font-weight: 500;
-	margin: 0.5rem auto 1.2rem auto;
-}
-
-.mainHeaderContentBelowHeading { margin-bottom: 2rem; }
+.mainHeaderContentHeading { margin: 0.5rem auto 1.2rem auto; }
 
 .mainHeaderContent .button { padding: 0.7rem 2rem; }
 
@@ -520,222 +498,163 @@ video {}
 	border-bottom: 1px solid #eff0f1;
 }
 
-.whoWeAre {}
+.whoWeAreLeft { padding: 0rem 2rem; }
 
-.whoWeAreLeft { padding: 0rem 1.8rem; }
-
-.whoWeAreLeft h3 { margin-bottom: 2rem; }
-
-.whoWeAreLeft p {
-	margin-bottom: 1.5rem;
-}
-
-.whoWeAreLeft p a {}
+.whoWeAreLeft p { margin: 0rem 0rem 1.5rem 0rem; }
 
 .whoWeAreRight {
-	margin: 0;
-	text-align: center;
-	    padding: 0rem 1.5rem;
+	padding: 0 3%;
+	margin: 0;	    
 }
 
 .whoWeAreRight img {
-	display: block;
 	width: 100%;
 	margin: 0 auto 2rem auto;
+	display: block;
 }
 
-.whoWeAreRight span {}
+.whoWeAreRight figcaption { margin: 1rem 0rem 0rem 0rem; }
 
-.whoWeAreRight figcaption {
-	margin-top: 1rem;
-}
 
-.whoWeAre .design1 {}
+.whoWeAreWrapper .design1 .small2Box1 { background: #f2720c; }
+
+.whoWeAreWrapper .design1 .small2Box2 { background: #fce3ce; }
 
 /* ---------------- ourCommitment section ------------ */
 
-.ourCommitment {     padding: 3rem 0rem; }
+.ourCommitment { padding: 3rem 0rem; }
 
-.ourCommitmentLeft {    padding: 0rem 1.5rem;}
-.ourCommitmentLeft h3 {margin-bottom: 2rem;}
-.ourCommitmentLeft p {margin-bottom: 3rem;}
-.ourCommitmentLeftImg {    margin: 0 auto;}
-.ourCommitmentLeftImg img {    width: 100%;}
+.ourCommitmentLeft { padding: 0rem 2.5rem; }
+
+.ourCommitmentLeft p { margin: 0rem 0rem 3rem 0rem; }
+
+.ourCommitmentLeftImg img { width: 100%; }
 
 .ourCommitmentRight {
-	margin: 0rem 1rem;
-    padding: 2rem 1rem;
     padding: 2.5rem 1.5rem;
-    border-radius: 7px;
-    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
-    			0 100px 80px rgb(0 0 0 / 7%);
+    margin: 0rem 1rem;
 }
-
-.ourCommitmentRight li {}
-.ourCommitmentRight li h4 {     margin-bottom: 1rem; }
-.ourCommitmentRight li p {    margin-bottom: 2rem;}
-.ourCommitmentRight li p a {}
 
 
 /* --------------- ourCoreValue section -------------- */
+
 .ourCoreValueWrapper { margin: 2rem 0rem; }
-.ourCoreValue {
-	background: white;
-    padding-bottom: 5rem;
-    position: relative;
-}
+
+.ourCoreValue { padding: 0rem 0rem 5rem 0rem; }
+
 .ourCoreValue h3 { 
-	padding-top: 2rem;
-	text-align: center; 
-	position: relative;
+	padding: 2rem 0rem 0rem 0rem;
     z-index: 1;
 }
 
-.ourCoreValueBlockWrapper { 
-	position: relative;
-    z-index: 1;
+.ourCoreValueBlockWrapper {   
+    padding: 2rem 1rem;
 	margin: 5rem 1rem; 
-	border-radius: 7px;
-	padding: 2rem 1rem;
-    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
-    			0 100px 80px rgb(0 0 0 / 7%);
-   	background: white;
+	z-index: 1;
 }
 
-.ourCoreValueBlock {}
-.ourCoreValueBlockImg { margin-bottom: 1rem; }
 .ourCoreValueBlockImg img { width: auto; }
-.ourCoreValueBlock h5 { margin-bottom: 0.8rem }
-.ourCoreValueBlock p { margin-bottom: 2rem }
+
+.ourCoreValueBlock h5 { margin: 0rem 0rem 0.8rem 0rem; }
 
 .ourCoreValueWrapper .design3 {
-	    height: 1644px;
     width: 41%;
-    background: #f9fbfd;
-    position: absolute;
+    height: 1644px;
     top: 0;
-    border-radius: 7px;
+    background: #f9fbfd;
 }
 
-.ourCoreValueWrapper .design1 {}
-.ourCoreValueWrapper .design2 {}
+.ourCoreValueWrapper .design1 .small2Box1 { background: #27348b; }
+
+.ourCoreValueWrapper .design1 .small2Box2 { background: #c6cadd; }
+
+.ourCoreValueWrapper .design2 .small2Box1 { background: #ffcc01; }
+
+.ourCoreValueWrapper .design2 .small2Box2 { background: #f3e9c0; }
+
+.ourCoreValueWrapper .design { 
+	width: 32px;
+    height: 32px;
+	z-index: 10; 
+	display: none;
+}
+
+.ourCoreValueWrapper .design1 {
+	left: 8%;
+    bottom: 0%;
+}
+
+.ourCoreValueWrapper .design2 {
+	right: 5%;
+}
+
 
 /* --------------- ourBenefits section --------------- */
-.ourBenefitsWrapper {
-	position: relative;
-    background: white;
-    padding-bottom: 2rem;
-    padding-top: 4rem;
-}
+.ourBenefitsWrapper { padding: 4rem 0rem 2rem 0rem; }
 
-.ourBenefits {
-	    position: relative;
-    z-index: 1;
-    background: white;
-    border-radius: 7px;
-    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
-    			0 100px 80px rgb(0 0 0 / 7%);
-}
+.ourBenefits { z-index: 1; }
 
-.headingWithLine { 
-	position: relative; 
-	width: 95%;
-    margin: 0 auto;
-    text-align: center;
-}
+.headingWithLine { width: 95%; }
 
 .headingLine {
-	    width: 100%;
+	width: 100%;
     height: 1px;
-    background: #eff0f1;
-    position: absolute;
     top: 50%;
+    background: #eff0f1;
 }
 
 .headingWithLineHeading {
-	    /* position: absolute; */
-    /* top: -1.2%; */
-    background: white;
-    /* display: inline-block; */
-    /* left: 20%; */
-    padding: 0rem 0.5rem;
-    width: 233px;
-    margin: 0 auto;
-    position: relative;
+	width: 285px;
+    padding: 0rem 0.5rem;   
 }
 
-.ourBenefitsBlockWrapper {margin: 3rem 2rem;}
+.ourBenefitsBlockWrapper { margin: 3rem 2rem; }
 
 .ourBenefitsBlock {
-	background-color: #f9fbfd;
-    padding: 2rem 2rem;
     padding: 2rem 2.6rem;
-    margin-bottom: 2rem;
-    border-radius: 7px;
+    background-color: #f9fbfd;
 }
 
-.ourBenefitsBlock:nth-child(8) {
-	background-color: white;
-	border:1px solid #eff0f1;
-	text-align: center;
-}
+.ourBenefitsBlock:nth-child(8) { border:1px solid #eff0f1; }
 
-.ourBenefitsBlockImg {    margin-bottom: 1rem;}
 
-.ourBenefitsBlockImg img {width: auto;}
 
-.ourBenefitsBlock h5 {margin-bottom: 1rem;}
+.ourBenefitsBlockImg img { width: auto; }
 
-.ourBenefitsBlock p {   line-height: 1.6rem;}
+
+
+.ourBenefitsBlock p { line-height: 1.6rem; }
 
 .benifitDesign {
-	   width: 12rem;
+	width: 12rem;
     height: 20rem;
-    background: #fff7f2;
-    border-radius: 7px;
-    position: absolute;
     bottom: 0;
     right: 0;
+    background: #fff7f2;
 }
 
 /* ------------- recentCompanyNews section ----------- */
 .recentCompanyNews {
-	    padding-top: 2rem;
-	    margin-top: 7rem;
-    background: white;
-    position: relative;
+	padding-top: 2rem;
+	padding: 2rem 0rem 0rem 0rem;
+	margin-top: 7rem;
+	margin: 7rem 0rem 0rem 0rem;
     z-index: 2;
-
 }
-
-.recentCompanyNews .headingWithLineHeading { width: 272px; }
 
 .newsMain { margin: 3rem 1.5rem; }
 
-.newsBlock { margin-bottom: 2rem; }
-
-.newsBlock a {}
 .newsImg { 
 	width: 100%; 
-	margin-bottom: 2rem;
 	border: 1px solid #d6d9dc;
-	border-radius: 7px;
 	box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
 }
 
-.newsDateWrapper { margin-bottom: 1rem; }
 .newsDateWrapper img {
-margin-right: 0.5rem;
-vertical-align: text-bottom;
+	width: 20px;
+	margin: 0rem 0.5rem 0rem 0rem;
+	vertical-align: text-bottom;
 }
-
-.newsDateWrapper span {}
-.newsHeading {
-	margin-bottom: 1rem;
-}
-.newsPara
-
-
 
 
 /* ======================================== Media Styling =================================================*/
