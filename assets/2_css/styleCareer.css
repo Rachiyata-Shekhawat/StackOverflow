@@ -264,18 +264,13 @@ main h5 { margin: 0; }
 
 /* ======================================== Main Styling =================================================*/
 
-main {}
-
 
 /* ------------------ mainHeader section ----------------- */
-.mainHeader {}
 
 
 /*---------- mainHeaderVideo ------------*/
-.mainHeaderVideo { 
-	height: 577px;
-	border: 1px solid blue; 
-}
+
+.mainHeaderVideo { height: 577px; }
 
 
 /* videoBox */
@@ -484,7 +479,7 @@ main {}
 
 /*---------- mainHeaderContent --------- */
 
-.mainHeaderContent { top: 60%;}
+.mainHeaderContent { top: 60%; }
 
 .mainHeaderContentHeading { margin: 0.5rem auto 1.2rem auto; }
 
@@ -594,12 +589,11 @@ main {}
     bottom: 0%;
 }
 
-.ourCoreValueWrapper .design2 {
-	right: 5%;
-}
+.ourCoreValueWrapper .design2 { right: 5%; }
 
 
 /* --------------- ourBenefits section --------------- */
+
 .ourBenefitsWrapper { padding: 4rem 0rem 2rem 0rem; }
 
 .ourBenefits { z-index: 1; }
@@ -627,11 +621,7 @@ main {}
 
 .ourBenefitsBlock:nth-child(8) { border:1px solid #eff0f1; }
 
-
-
 .ourBenefitsBlockImg img { width: auto; }
-
-
 
 .ourBenefitsBlock p { line-height: 1.6rem; }
 
@@ -643,7 +633,9 @@ main {}
     background: #fff7f2;
 }
 
+
 /* ------------- recentCompanyNews section ----------- */
+
 .recentCompanyNews {
 	padding-top: 2rem;
 	padding: 2rem 0rem 0rem 0rem;
@@ -669,27 +661,16 @@ main {}
 
 /* ======================================== Media Styling =================================================*/
 
-@media only screen and (min-width: ) {
-
-	/* ------------- Main -------------- */
-
-		/*-- Font Size --*/
-
-		/*-- Alignment --*/	
-}
-
 
 @media only screen and (min-width: 577px) {
 
 	/* ------------- Main -------------- */
 
-		main {  }
-
 		/*--font Size--*/
 
 			/* 28.6px to 43px*/
 			.mainHeaderContentHeading { 
-				font-size: 2rem;
+				font-size: 2.1rem;
 			    line-height: 3.4rem;
 			}
 
@@ -703,19 +684,18 @@ main {}
 			.whoWeAreLeft h3,
 			.ourCoreValue h3,
 			.headingWithLineHeading,
-			.whoWeAreRight figcaption { font-size: 1.6rem; }
+			.whoWeAreRight figcaption {
+				font-size: 1.59rem; 
+				line-height: 2.2rem;
+			}
 
 
 			/* 19.8px to 21px*/
 			.ourCoreValueBlock h5,
 			.ourCommitmentRight li h4 { 
-				font-size: 1.28rem; 
+				font-size: 1.475rem;
 				line-height: 1.8rem;
-				font-size: 1.3rem; 
-
 			}
-
-			 { line-height: 1.5rem; }
 
 
 			/* 17.6px to 19px*/
@@ -724,15 +704,8 @@ main {}
 			.ourBenefitsBlock h5,
 			.mainHeaderContentAboveHeading,
 			.mainHeaderContentBelowHeading { 
-				font-size: 1.35rem;
-				line-height: 1.8rem;
-				font-size: 1.25rem;
-				line-height: 1.75rem;
-			}
-
-			 {
-				font-size: 1.19rem; 
-				line-height: 1.6rem;
+				font-size: 1.4rem;
+    			line-height: 1.89rem;
 			}
 
 
@@ -742,39 +715,33 @@ main {}
 			.ourBenefitsBlock p,
 			.ourCoreValueBlock p,
 			.ourCommitmentRight li p {
-				font-size: 1.05rem; 
-				line-height: 1.3rem;
-				line-height: 1.4rem;
+				font-size: 1.16rem;
+    			line-height: 1.6rem;
 			}
-
-			{ line-height: 1.5rem; }
 
 
 			/* 14.3px */
 			.newsDateWrapper span,
-			.mainHeaderContent .button a{
-				font-size: 0.95rem;
-			    line-height: 1.15rem;
+			.mainHeaderContent .button a {
+				font-size: 1.1rem;
+			    line-height: 1.15rem;   
 			}
 
-
-			/* 11px */
-			{
-			    font-size: 0.99rem;
-			    line-height: 1.5rem;
-			}
-
-
-		/*-- Alignment --*/
 
 		/*---------- mainHeader ------------*/
+
 			.mainHeaderContent {
-				margin: 0rem 6.7rem;
+				margin: 0rem 7.2rem;
 				top: 51%;
 			}
 
+			.mainHeaderContent .button p { padding: 1.1rem 2rem; }
+
+
 		/*---------- whoWeAre ------------*/
+
 			.whoWeAreLeft { padding: 0rem 2.5rem; }
+
 
 		/*---------- ourCommitment ------------*/
 			.ourCommitmentLeft { padding: 0rem 3rem; }
@@ -786,8 +753,8 @@ main {}
 			.ourCommitmentLeftImg { width: 	356px; }
 
 			.ourCommitmentRight {
-				margin: 0rem 2rem;
 				padding: 2.5rem 2rem;
+				margin: 0rem 2rem;
 			}
 
 
@@ -795,36 +762,34 @@ main {}
 
 			.ourCoreValue h3 {
 				width: 320px;
-    			text-align: left;
 				margin: 0rem 0rem 0rem 7rem;
+    			text-align: left;	
 			}
 
 			.ourCoreValueBlockWrapper { padding: 2rem 2rem; }
 
+
 		/*---------- ourBenefits ------------*/
 			.ourBenefitsBlockWrapper {
-				margin: 3rem 3rem;
 				padding: 0rem 0rem 3rem 0rem;
+				margin: 3rem 3rem;
 			}
 
 			.ourBenefitsBlock8 p {
-				margin: 0 auto;
 				width: 260px;
+				margin: 0 auto;
 			}
 
-			.headingWithLineHeading {     width: 374px; }
-
-		
-	
+			.headingWithLineHeading { width: 374px; }
 }
 
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 733px) {
 
 	/* ------------- Main -------------- */
 
 		/*--font Size--*/
-			.mainHeaderContentHeading { font-size: 3rem; }
+			/*.mainHeaderContentHeading { font-size: 3rem; }
 
 			.whoWeAreLeft p, 
 			.ourCommitmentLeft p, 
@@ -867,7 +832,7 @@ main {}
 			.ourCommitmentRight li p {
 				font-size: 1.3rem;
     			line-height: 1.7rem;
-			}
+			}*/
 			
 
 		/*---------- mainHeader ------------ */
@@ -879,17 +844,20 @@ main {}
     			width: 445px;
 			}
 
-			.mainHeaderContent .button {     padding: 1.1rem 2.5rem; }
+			.mainHeaderContent .button { padding: 1.1rem 2.5rem; }
+
 
 		/*---------- whoWeAre ------------*/
 
 			.whoWeAreLeft { padding: 0rem 7.9rem; }
 
-			.whoWeAreRight {padding: 0 7%; }
+			.whoWeAreRight { padding: 0 7%; }
 
 			.whoWeAreWrapper .design1 { display: flex; }
 
+
 		/*---------- ourCommitment ------------*/
+			
 			.ourCommitment { padding: 3rem 0rem 7rem 0rem; }
 
 			.ourCommitmentLeft { padding: 2rem 7rem; }
@@ -901,10 +869,12 @@ main {}
     			padding: 2.5rem 4.5rem;
 			}
 
+
 		/*---------- ourCoreValue ------------*/
+
 			.ourCoreValueBlockWrapper {
+				padding: 5rem 5rem;
 				margin: 5rem 0rem;
-			    padding: 5rem 5rem;
 			    flex-direction: row;
 			    flex-wrap: wrap;
 			    justify-content: space-between;
@@ -939,29 +909,30 @@ main {}
 
 @media only screen and (min-width: 817px) {
 	/* ------------- Main -------------- */
+
 		/*---------- whoWeAre ------------*/
-		.whoWeAre { 
-			flex-direction: row;
-	    	align-items: center; 
-	    	justify-content: center;
-		}
+			.whoWeAre { 
+				flex-direction: row;
+		    	align-items: center; 
+		    	justify-content: space-between;
+			}
 
-		.whoWeAreLeft { 
-			padding-right: 0; 
-			width: 55%;
-		}
+			.whoWeAreLeft { 
+				width: 55%;
+				padding-right: 0; 
+			}
 
-		.whoWeAreRight {
-			    width: 37%;
+			.whoWeAreRight {
+			    width: 41%;
 			    padding-left: 0;
-    padding-right: 7.9rem;
-		}
+	    		padding-right: 4.9rem;
+			}
 
 
 		/*---------- recentCompanyNews ------------*/
 			.newsMain {
-				    flex-direction: row;
-    justify-content: space-around;
+				flex-direction: row;
+    			justify-content: space-around;
 			}
 
 			.newsBlock { width: 30%; }
@@ -973,15 +944,18 @@ main {}
 	
 
 		/*---------- ourCommitment ------------*/
+		
 		.ourCommitment {
 			flex-direction: row;
-    justify-content: space-between;
+    		justify-content: space-between;
 		}
 
-		.ourCommitmentLeft {    padding-right: 0;}
+		.ourCommitmentLeft { padding-right: 0;}
 
-		.ourCommitmentRight {    width: 49%;
-    margin: 0;}
+		.ourCommitmentRight {    
+			width: 49%;
+   		 	margin: 0;
+   		 }
 }
 
 
