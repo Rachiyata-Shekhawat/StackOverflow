@@ -142,7 +142,10 @@ main h5 { margin: 0; }
 
 /* 25.3px */
 
-.ourCommitmentLeft h3 { font-size: 1.6rem; }
+.ourCommitmentLeft h3 { 
+	font-size: 1.6rem; 
+	line-height: 2.3rem;
+}
 
 
 /* 22px */
@@ -153,6 +156,7 @@ main h5 { margin: 0; }
 .headingWithLineHeading,
 .whoWeAreRight figcaption { 
 	font-size: 1.4rem; 
+	font-size: 1.45rem; 
 	line-height: 1.8rem
 }
 
@@ -177,6 +181,8 @@ main h5 { margin: 0; }
 	line-height: 1.45rem;
 	line-height: 1.55rem;
 	line-height: 1.57rem;
+	font-size: 1.25rem;
+    line-height: 1.65rem;
 }
 
 
@@ -510,13 +516,13 @@ video {}
 
 /* ------------------ whoWeAre section ----------------- */
 .whoWeAreWrapper { 
-	padding: 3rem 1.5rem; 
+	padding: 3rem 0rem;
 	border-bottom: 1px solid #eff0f1;
 }
 
 .whoWeAre {}
 
-.whoWeAreLeft {}
+.whoWeAreLeft { padding: 0rem 1.8rem; }
 
 .whoWeAreLeft h3 { margin-bottom: 2rem; }
 
@@ -529,6 +535,7 @@ video {}
 .whoWeAreRight {
 	margin: 0;
 	text-align: center;
+	    padding: 0rem 1.5rem;
 }
 
 .whoWeAreRight img {
@@ -558,6 +565,7 @@ video {}
 .ourCommitmentRight {
 	margin: 0rem 1rem;
     padding: 2rem 1rem;
+    padding: 2.5rem 1.5rem;
     border-radius: 7px;
     box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
     			0 100px 80px rgb(0 0 0 / 7%);
@@ -616,33 +624,115 @@ video {}
 .ourBenefitsWrapper {
 	position: relative;
     background: white;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
 }
 
-.ourBenefits {}
+.ourBenefits {
+	    position: relative;
+    z-index: 1;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 12px 11px rgb(0 0 0 / 4%), 
+    			0 100px 80px rgb(0 0 0 / 7%);
+}
 
-.headingWithLine {}
-.headingLine {}
-.headingWithLineHeading {}
+.headingWithLine { 
+	position: relative; 
+	width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
 
-.ourBenefitsBlockWrapper {}
-.ourBenefitsBlock {}
-.ourBenefitsBlockImg {}
-.ourBenefitsBlockImg img {}
-.ourBenefitsBlock h5 {}
-.ourBenefitsBlock p {}
+.headingLine {
+	    width: 100%;
+    height: 1px;
+    background: #eff0f1;
+    position: absolute;
+    top: 50%;
+}
 
-.benifitDesign {}
+.headingWithLineHeading {
+	    /* position: absolute; */
+    /* top: -1.2%; */
+    background: white;
+    /* display: inline-block; */
+    /* left: 20%; */
+    padding: 0rem 0.5rem;
+    width: 233px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ourBenefitsBlockWrapper {margin: 3rem 2rem;}
+
+.ourBenefitsBlock {
+	background-color: #f9fbfd;
+    padding: 2rem 2rem;
+    padding: 2rem 2.6rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+}
+
+.ourBenefitsBlock:nth-child(8) {
+	background-color: white;
+	border:1px solid #eff0f1;
+	text-align: center;
+}
+
+.ourBenefitsBlockImg {    margin-bottom: 1rem;}
+
+.ourBenefitsBlockImg img {width: auto;}
+
+.ourBenefitsBlock h5 {margin-bottom: 1rem;}
+
+.ourBenefitsBlock p {   line-height: 1.6rem;}
+
+.benifitDesign {
+	   width: 12rem;
+    height: 20rem;
+    background: #fff7f2;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 /* ------------- recentCompanyNews section ----------- */
-.recentCompanyNews {}
-.newsMain {}
-.newsBlock {}
+.recentCompanyNews {
+	    padding-top: 2rem;
+	    margin-top: 7rem;
+    background: white;
+    position: relative;
+    z-index: 2;
+
+}
+
+.recentCompanyNews .headingWithLineHeading { width: 272px; }
+
+.newsMain { margin: 3rem 1.5rem; }
+
+.newsBlock { margin-bottom: 2rem; }
+
 .newsBlock a {}
-.newsImg {}
-.newsDateWrapper {}
-.newsDateWrapper img {}
+.newsImg { 
+	width: 100%; 
+	margin-bottom: 2rem;
+	border: 1px solid #d6d9dc;
+	border-radius: 7px;
+	box-shadow: 0px 3px 8px rgb(0 0 0 / 10%);
+}
+
+.newsDateWrapper { margin-bottom: 1rem; }
+.newsDateWrapper img {
+margin-right: 0.5rem;
+vertical-align: text-bottom;
+}
+
 .newsDateWrapper span {}
-.newsHeading {}
+.newsHeading {
+	margin-bottom: 1rem;
+}
 .newsPara
 
 
