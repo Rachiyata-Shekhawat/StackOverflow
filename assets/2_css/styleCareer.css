@@ -226,7 +226,8 @@ main h5 { margin: 0; }
 .ourCoreValue,
 .headingWithLine,
 .ourCoreValue h3,
-.mainHeaderVideo ,
+.mainHeaderVideo,
+.whoWeAreWrapper,
 .recentCompanyNews,
 .mainHeaderContent,
 .ourBenefitsWrapper,
@@ -437,8 +438,8 @@ main {}
 .mainHeaderVideo .big2Box2 { background-color: #dff1e5; }
 
 .small2Box {
-	width: 25px;
-	height: 25px;
+	width: 34px;
+	height: 34px;
 }
 
 .mainHeaderVideo .design2 .small2Box1 { background-color: #eee2cf; }
@@ -495,6 +496,7 @@ main {}
 /* ------------------ whoWeAre section ----------------- */
 .whoWeAreWrapper { 
 	padding: 3rem 0rem;
+	padding: 8rem 0rem;
 	border-bottom: 1px solid #eff0f1;
 }
 
@@ -519,6 +521,13 @@ main {}
 .whoWeAreWrapper .design1 .small2Box1 { background: #f2720c; }
 
 .whoWeAreWrapper .design1 .small2Box2 { background: #fce3ce; }
+
+.whoWeAreWrapper .design1 {
+	display: none;
+	bottom: 7%;
+    left: 11.5%;
+
+}
 
 /* ---------------- ourCommitment section ------------ */
 
@@ -560,6 +569,7 @@ main {}
 .ourCoreValueWrapper .design3 {
     width: 41%;
     height: 1644px;
+    margin: 0rem 0rem 0rem 1rem;
     top: 0;
     background: #f9fbfd;
 }
@@ -673,17 +683,306 @@ main {}
 
 	/* ------------- Main -------------- */
 
-		/*-- Font Size --*/
+		main {  }
+
+		/*--font Size--*/
+
+			/* 28.6px to 43px*/
+			.mainHeaderContentHeading { 
+				font-size: 2rem;
+			    line-height: 3.4rem;
+			}
+
+
+			/* 25.3px */
+			.ourCommitmentLeft h3 { font-size: 1.7rem; }
+
+
+			/* 22px */
+			.newsHeading,
+			.whoWeAreLeft h3,
+			.ourCoreValue h3,
+			.headingWithLineHeading,
+			.whoWeAreRight figcaption { font-size: 1.6rem; }
+
+
+			/* 19.8px to 21px*/
+			.ourCoreValueBlock h5,
+			.ourCommitmentRight li h4 { 
+				font-size: 1.28rem; 
+				line-height: 1.8rem;
+				font-size: 1.3rem; 
+
+			}
+
+			 { line-height: 1.5rem; }
+
+
+			/* 17.6px to 19px*/
+			.whoWeAreLeft p,
+			.ourCommitmentLeft p,
+			.ourBenefitsBlock h5,
+			.mainHeaderContentAboveHeading,
+			.mainHeaderContentBelowHeading { 
+				font-size: 1.35rem;
+				line-height: 1.8rem;
+				font-size: 1.25rem;
+				line-height: 1.75rem;
+			}
+
+			 {
+				font-size: 1.19rem; 
+				line-height: 1.6rem;
+			}
+
+
+			/* 15.4px to 17px*/
+			.newsPara,
+			.whoWeAreRight span,
+			.ourBenefitsBlock p,
+			.ourCoreValueBlock p,
+			.ourCommitmentRight li p {
+				font-size: 1.05rem; 
+				line-height: 1.3rem;
+				line-height: 1.4rem;
+			}
+
+			{ line-height: 1.5rem; }
+
+
+			/* 14.3px */
+			.newsDateWrapper span,
+			.mainHeaderContent .button a{
+				font-size: 0.95rem;
+			    line-height: 1.15rem;
+			}
+
+
+			/* 11px */
+			{
+			    font-size: 0.99rem;
+			    line-height: 1.5rem;
+			}
+
 
 		/*-- Alignment --*/
 
-		/*---------- mainHeaderVideo ------------*/
+		/*---------- mainHeader ------------*/
+			.mainHeaderContent {
+				margin: 0rem 6.7rem;
+				top: 51%;
+			}
+
+		/*---------- whoWeAre ------------*/
+			.whoWeAreLeft { padding: 0rem 2.5rem; }
+
+		/*---------- ourCommitment ------------*/
+			.ourCommitmentLeft { padding: 0rem 3rem; }
+
+			.ourCommitmentLeft h3 { width: 421px; }
+
+			.ourCommitmentLeft p { width: 433px; }
+
+			.ourCommitmentLeftImg { width: 	356px; }
+
+			.ourCommitmentRight {
+				margin: 0rem 2rem;
+				padding: 2.5rem 2rem;
+			}
+
+
+		/*---------- ourCoreValue ------------*/
+
+			.ourCoreValue h3 {
+				width: 320px;
+    			text-align: left;
+				margin: 0rem 0rem 0rem 7rem;
+			}
+
+			.ourCoreValueBlockWrapper { padding: 2rem 2rem; }
+
+		/*---------- ourBenefits ------------*/
+			.ourBenefitsBlockWrapper {
+				margin: 3rem 3rem;
+				padding: 0rem 0rem 3rem 0rem;
+			}
+
+			.ourBenefitsBlock8 p {
+				margin: 0 auto;
+				width: 260px;
+			}
+
+			.headingWithLineHeading {     width: 374px; }
+
+		
+	
+}
+
+
+@media only screen and (min-width: 641px) {
+
+	/* ------------- Main -------------- */
+
+		/*--font Size--*/
+			.mainHeaderContentHeading { font-size: 3rem; }
+
+			.whoWeAreLeft p, 
+			.ourCommitmentLeft p, 
+			.ourBenefitsBlock h5, 
+			.mainHeaderContentAboveHeading, 
+			.mainHeaderContentBelowHeading {
+    			font-size: 1.39rem;
+			    line-height: 1.9rem;
+			    font-size: 1.4rem;
+			    line-height: 2.1rem;
+			}
+
+			.newsDateWrapper span, 
+			.mainHeaderContent .button a { font-size: 1.1rem; }
+
+			.newsHeading, 
+			.whoWeAreLeft h3, 
+			.ourCoreValue h3, 
+			.headingWithLineHeading, 
+			.whoWeAreRight figcaption {
+				font-size: 2.2rem;
+				line-height: 2.8rem;
+			}
+
+			.ourCommitmentLeft h3 {
+				font-size: 2.3rem;
+    			line-height: 2.9rem;
+			}
+
+			.ourCoreValueBlock h5, 
+			.ourCommitmentRight li h4 {
+				    font-size: 1.6rem;
+				        line-height: 2.1rem;
+			}
+
+			.newsPara, 
+			.whoWeAreRight span, 
+			.ourBenefitsBlock p, 
+			.ourCoreValueBlock p, 
+			.ourCommitmentRight li p {
+				font-size: 1.3rem;
+    			line-height: 1.7rem;
+			}
+			
+
+		/*---------- mainHeader ------------ */
 
 			.tabBackground { display: block; }
 
-			
+			.mainHeaderContent {
+				margin: 0 auto;
+    			width: 445px;
+			}
+
+			.mainHeaderContent .button {     padding: 1.1rem 2.5rem; }
+
+		/*---------- whoWeAre ------------*/
+
+			.whoWeAreLeft { padding: 0rem 7.9rem; }
+
+			.whoWeAreRight {padding: 0 7%; }
+
+			.whoWeAreWrapper .design1 { display: flex; }
+
+		/*---------- ourCommitment ------------*/
+			.ourCommitment { padding: 3rem 0rem 7rem 0rem; }
+
+			.ourCommitmentLeft { padding: 2rem 7rem; }
+
+			.ourCommitmentLeftImg { width: 488px; }
+
+			.ourCommitmentRight {
+				margin: 0rem 5rem;
+    			padding: 2.5rem 4.5rem;
+			}
+
+		/*---------- ourCoreValue ------------*/
+			.ourCoreValueBlockWrapper {
+				margin: 5rem 0rem;
+			    padding: 5rem 5rem;
+			    flex-direction: row;
+			    flex-wrap: wrap;
+			    justify-content: space-between;
+			}
+
+
+			.ourCoreValueBlock { 
+				width: 26%;
+				margin: 0rem 0rem 2rem 0rem;
+			}
+
+			.ourCoreValueWrapper .design1,
+			.ourCoreValueWrapper .design2 { display: flex; }
+
+		/*---------- ourBenefits ------------*/
+
+		.ourBenefitsBlockWrapper {
+			flex-direction: row;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		}
+
+		.ourBenefitsBlock { width: 43%; }
+
+		.ourBenefitsBlock:nth-child(odd) { margin: 0rem 2rem 2rem 0rem; }
+
+		.ourBenefitsBlock8 p {width: auto;}
+
+		.newsMain { margin: 3rem 5rem; }
+
 }
 
+@media only screen and (min-width: 817px) {
+	/* ------------- Main -------------- */
+		/*---------- whoWeAre ------------*/
+		.whoWeAre { 
+			flex-direction: row;
+	    	align-items: center; 
+	    	justify-content: center;
+		}
+
+		.whoWeAreLeft { 
+			padding-right: 0; 
+			width: 55%;
+		}
+
+		.whoWeAreRight {
+			    width: 37%;
+			    padding-left: 0;
+    padding-right: 7.9rem;
+		}
+
+
+		/*---------- recentCompanyNews ------------*/
+			.newsMain {
+				    flex-direction: row;
+    justify-content: space-around;
+			}
+
+			.newsBlock { width: 30%; }
+}
+
+
+@media only screen and (min-width: 1101px) {
+	/* ------------- Main -------------- */
+	
+
+		/*---------- ourCommitment ------------*/
+		.ourCommitment {
+			flex-direction: row;
+    justify-content: space-between;
+		}
+
+		.ourCommitmentLeft {    padding-right: 0;}
+
+		.ourCommitmentRight {    width: 49%;
+    margin: 0;}
+}
 
 
 @media only screen and (min-width: 1360px) {
